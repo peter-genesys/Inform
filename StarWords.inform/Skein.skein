@@ -1,0 +1,2113 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x9709750" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0xface930" />
+  <item nodeId="node-0x9709750">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+StarWords
+An Interactive Fiction by Campbell Burgess
+Release 1 / Serial number 130823 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+training room
+A place to practice jedi skills.  There is a door to the north and an exit to the south
+
+There is a bench by the wall.
+
+Drong is here.
+
+Yoda is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">NO</temporary>
+    <children>
+      <child nodeId="node-0x213e60" />
+      <child nodeId="node-0x10269fe0" />
+      <child nodeId="node-0x10268b10" />
+      <child nodeId="node-0x102686b0" />
+      <child nodeId="node-0x97b9710" />
+    </children>
+  </item>
+  <item nodeId="node-0x97b9710">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa342d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa342d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+training room
+A place to practice jedi skills.  There is a door to the north and an exit to the south
+
+There is a bench by the wall.
+
+Drong is here.
+
+Yoda is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa2cb30" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa2cb30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x2085ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2085ad0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+training room
+A place to practice jedi skills.  There is a door to the north and an exit to the south
+
+There is a bench by the wall.
+
+Drong is here.
+
+Yoda is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x67f29f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x67f29f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa0e820" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa0e820">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa95060" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa95060">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x97c2cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x97c2cc0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x102a2d90" />
+    </children>
+  </item>
+  <item nodeId="node-0x102a2d90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x1024df00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1024df00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x2389e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x2389e90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+training room
+A place to practice jedi skills.  There is a door to the north and an exit to the south
+
+There is a bench by the wall.
+
+Drong is here.
+
+Yoda is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x97aee70" />
+    </children>
+  </item>
+  <item nodeId="node-0x97aee70">
+    <command xml:space="preserve">x bench</command>
+    <result xml:space="preserve">It is an ordinary bench with two drawers, left and right
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa84670" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa84670">
+    <command xml:space="preserve">open left draw</command>
+    <result xml:space="preserve">I only understood you as far as wanting to open the left drawer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x67b34c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x67b34c0">
+    <command xml:space="preserve">open left drawer</command>
+    <result xml:space="preserve">You open the left drawer, revealing a D battery.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x9782d30" />
+    </children>
+  </item>
+  <item nodeId="node-0x9782d30">
+    <command xml:space="preserve">get d</command>
+    <result xml:space="preserve">(the D battery)
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa52be0" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa52be0">
+    <command xml:space="preserve">open right drawer</command>
+    <result xml:space="preserve">You open the right drawer, revealing a light sabre.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x102bed40" />
+    </children>
+  </item>
+  <item nodeId="node-0x102bed40">
+    <command xml:space="preserve">get sabre</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x108b4ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x108b4ab0">
+    <command xml:space="preserve">x sabre</command>
+    <result xml:space="preserve">The light sabre has in on/off switch at the hilt.
+
+The light sabre is currently switched off.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x10860d10" />
+    </children>
+  </item>
+  <item nodeId="node-0x10860d10">
+    <command xml:space="preserve">turn on</command>
+    <result xml:space="preserve">(the light sabre)
+Nothing happens, perhaps because there isn&apos;t a charged battery in the light sabre.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x102c6140" />
+    </children>
+  </item>
+  <item nodeId="node-0x102c6140">
+    <command xml:space="preserve">open it</command>
+    <result xml:space="preserve">You open the light sabre&apos;s battery compartment.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x108a75c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x108a75c0">
+    <command xml:space="preserve">put d in it</command>
+    <result xml:space="preserve">(down in the light sabre)
+You must name something more substantial.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x97b8e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x97b8e00">
+    <command xml:space="preserve">put battery in it</command>
+    <result xml:space="preserve">(the D battery in down)
+You must name something more substantial.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x99a4250" />
+    </children>
+  </item>
+  <item nodeId="node-0x99a4250">
+    <command xml:space="preserve">put battery in sabre</command>
+    <result xml:space="preserve">(the D battery in the light sabre)
+You put the D battery into the light sabre&apos;s battery compartment.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x994f520" />
+    </children>
+  </item>
+  <item nodeId="node-0x994f520">
+    <command xml:space="preserve">close it</command>
+    <result xml:space="preserve">That&apos;s not something you can close.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa15fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa15fc0">
+    <command xml:space="preserve">close sabre</command>
+    <result xml:space="preserve">You close the light sabre&apos;s battery compartment.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x97c9290" />
+    </children>
+  </item>
+  <item nodeId="node-0x97c9290">
+    <command xml:space="preserve">turn it on</command>
+    <result xml:space="preserve">It is now on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xfac74e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xfac74e0">
+    <command xml:space="preserve">x sabre</command>
+    <result xml:space="preserve">It&apos;s blade is glowing blue.
+
+The light sabre is currently switched on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x102be5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x102be5d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+The clone warrior attacks you with the blaster, causing 4 points of damage!
+
+The bounty hunter attacks you with the bounty blaster, causing 0 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x102d87c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x102d87c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+training room
+A place to practice jedi skills.  There is a door to the north and an exit to the south
+
+There is a bench by the wall.
+
+Drong is here.
+
+Yoda is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x10258bc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10258bc0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Dead End
+This is a dead end. You&apos;ll have to go back the way you came.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xfadb520" />
+    </children>
+  </item>
+  <item nodeId="node-0xfadb520">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+training room
+A place to practice jedi skills.  There is a door to the north and an exit to the south
+
+There is a bench by the wall.
+
+Drong is here.
+
+Yoda is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x102d3830" />
+    </children>
+  </item>
+  <item nodeId="node-0x102d3830">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+The clone warrior attacks you with the blaster, causing 3 points of damage!
+
+The bounty hunter attacks you with the shock rifle, causing 2 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xfae6a10" />
+    </children>
+  </item>
+  <item nodeId="node-0xfae6a10">
+    <command xml:space="preserve">hit clone with it</command>
+    <result xml:space="preserve">You can&apos;t see &quot;it&quot; (the bench) at the moment.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x1089aa50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1089aa50">
+    <command xml:space="preserve">hit clone with sabre</command>
+    <result xml:space="preserve">You attack the clone warrior with the light sabre, causing 2 points of damage!
+
+The clone warrior attacks you with the laser rifle, causing 6 points of damage!
+
+The bounty hunter attacks you with the shock rifle, causing 2 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xfae3140" />
+    </children>
+  </item>
+  <item nodeId="node-0xfae3140">
+    <command xml:space="preserve">save</command>
+    <result xml:space="preserve">
+Please supply a filename for save
+Ok.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa05b60" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa05b60">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">
+Please supply a filename for save
+(Save failed, reason unknown)
+Save failed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x102e2f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x102e2f20">
+    <command xml:space="preserve">hit clone with sabre</command>
+    <result xml:space="preserve">You missed the clone warrior
+The clone warrior attacks you with the laser rifle, causing 4 points of damage!
+
+The bounty hunter attacks you with the shock rifle, causing 2 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x97dcab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x97dcab0">
+    <command xml:space="preserve">hit clone with sabre</command>
+    <result xml:space="preserve">You attack the clone warrior with the light sabre, causing 5 points of damage!
+
+The clone warrior attacks you with the blaster, causing 4 points of damage!
+
+The bounty hunter attacks you with the bounty blaster, causing 0 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x10257e60" />
+    </children>
+  </item>
+  <item nodeId="node-0x10257e60">
+    <command xml:space="preserve">hit clone with sabre</command>
+    <result xml:space="preserve">You attack the clone warrior with the light sabre, causing 8 points of damage!
+
+The clone warrior attacks you with the blaster, causing 2 points of damage!
+
+
+*** Run-time problem P43: Attempt to remove the player from play.
+
+The bounty hunter attacks you with the shock rifle, finishing you off!
+
+
+
+    *** The End ***
+
+
+In that game you scored 0 out of a possible 0, in 35 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xfaf71d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xfaf71d0">
+    <command xml:space="preserve">restore</command>
+    <result xml:space="preserve">
+Please supply a filename for restore
+Ok.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa7bb30" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa7bb30">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+The clone warrior attacks you with the laser rifle, causing 0 points of damage!
+
+The bounty hunter attacks you with the bounty blaster, causing 5 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x2098a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2098a0">
+    <command xml:space="preserve">restore</command>
+    <result xml:space="preserve">
+Please supply a filename for restore
+Ok.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa7e5f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa7e5f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+training room
+A place to practice jedi skills.  There is a door to the north and an exit to the south
+
+There is a bench by the wall.
+
+Drong is here.
+
+Yoda is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x2388e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x2388e00">
+    <command xml:space="preserve">get drong</command>
+    <result xml:space="preserve">I don&apos;t suppose Drong would care for that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x10253b50" />
+    </children>
+  </item>
+  <item nodeId="node-0x10253b50">
+    <command xml:space="preserve">train drng</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x10875720" />
+    </children>
+  </item>
+  <item nodeId="node-0x10875720">
+    <command xml:space="preserve">train drong</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x102c7120" />
+    </children>
+  </item>
+  <item nodeId="node-0x102c7120">
+    <command xml:space="preserve">fight drong</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x108ad630" />
+    </children>
+  </item>
+  <item nodeId="node-0x108ad630">
+    <command xml:space="preserve">hit drong</command>
+    <result xml:space="preserve">What do you want to hit Drong with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa049a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa049a0">
+    <command xml:space="preserve">hit drong with light sabre</command>
+    <result xml:space="preserve">Drong drops under your blow then tells you to trust the force.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x23b6520" />
+    </children>
+  </item>
+  <item nodeId="node-0x23b6520">
+    <command xml:space="preserve">hit drong with light sabre</command>
+    <result xml:space="preserve">Drong paries your thrust and suggests you loosen your grip.
+
+The light sabre is obviously going to go out quite soon.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x102dfa80" />
+    </children>
+  </item>
+  <item nodeId="node-0x102dfa80">
+    <command xml:space="preserve">hit drong with light sabre</command>
+    <result xml:space="preserve">Drong blocks your advance with a smile and a playful kick in the ass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x23f50d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x23f50d0">
+    <command xml:space="preserve">hit drong with light sabre</command>
+    <result xml:space="preserve">You attack with the light sabre, killing Drong!
+
+The light sabre loses power and switches off!
+
+It is now off.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xface930" />
+    </children>
+  </item>
+  <item nodeId="node-0xface930">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">training room
+A place to practice jedi skills.  There is a door to the north and an exit to the south
+
+There is a bench by the wall.
+
+Yoda is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="105">YES</temporary>
+  </item>
+  <item nodeId="node-0x102686b0">
+    <command xml:space="preserve">test tabel</command>
+    <result xml:space="preserve">&gt;--&gt; The following tests are available:
+&apos;test gladiator&apos;
+&apos;test table&apos;
+&apos;test me&apos;
+&apos;test first&apos;
+&apos;test second&apos;
+&apos;test sabre&apos;
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="718">YES</temporary>
+    <children>
+      <child nodeId="node-0x10268a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x10268a30">
+    <command xml:space="preserve">test table</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] open left drawer
+You open the left drawer, revealing a D battery.
+
+&gt;[2] open right drawer
+You open the right drawer, revealing a light sabre.
+
+&gt;[3] get d battery
+Taken.
+
+&gt;[4] get sabre
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="718">YES</temporary>
+    <children>
+      <child nodeId="node-0x10268aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10268aa0">
+    <command xml:space="preserve">attack yoda with sabre</command>
+    <result xml:space="preserve">You missed Yoda
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="717">YES</temporary>
+  </item>
+  <item nodeId="node-0x10268b10">
+    <command xml:space="preserve">test table</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] open left drawer
+You open the left drawer, revealing a D battery.
+
+&gt;[2] open right drawer
+You open the right drawer, revealing a light sabre.
+
+&gt;[3] get d battery
+Taken.
+
+&gt;[4] get sabre
+Taken.
+
+&gt;[5] kill yoda with sabre
+With what?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="852">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269bf0" />
+      <child nodeId="node-0x10269b80" />
+      <child nodeId="node-0x10269b10" />
+      <child nodeId="node-0x10268b80" />
+      <child nodeId="node-0x10268db0" />
+      <child nodeId="node-0x10268cd0" />
+      <child nodeId="node-0x10269aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269aa0">
+    <command xml:space="preserve">kill yoda with sabre</command>
+    <result xml:space="preserve">OOpsYou missed Yoda
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="721">YES</temporary>
+  </item>
+  <item nodeId="node-0x10268cd0">
+    <command xml:space="preserve">kill yoda with sabe</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="725">YES</temporary>
+    <children>
+      <child nodeId="node-0x10268d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x10268d40">
+    <command xml:space="preserve">kill yoda with sabre</command>
+    <result xml:space="preserve">OOps
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="724">YES</temporary>
+  </item>
+  <item nodeId="node-0x10268db0">
+    <command xml:space="preserve">test yoda</command>
+    <result xml:space="preserve">&gt;--&gt; The following tests are available:
+&apos;test gladiator&apos;
+&apos;test table&apos;
+&apos;test me&apos;
+&apos;test first&apos;
+&apos;test second&apos;
+&apos;test sabre&apos;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="828">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269560" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269560">
+    <command xml:space="preserve">test sabe</command>
+    <result xml:space="preserve">&gt;--&gt; The following tests are available:
+&apos;test gladiator&apos;
+&apos;test table&apos;
+&apos;test me&apos;
+&apos;test first&apos;
+&apos;test second&apos;
+&apos;test sabre&apos;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="828">YES</temporary>
+    <children>
+      <child nodeId="node-0x102695d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x102695d0">
+    <command xml:space="preserve">test sabre</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] get sabre
+You already have that.
+
+&gt;[2] open it
+You open the light sabre&apos;s battery compartment.
+
+&gt;[3] put battery in it
+(the D battery in the light sabre)
+You put the D battery into the light sabre&apos;s battery compartment.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="828">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269640" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269640">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">It is now on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="828">YES</temporary>
+    <children>
+      <child nodeId="node-0x102696b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x102696b0">
+    <command xml:space="preserve">attack yoda with sabre</command>
+    <result xml:space="preserve">Yoda blocks your advance then tells you to trust the force.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="828">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269720" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269720">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">Yoda is surprised momentarilly by your feint, but recovers with a smile and a playful kick in the ass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="828">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269790" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269790">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">Yoda paries your thrust then tells you to trust the force.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="828">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269800" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269800">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">Yoda drops under your blow with a smile and a playful kick in the ass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="828">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269870" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269870">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">Yoda paries your thrust and suggests you loosen your grip.
+Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="828">YES</temporary>
+    <children>
+      <child nodeId="node-0x102698e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x102698e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="828">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269950" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269950">
+    <command xml:space="preserve">kill hunter with sabre</command>
+    <result xml:space="preserve">You attack the bounty hunter with the light sabre, causing 19 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="828">YES</temporary>
+    <children>
+      <child nodeId="node-0x102699c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x102699c0">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">You attack with the light sabre, killing the bounty hunter!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="828">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269a30">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="827">YES</temporary>
+  </item>
+  <item nodeId="node-0x10268b80">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">Yoda drops under your blow and suggests you loosen your grip.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="793">YES</temporary>
+    <children>
+      <child nodeId="node-0x10268fa0" />
+      <child nodeId="node-0x10268bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10268bf0">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">Yoda paries your thrust with a smile and a playful kick in the ass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="793">YES</temporary>
+    <children>
+      <child nodeId="node-0x10268c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x10268c60">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">Yoda is surprised momentarilly by your feint, but recovers then tells you to trust the force.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="793">YES</temporary>
+    <children>
+      <child nodeId="node-0x10268900" />
+    </children>
+  </item>
+  <item nodeId="node-0x10268900">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">Yoda paries your thrust with a smile and a playful kick in the ass.
+Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="793">YES</temporary>
+    <children>
+      <child nodeId="node-0x10268e50" />
+      <child nodeId="node-0x10268950" />
+    </children>
+  </item>
+  <item nodeId="node-0x10268950">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">Yoda is surprised momentarilly by your feint, but recovers and suggests you loosen your grip.
+Yoda says &quot;You&apos;re training is now complete!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="774">YES</temporary>
+  </item>
+  <item nodeId="node-0x10268e50">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="793">YES</temporary>
+    <children>
+      <child nodeId="node-0x10268ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10268ec0">
+    <command xml:space="preserve">kill clone with sabre</command>
+    <result xml:space="preserve">You missed the clone warrior
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="793">YES</temporary>
+    <children>
+      <child nodeId="node-0x10268f30" />
+    </children>
+  </item>
+  <item nodeId="node-0x10268f30">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">You missed the clone warrior
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="792">YES</temporary>
+  </item>
+  <item nodeId="node-0x10268fa0">
+    <command xml:space="preserve">agin</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="785">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269010" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269010">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="785">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269080" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269080">
+    <command xml:space="preserve">hit yoda with sabre</command>
+    <result xml:space="preserve">Yoda drops under your blow and suggests you loosen your grip.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="785">YES</temporary>
+    <children>
+      <child nodeId="node-0x102690f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x102690f0">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">Yoda blocks your advance then tells you to trust the force.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="785">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269160" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269160">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">Yoda paries your thrust with a smile and a playful kick in the ass.
+Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="785">YES</temporary>
+    <children>
+      <child nodeId="node-0x102691d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x102691d0">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">Yoda drops under your blow and suggests you loosen your grip.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="785">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269240" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269240">
+    <command xml:space="preserve">showme player</command>
+    <result xml:space="preserve">There seems to be no such object anywhere in the model world.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="785">YES</temporary>
+    <children>
+      <child nodeId="node-0x102692b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x102692b0">
+    <command xml:space="preserve">showme</command>
+    <result xml:space="preserve">training room - room
+    yourself - person
+        light sabre - light source
+            on/off button (part of light sabre)
+            light sabre&apos;s battery compartment (part of light sabre) - battery compartment
+        D battery - battery
+        backpack (worn) - open container
+            flashlight - light source
+                flashlight&apos;s battery compartment (part of flashlight) - battery compartment
+                red cellophane (part of flashlight)
+            cassette recorder - device
+                cassette recorder&apos;s battery compartment (part of cassette recorder) - battery compartment
+    bench
+        left drawer (part of bench) - open container
+        right drawer (part of bench) - open container
+    Drong - friendly
+    Yoda - friendly
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="784">YES</temporary>
+  </item>
+  <item nodeId="node-0x10269b10">
+    <command xml:space="preserve">kill Drong with sabre</command>
+    <result xml:space="preserve">Drong paries your thrust with a smile and a playful kick in the ass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="726">YES</temporary>
+  </item>
+  <item nodeId="node-0x10269b80">
+    <command xml:space="preserve">attack yoda with sabre</command>
+    <result xml:space="preserve">You missed Yoda
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="714">YES</temporary>
+  </item>
+  <item nodeId="node-0x10269bf0">
+    <command xml:space="preserve">test sabre</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] get sabre
+You already have that.
+
+&gt;[2] open it
+You open the light sabre&apos;s battery compartment.
+
+&gt;[3] put battery in it
+(the D battery in the light sabre)
+You put the D battery into the light sabre&apos;s battery compartment.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="852">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269cd0" />
+      <child nodeId="node-0x10269c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269c60">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">It is now on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="852">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269320" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269320">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="852">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269400" />
+      <child nodeId="node-0x10269390" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269390">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="851">YES</temporary>
+  </item>
+  <item nodeId="node-0x10269400">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="846">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269470" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269470">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="835">YES</temporary>
+    <children>
+      <child nodeId="node-0x102694e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x102694e0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="834">YES</temporary>
+  </item>
+  <item nodeId="node-0x10269cd0">
+    <command xml:space="preserve">attack yoda with sabre</command>
+    <result xml:space="preserve">With what?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="814">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269d40">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">It is now on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="814">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269db0">
+    <command xml:space="preserve">attack yoda with sabre</command>
+    <result xml:space="preserve">Yoda drops under your blow and suggests you loosen your grip.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="814">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269e20" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269e20">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">Yoda is surprised momentarilly by your feint, but recovers then tells you to trust the force.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="814">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269e90">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">Yoda blocks your advance with a smile and a playful kick in the ass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="814">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269f00" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269f00">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">Yoda drops under your blow and suggests you loosen your grip.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="814">YES</temporary>
+    <children>
+      <child nodeId="node-0x10269f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x10269f70">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">Yoda paries your thrust with a smile and a playful kick in the ass.
+Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now. 2
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="813">YES</temporary>
+  </item>
+  <item nodeId="node-0x10269fe0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+the arena is dark
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="842">YES</temporary>
+    <children>
+      <child nodeId="node-0x1026a050" />
+    </children>
+  </item>
+  <item nodeId="node-0x1026a050">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+training room
+A place to practice jedi skills.  There is a door to the north and an exit to the south
+
+There is a bench by the wall.
+
+Drong is here.
+
+Yoda is here.
+
+the arena is dark
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="842">YES</temporary>
+    <children>
+      <child nodeId="node-0x1026a0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1026a0c0">
+    <command xml:space="preserve">test tabel</command>
+    <result xml:space="preserve">&gt;--&gt; The following tests are available:
+&apos;test gladiator&apos;
+&apos;test table&apos;
+&apos;test me&apos;
+&apos;test first&apos;
+&apos;test second&apos;
+&apos;test sabre&apos;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="842">YES</temporary>
+    <children>
+      <child nodeId="node-0x1026a130" />
+    </children>
+  </item>
+  <item nodeId="node-0x1026a130">
+    <command xml:space="preserve">test table</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] open left drawer
+You open the left drawer, revealing a D battery.
+
+the arena is dark
+&gt;[2] open right drawer
+You open the right drawer, revealing a light sabre.
+
+the arena is dark
+&gt;[3] get d battery
+Taken.
+
+the arena is dark
+&gt;[4] get sabre
+Taken.
+
+the arena is dark
+&gt;[5] kill yoda with sabre
+With what?
+
+the arena is dark
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="842">YES</temporary>
+    <children>
+      <child nodeId="node-0x1026a1a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1026a1a0">
+    <command xml:space="preserve">test sabre</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] get sabre
+You already have that.
+
+the arena is dark
+&gt;[2] open it
+You open the light sabre&apos;s battery compartment.
+
+the arena is dark
+&gt;[3] put battery in it
+(the D battery in the light sabre)
+You put the D battery into the light sabre&apos;s battery compartment.
+
+the arena is dark
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="842">YES</temporary>
+    <children>
+      <child nodeId="node-0x1026a210" />
+    </children>
+  </item>
+  <item nodeId="node-0x1026a210">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">It is now on.
+
+the arena is dark
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="842">YES</temporary>
+    <children>
+      <child nodeId="node-0x1026a280" />
+    </children>
+  </item>
+  <item nodeId="node-0x1026a280">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+the arena is dark
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="841">YES</temporary>
+  </item>
+  <item nodeId="node-0x213e60">
+    <command xml:space="preserve">test all</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] test table
+(Testing.)
+
+&gt;[2] open left drawer
+You open the left drawer, revealing a D battery.
+
+&gt;[3] open right drawer
+You open the right drawer, revealing a light sabre.
+
+&gt;[4] get d battery
+Taken.
+
+&gt;[5] get sabre
+Taken.
+
+&gt;[6] kill yoda with sabre
+With what?
+
+&gt;[7] test sabre
+(Testing.)
+
+&gt;[8] get sabre
+You already have that.
+
+&gt;[9] open it
+You open the light sabre&apos;s battery compartment.
+
+&gt;[10] put battery in it
+(the D battery in the light sabre)
+You put the D battery into the light sabre&apos;s battery compartment.
+
+&gt;[11] press button
+It is now on.
+
+&gt;[12] test fight
+(Testing.)
+
+&gt;[13] attack yoda with sabre
+Yoda drops under your blow then tells you to trust the force.
+
+&gt;[14] again
+Yoda paries your thrust with a smile and a playful kick in the ass.
+
+&gt;[15] again
+Yoda blocks your advance then tells you to trust the force.
+
+&gt;[16] again
+Yoda is surprised momentarilly by your feint, but recovers with a smile and a playful kick in the ass.
+
+&gt;[17] again
+Yoda paries your thrust then tells you to trust the force.
+Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.
+
+&gt;[18] s
+
+Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+The clone warrior attacks you with the blaster, causing 1 point of damage!
+
+The bounty hunter attacks you with the bounty blaster, causing 2 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997440" />
+      <child nodeId="node-0xfa0d840" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa0d840">
+    <command xml:space="preserve">kill hunter with sabre</command>
+    <result xml:space="preserve">You attack with the light sabre, killing the bounty hunter!
+
+The clone warrior attacks you with the laser rifle, causing 0 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="43">YES</temporary>
+    <children>
+      <child nodeId="node-0x10265100" />
+      <child nodeId="node-0x102c2d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x102c2d60">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">You attack with the light sabre, killing the bounty hunter!
+
+The clone warrior attacks you with the laser rifle, causing 1 point of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x2079720" />
+    </children>
+  </item>
+  <item nodeId="node-0x2079720">
+    <command xml:space="preserve">kill clone with sabre</command>
+    <result xml:space="preserve">You attack the clone warrior with the light sabre, causing 6 points of damage!
+
+The clone warrior attacks you with the blaster, causing 4 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x1028aea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1028aea0">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">You attack the clone warrior with the light sabre, causing 1 point of damage!
+
+The clone warrior attacks you with the blaster, causing 3 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa19ca0" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa19ca0">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">You attack the clone warrior with the light sabre, causing 12 points of damage!
+
+The clone warrior attacks you with the blaster, causing 4 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa28b70" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa28b70">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">You attack with the light sabre, killing the clone warrior!
+
+The light sabre is obviously going to go out quite soon.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa6e8d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa6e8d0">
+    <command xml:space="preserve">x sabre</command>
+    <result xml:space="preserve">It&apos;s blade is glowing blue.
+
+The light sabre is currently switched on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x102ab420" />
+    </children>
+  </item>
+  <item nodeId="node-0x102ab420">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+The light sabre loses power and switches off!
+
+It is now off.
+
+It is now pitch dark in here!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x9964480" />
+    </children>
+  </item>
+  <item nodeId="node-0x9964480">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+training room
+A place to practice jedi skills.  There is a door to the north and an exit to the south
+
+There is a bench by the wall.
+
+Drong is here.
+
+Yoda is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x9795d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x9795d60">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0xfacf250" />
+    </children>
+  </item>
+  <item nodeId="node-0xfacf250">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+training room
+A place to practice jedi skills.  There is a door to the north and an exit to the south
+
+There is a bench by the wall.
+
+Drong is here.
+
+Yoda is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x10871e60" />
+    </children>
+  </item>
+  <item nodeId="node-0x10871e60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x67cb2b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x67cb2b0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+  </item>
+  <item nodeId="node-0x10265100">
+    <command xml:space="preserve">kill hunter with sabre</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="43">YES</temporary>
+    <children>
+      <child nodeId="node-0x10283d70" />
+    </children>
+  </item>
+  <item nodeId="node-0x10283d70">
+    <command xml:space="preserve">kill clone with sabre</command>
+    <result xml:space="preserve">You attack the clone warrior with the light sabre, causing 10 points of damage!
+
+The clone warrior attacks you with the laser rifle, causing 3 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="43">YES</temporary>
+    <children>
+      <child nodeId="node-0xfac9b50" />
+    </children>
+  </item>
+  <item nodeId="node-0xfac9b50">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">You attack with the light sabre, killing the clone warrior!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="42">YES</temporary>
+  </item>
+  <item nodeId="node-0x9997440">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+The clone warrior attacks you with the blaster, causing 0 points of damage!
+
+The bounty hunter attacks you with the bounty blaster, causing 0 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x97b91b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x97b91b0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+The clone warrior attacks you with the laser rifle, causing 4 points of damage!
+
+The bounty hunter attacks you with the shock rifle, causing 4 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa78480" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa78480">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+The clone warrior attacks you with the laser rifle, causing 0 points of damage!
+
+The bounty hunter attacks you with the shock rifle, causing 6 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x994e880" />
+    </children>
+  </item>
+  <item nodeId="node-0x994e880">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+The clone warrior attacks you with the blaster, causing 4 points of damage!
+
+The bounty hunter attacks you with the shock rifle, causing 5 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x2380cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2380cb0">
+    <command xml:space="preserve">kill hunter with sabre</command>
+    <result xml:space="preserve">You attack with the light sabre, killing the bounty hunter!
+
+The clone warrior attacks you with the blaster, causing 3 points of damage!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x99d6b00" />
+    </children>
+  </item>
+  <item nodeId="node-0x99d6b00">
+    <command xml:space="preserve">kill clone with sabre</command>
+    <result xml:space="preserve">You attack the clone warrior with the light sabre, causing 15 points of damage!
+
+The clone warrior attacks you with the blaster, causing 5 points of damage!
+
+The light sabre is obviously going to go out quite soon.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x102af450" />
+    </children>
+  </item>
+  <item nodeId="node-0x102af450">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">You attack with the light sabre, killing the clone warrior!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa66b70" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa66b70">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x102ac510" />
+    </children>
+  </item>
+  <item nodeId="node-0x102ac510">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+The light sabre loses power and switches off!
+
+It is now off.
+
+It is now pitch dark in here!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+  </item>
+</Skein>
