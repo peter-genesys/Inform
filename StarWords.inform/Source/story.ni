@@ -19,6 +19,9 @@ The maximum hit points of Drong is 25.
 
 Yoda is a friendly in the training room.  "Yoda is here."
 The maximum hit points of Yoda is 100.
+The description of Yoda is "Yoda is respected as one of the most wise and powerful Jedi Masters in the history of the galaxy. Yoda is a master of the Force and Lightsaber combat. Yoda has served as the Grand Master of the Jedi High Council for over 700 years."
+
+[Try not. Do or do not, there is no try.]
 
 [Instead of attacking Yoda, say "No way!"]
 
@@ -111,6 +114,12 @@ Carry out an actor attacking something with something (this is the standard atta
 	]
 [commented out to check failure]
 
+[Check an actor attacking a visible person (this is the can't attack missing persons rule):
+	if the actor can not see the noun:
+		say "[The noun] is not here.";
+		stop the action.]
+
+
 The attacking it with action has a number called the damage inflicted.
 Setting action variables for attacking something with something: 
 	if the second noun is a weapon and the noun is not a friendly: 
@@ -187,38 +196,16 @@ Report someone attacking the player with something (this is the standard report 
 	say "[The actor] attacks you with [the second noun], causing [damage inflicted] point[s] of damage!" instead.
 Report someone attacking something with something (this is the standard report attacking it with rule): 
 	say "[The actor] attacks [the noun] with [the second noun], causing [damage inflicted] point[s] of damage!" instead.
-	
-
-
-
+ 
 When play begins: 
 	now the left hand status line is "You: [current hit points of player]";
 	now the right hand status line is "Clone: [current hit points of clone warrior] Hunter: [current hit points of bounty hunter]".
-[Every turn (this is the enemy looking rule):
-	if the player is in the arena:
-		attacker is a random enemy;
-		say "[attacker] is looking at you".	]
-		
-[Every turn:
-	if the clone warrior is not dead:
-		say "the clone is alive".]
-		
-[Every turn (this is the clone warrior-attack rule): 
-	if the player is in the arena:
-		say "lets attack";
-		if the clone warrior is not dead, try the clone warrior attacking the player with a random weapon which is carried by the clone warrior.]
-
-[Every turn (this is the clone warrior-attack rule): 
-	if the clone warrior is not dead, try the clone warrior attacking the player with a random weapon which is carried by the clone warrior.]
 
 Every turn (this is the enemy-attack rule): 
-	if the player is in the arena and the light sabre is switched on:
-		if the clone warrior is not dead, try the clone warrior attacking the player with a random weapon which is carried by the clone warrior;
-		if bounty hunter is not dead, try the bounty hunter attacking the player with a random weapon which is carried by the bounty hunter.		
-[
-Every turn (this is the bounty hunter-attack rule): 
-	if the player is in the arena and the light sabre is switched on and bounty hunter is not dead, try the bounty hunter attacking the player with a random weapon which is carried by the bounty hunter.
-Test gladiator with "hit gladiator with mace / kill gladiator / drop mace / attack gladiator / attack gladiator with mace / g / g".]
+	if player can see an enemy:
+		let attacker be a random enemy in the arena;
+		if the attacker is not dead, try the attacker attacking the player with a random weapon which is carried by the attacker.
+
 
 Section 5 - The Light Sabre
 
@@ -264,6 +251,11 @@ Understand "open [openable closed thing]" as opening.
 Understand "close [openable open thing]" as closing.
 
 Understand "put [something] in [container]" as inserting it into.
+
+Understand "ignite [device]" as switching on.
+
+
+Understand "extinguish [device]" as switching off.
 
 
 
@@ -311,7 +303,7 @@ After switching off light sabre:
 	Now the maximum damage of the light sabre is 0.
 
 
-The description of the Light Sabre is "[if switched on]It's blade is glowing [one of]green[or]blue[or]purple[at random].[otherwise]The light sabre has in on/off switch at the hilt.[end if]"
+The description of the Light Sabre is "[if switched on]It's blade is glowing [one of]green[or]blue[or]purple[at random].[otherwise]The light sabre has a button at the hilt, and concealed compartment.[end if]"
  
 
 Rule for warning about failure of the cassette recorder:
