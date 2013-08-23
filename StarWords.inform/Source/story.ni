@@ -2,7 +2,7 @@
 
 The training room is a room. "A place to practice jedi skills.  There is a door to the north and an exit to the south". 
 
-A battery is a kind of thing. A battery has a number called charge. The charge of a battery is usually 15.
+A battery is a kind of thing. A battery has a number called charge. The charge of a battery is usually 35.
 
 
 A bench is in the training room.  "There is a bench by the wall."   The description of the bench is "It is an ordinary bench with two drawers, left and right".
@@ -113,7 +113,7 @@ Carry out an actor attacking something with something (this is the standard atta
 
 The attacking it with action has a number called the damage inflicted.
 Setting action variables for attacking something with something: 
-	if the second noun is a weapon: 
+	if the second noun is a weapon and the noun is not a friendly: 
 		let the maximum attack be the maximum damage of the second noun; 
 		now the damage inflicted is a random number between 0 and the maximum attack times the damage multiplier of the actor;
 	otherwise:
@@ -165,6 +165,7 @@ Report attacking someone with something (this is the normal attacking report rul
 						say "[The noun] says 'You're training is now complete!'.  The force feels stronger in you now.";
 		otherwise:
 			say "With what?";
+		stop the action;	
 	otherwise:
  		if damage inflicted is 0:
 			say "You missed [the noun]";
