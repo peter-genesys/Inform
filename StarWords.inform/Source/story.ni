@@ -1,6 +1,6 @@
 "StarWords" by Campbell Burgess
 
-The training room is a room. "A place to practice jedi skills.  There is a door to the north and an exit to the south". 
+The Training Room is a room. "A place to practice jedi skills.  There is a door to the north and an exit to the south". 
 
 A battery is a kind of thing. A battery has a number called charge. The charge of a battery is usually 35.
 
@@ -19,9 +19,81 @@ The maximum hit points of Drong is 25.
 
 Yoda is a friendly in the training room.  "Yoda is here."
 The maximum hit points of Yoda is 100.
-The description of Yoda is "Yoda is respected as one of the most wise and powerful Jedi Masters in the history of the galaxy. Yoda is a master of the Force and Lightsaber combat. Yoda has served as the Grand Master of the Jedi High Council for over 700 years."
+The description of Yoda is "Yoda is respected as one of the most wise and powerful Jedi Masters in the history of the galaxy. Yoda is a master of the Force and Light Sabre combat. Yoda has served as the Grand Master of the Jedi High Council for over 700 years."
 
-[Try not. Do or do not, there is no try.]
+[
+
+Try not. Do or do not, there is no try.
+
+When you look at the dark side, careful you must be.
+For the dark side looks back.
+
+Always pass on what you have learned.
+
+Train yourself to let go of everything you fear to lose.
+Yoda Wisdom Quotes
+Yoda Spiritual Wisdoms
+Yoda was one of the most renowned Jedi Masters in in the Star Wars movies.  A teacher and spiritual advisor, Yoda is most known for training Luke Skywalker to harness the power of the force.  The wisdom of the universe is all around you. 
+You think Yoda stops teaching, just because his student does not want to hear? A teacher Yoda is. Yoda teaches like drunkards drink, like killers kill.
+
+Secret, shall I tell you?  Grand Master of Jedi Order am I. Won this job in a raffle I did, think you? "How did you know, how did you know, Master Yoda?" Master Yoda knows these things. His job it is.
+
+The dark side clouds everything. Impossible to see the light, the future is.
+
+In a dark place we find ourselves, and a little more knowledge lights our way.
+
+Once you start down the dark path, forever will it dominate your destiny, consume you it will.
+Yoda with the Souls
+Always in motion is the future.
+
+Size matters not. Look at me. Judge me by my size, do you?  Hmm?  Hmm.  And well you should not.  For my ally is the Force, and a powerful ally it is. Life creates it, makes it grow. Its energy surrounds us and binds us. Luminous beings are we, not this crude matter. You must feel the Force around you; here, between you, me, the tree, the rock, everywhere, yes. Even between the land and the ship.
+
+A Jedi's strength flows from the Force.
+
+Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.
+
+Named must your fear be before banish it you can.
+
+You will find only what you bring in.
+
+Yes, a Jedi's strength flows from the Force. But beware of the dark side. Anger, fear, aggression; the dark side of the Force are they. Easily they flow, quick to join you in a fight. If once you start down the dark path, forever will it dominate your destiny, consume you it will, as it did Obi-Wan's apprentice.
+
+A Jedi must have the deepest commitment, the most serious mind. This one a long time have I watched. All his life has he looked away... to the future, to the horizon. Never his mind on where he was. Hmm? What he was doing. Hmph. Adventure. Heh. Excitement. Heh. A Jedi craves not these things.
+
+Always two there are, a master and an apprentice.
+
+Already know you that which you need. 
+
+You will know (the good from the bad) when you are calm, at peace. Passive. A Jedi uses the Force for knowledge and defense, never for attack.
+
+Many of the truths that we cling to depend on our point of view.
+
+A Jedi must have the deepest commitment, the most serious mind. 
+
+And well you should not. For my ally in the Force. And a powerful ally it is. Life creates it, makes it grow. It's energy surrounds us and binds us. Luminous beings are we...(Yoda pinches Luke's shoulder)...not this crude matter. (a sweeping gesture) You must feel the Force around you. (gesturing) Here, between you...me...the tree...the rock...everywhere! Yes, even between this land and that ship! 
+
+Through the Force, things you will see. Other places. The future...the past. Old friends long gone. 
+
+Clear your mind must be, if you are to find the villains behind this plot.
+
+I cannot teach him. The boy has no patience.
+
+Truly how wonderful the mind of a child is.
+
+You must unlearn what you have learned.
+
+Death is a natural part of life. Rejoice for those around you who transform into the Force. Mourn them do not. Miss them do not. Attachment leads to jealously. The shadow of greed, that is.
+
+To answer power with power, the Jedi way this is not. In this war, a danger there is, of losing who we are.
+
+Ready are you? What know you of ready? For eight hundred years have I trained Jedi. My own counsel will I keep on who is to be trained. A Jedi must have the deepest commitment, the most serious mind. This one a long time have I watched. All his life has he looked away... to the future, to the horizon. Never his mind on where he was. Hmm? What he was doing. Hmph. Adventure. Heh. Excitement. Heh. A Jedi craves not these things. You are reckless.
+
+Blind we are, if creation of this clone army we could not see.
+
+Ohhh. Great warrior. Wars not make one great.
+]
+
+
 
 [Instead of attacking Yoda, say "No way!"]
 
@@ -290,6 +362,8 @@ A light source is a kind of device.
 Carry out switching on a light source: now the noun is lit; say "It is now on."
 Carry out switching off a light source: now the noun is unlit.; say "It is now off."
 
+
+
 The flashlight is a light source. 
 
 The cassette recorder is a device. Every turn: if the cassette recorder is switched on, say "The cassette recorder hisses faintly."
@@ -304,6 +378,8 @@ After switching off light sabre:
 
 
 The description of the Light Sabre is "[if switched on]It's blade is glowing [one of]green[or]blue[or]purple[at random].[otherwise]The light sabre has a button at the hilt, and concealed compartment.[end if]"
+
+Every turn: if the Light Sabre is switched on, say "[one of]'vrrrm'[or][or][or]'wrrym'[or][or][or]'hrrrm'[or][or][or]'snap'[or][or][or]'crackle'[or][or][or]'pop'[at random]"
  
 
 Rule for warning about failure of the cassette recorder:

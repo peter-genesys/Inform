@@ -11,35 +11,35 @@
     </dict>
     <key>1</key><dict>
         <key>Filename</key><string>/Users/peterburgess/Inform/StarWords.inform/Source/story.ni</string>
-        <key>Line</key><integer>45</integer>
+        <key>Line</key><integer>117</integer>
         <key>Title</key><string>Section 1 - Hit Points</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>2</key><dict>
         <key>Filename</key><string>/Users/peterburgess/Inform/StarWords.inform/Source/story.ni</string>
-        <key>Line</key><integer>64</integer>
+        <key>Line</key><integer>136</integer>
         <key>Title</key><string>Section 2 - Diagnosis</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>3</key><dict>
         <key>Filename</key><string>/Users/peterburgess/Inform/StarWords.inform/Source/story.ni</string>
-        <key>Line</key><integer>72</integer>
+        <key>Line</key><integer>144</integer>
         <key>Title</key><string>Section 3 - Weapons</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>4</key><dict>
         <key>Filename</key><string>/Users/peterburgess/Inform/StarWords.inform/Source/story.ni</string>
-        <key>Line</key><integer>85</integer>
+        <key>Line</key><integer>157</integer>
         <key>Title</key><string>Section 4 - Attacking it with</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>5</key><dict>
         <key>Filename</key><string>/Users/peterburgess/Inform/StarWords.inform/Source/story.ni</string>
-        <key>Line</key><integer>210</integer>
+        <key>Line</key><integer>282</integer>
         <key>Title</key><string>Section 5 - The Light Sabre</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
