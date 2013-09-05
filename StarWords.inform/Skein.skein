@@ -22,15 +22,15 @@ Drong is here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="482">NO</temporary>
+    <temporary score="535">NO</temporary>
     <children>
-      <child nodeId="node-0xd94b810" />
-      <child nodeId="node-0x196a0de0" />
-      <child nodeId="node-0x118af490" />
-      <child nodeId="node-0x13e82b50" />
+      <child nodeId="node-0x196177f0" />
+      <child nodeId="node-0x1bf7fe30" />
+      <child nodeId="node-0x13e33280" />
+      <child nodeId="node-0x174314d0" />
       <child nodeId="node-0xd958af0" />
-      <child nodeId="node-0x19139f0" />
-      <child nodeId="node-0xcb34140" />
+      <child nodeId="node-0xd94b810" />
+      <child nodeId="node-0x60d4c0" />
       <child nodeId="node-0xcb368a0" />
     </children>
   </item>
@@ -83,42 +83,32 @@ Taken.
     <changed>YES</changed>
     <temporary score="717">YES</temporary>
   </item>
-  <item nodeId="node-0xcb34140">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Darkness
-It is pitch dark, and you can&apos;t see a thing.
+  <item nodeId="node-0x60d4c0">
+    <command xml:space="preserve">spar with yoda</command>
+    <result xml:space="preserve">(with the backpack)
+The backpack is NOT a weapon.
 
-Yoda says
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="363">YES</temporary>
-  </item>
-  <item nodeId="node-0x19139f0">
-    <command xml:space="preserve">Yoda, follow</command>
-    <result xml:space="preserve">There is no reply.
-
-Yoda says
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="365">YES</temporary>
+    <temporary score="499">YES</temporary>
     <children>
-      <child nodeId="node-0x13e79e90" />
+      <child nodeId="node-0xda0f630" />
     </children>
   </item>
-  <item nodeId="node-0x13e79e90">
-    <command xml:space="preserve">Yoda, follow me</command>
-    <result xml:space="preserve">There is no reply.
+  <item nodeId="node-0xda0f630">
+    <command xml:space="preserve">spar with yoda with flashlight</command>
+    <result xml:space="preserve">Which do you mean, the flashlight or the flashlight&apos;s battery compartment?
 
-Yoda says
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="364">YES</temporary>
+    <temporary score="499">YES</temporary>
+    <children>
+      <child nodeId="node-0x118cf220" />
+    </children>
   </item>
-  <item nodeId="node-0xd958af0">
+  <item nodeId="node-0x118cf220">
     <command xml:space="preserve">test table</command>
     <result xml:space="preserve">(Testing.)
 
@@ -142,947 +132,30 @@ You put the D battery into the light sabre&apos;s battery compartment.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="429">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="499">YES</temporary>
     <children>
-      <child nodeId="node-0x1be09e0" />
+      <child nodeId="node-0x19643bd0" />
     </children>
   </item>
-  <item nodeId="node-0x1be09e0">
-    <command xml:space="preserve">test sabre</command>
-    <result xml:space="preserve">(Testing.)
+  <item nodeId="node-0x19643bd0">
+    <command xml:space="preserve">spar with yoda with flashlight</command>
+    <result xml:space="preserve">Which do you mean, the flashlight or the flashlight&apos;s battery compartment?
 
-&gt;[1] get sabre
-You already have that.
-
-&gt;[2] open it
-That&apos;s already open.
-
-&gt;[3] put battery in it
-Which do you mean, the light sabre&apos;s battery compartment, the D battery, the flashlight&apos;s battery compartment or the cassette recorder&apos;s battery compartment?
-
-&gt;[4] press button
-It is now on.
-
-&quot;wrrym&quot;
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="429">YES</temporary>
+    <temporary score="499">YES</temporary>
     <children>
-      <child nodeId="node-0x118a2890" />
-      <child nodeId="node-0x17475fd0" />
-      <child nodeId="node-0x196360d0" />
+      <child nodeId="node-0x174326c0" />
     </children>
   </item>
-  <item nodeId="node-0x196360d0">
-    <command xml:space="preserve">test fight</command>
-    <result xml:space="preserve">(Testing.)
-
-&gt;[1] attack yoda with sabre
-Yoda drops under your blow with a smile and a playful kick in the ass.
-
-
-&gt;[2] again
-Yoda is surprised momentarilly by your feint, but recovers then tells you to trust the force.
-
-&quot;snap&quot;
-&gt;[3] again
-Yoda blocks your advance with a smile and a playful kick in the ass.
-
-&quot;crackle&quot;
-&gt;[4] again
-Yoda drops under your blow then tells you to trust the force.
-
-
-&gt;[5] again
-Yoda blocks your advance and suggests you loosen your grip.
-Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
-Drong is waiting patiently.
-
-&quot;snap&quot;
-&gt;[6] s
-
-Arena
-Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
-
-A clone warrior faces you, wielding a laser rifle and a blaster.
-
-A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
-
-The bounty hunter attacks you with the shock rifle, causing 4 points of damage!
-
-Drong arrives from the north.
-
-&quot;vrrrm&quot;
-&gt;</result>
+  <item nodeId="node-0x174326c0">
+    <command xml:space="preserve">spar with yoda with sabre</command>
+    <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="429">YES</temporary>
-    <children>
-      <child nodeId="node-0x163e8b60" />
-    </children>
-  </item>
-  <item nodeId="node-0x163e8b60">
-    <command xml:space="preserve">kill hunter with sabre</command>
-    <result xml:space="preserve">You attack the bounty hunter with the light sabre, causing 6 points of damage!
-
-The clone warrior attacks you with the laser rifle, causing 3 points of damage!
-
-The bounty hunter attacks Drong with the bounty blaster, causing 0 points of damage!
-
-Drong is waiting patiently.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="429">YES</temporary>
-    <children>
-      <child nodeId="node-0x196a3760" />
-    </children>
-  </item>
-  <item nodeId="node-0x196a3760">
-    <command xml:space="preserve">again</command>
-    <result xml:space="preserve">You attack with the light sabre, killing the bounty hunter!
-
-The clone warrior attacks you with the blaster, causing 0 points of damage!
-
-The clone warrior attacks Drong with the laser rifle, causing 0 points of damage!
-
-Drong is waiting patiently.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="429">YES</temporary>
-    <children>
-      <child nodeId="node-0x196f9660" />
-    </children>
-  </item>
-  <item nodeId="node-0x196f9660">
-    <command xml:space="preserve">again</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="429">YES</temporary>
-    <children>
-      <child nodeId="node-0x163c4050" />
-    </children>
-  </item>
-  <item nodeId="node-0x163c4050">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Arena
-Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
-
-Drong is here.
-
-A clone warrior faces you, wielding a laser rifle and a blaster.
-
-You can also see a bounty blaster and a shock rifle here.
-
-The clone warrior attacks you with the laser rifle, causing 1 point of damage!
-
-The clone warrior attacks Drong with the laser rifle, causing 0 points of damage!
-
-Drong is waiting patiently.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="428">YES</temporary>
-  </item>
-  <item nodeId="node-0x17475fd0">
-    <command xml:space="preserve">test figth</command>
-    <result xml:space="preserve">&gt;--&gt; The following tests are available:
-&apos;test table&apos;
-&apos;test me&apos;
-&apos;test first&apos;
-&apos;test second&apos;
-&apos;test sabre&apos;
-&apos;test fight&apos;
-&apos;test all&apos;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="422">YES</temporary>
-    <children>
-      <child nodeId="node-0x19628be0" />
-    </children>
-  </item>
-  <item nodeId="node-0x19628be0">
-    <command xml:space="preserve">test fight</command>
-    <result xml:space="preserve">(Testing.)
-
-&gt;[1] attack yoda with sabre
-Yoda blocks your advance then tells you to trust the force.
-
-
-&gt;[2] again
-Yoda paries your thrust with a smile and a playful kick in the ass.
-
-&quot;crackle&quot;
-&gt;[3] again
-Yoda is surprised momentarilly by your feint, but recovers then tells you to trust the force.
-
-&quot;hrrrm&quot;
-&gt;[4] again
-Yoda blocks your advance and suggests you loosen your grip.
-
-
-&gt;[5] again
-Yoda paries your thrust then tells you to trust the force.
-Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
-Drong is waiting patiently.
-
-
-&gt;[6] s
-
-Arena
-Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
-
-A clone warrior faces you, wielding a laser rifle and a blaster.
-
-A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
-
-The bounty hunter attacks you with the bounty blaster, causing 1 point of damage!
-
-Drong arrives from the north.
-
-&quot;wrrym&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="422">YES</temporary>
-    <children>
-      <child nodeId="node-0x118dd4f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x118dd4f0">
-    <command xml:space="preserve">hit hunter with sabre</command>
-    <result xml:space="preserve">You attack the bounty hunter with the light sabre, causing 8 points of damage!
-
-The bounty hunter attacks you with the bounty blaster, causing 4 points of damage!
-
-The clone warrior attacks Drong with the laser rifle, causing 0 points of damage!
-
-Drong is waiting patiently.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="422">YES</temporary>
-    <children>
-      <child nodeId="node-0x196a18b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x196a18b0">
-    <command xml:space="preserve">again</command>
-    <result xml:space="preserve">You attack the bounty hunter with the light sabre, causing 1 point of damage!
-
-The clone warrior attacks you with the blaster, causing 5 points of damage!
-
-The bounty hunter attacks Drong with the shock rifle, causing 0 points of damage!
-
-Drong is waiting patiently.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="422">YES</temporary>
-    <children>
-      <child nodeId="node-0xd91f3f0" />
-    </children>
-  </item>
-  <item nodeId="node-0xd91f3f0">
-    <command xml:space="preserve">again</command>
-    <result xml:space="preserve">You attack with the light sabre, killing the bounty hunter!
-
-The clone warrior attacks you with the laser rifle, causing 1 point of damage!
-
-The clone warrior attacks Drong with the blaster, causing 0 points of damage!
-
-Drong is waiting patiently.
-
-&quot;hrrrm&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="421">YES</temporary>
-  </item>
-  <item nodeId="node-0x118a2890">
-    <command xml:space="preserve">test yoda</command>
-    <result xml:space="preserve">&gt;--&gt; The following tests are available:
-&apos;test table&apos;
-&apos;test me&apos;
-&apos;test first&apos;
-&apos;test second&apos;
-&apos;test sabre&apos;
-&apos;test fight&apos;
-&apos;test all&apos;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x17403850" />
-    </children>
-  </item>
-  <item nodeId="node-0x17403850">
-    <command xml:space="preserve">test fight</command>
-    <result xml:space="preserve">(Testing.)
-
-&gt;[1] attack yoda with sabre
-Yoda paries your thrust and suggests you loosen your grip.
-
-&quot;vrrrm&quot;
-&gt;[2] again
-Yoda drops under your blow then tells you to trust the force.
-
-&quot;crackle&quot;
-&gt;[3] again
-Yoda is surprised momentarilly by your feint, but recovers and suggests you loosen your grip.
-
-
-&gt;[4] again
-Yoda paries your thrust with a smile and a playful kick in the ass.
-
-&quot;snap&quot;
-&gt;[5] again
-Yoda blocks your advance and suggests you loosen your grip.
-Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
-Drong is waiting patiently.
-
-
-&gt;[6] s
-
-Arena
-Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
-
-A clone warrior faces you, wielding a laser rifle and a blaster.
-
-A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
-
-The bounty hunter attacks you with the bounty blaster, causing 3 points of damage!
-
-Drong arrives from the north.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x19629620" />
-    </children>
-  </item>
-  <item nodeId="node-0x19629620">
-    <command xml:space="preserve">drong, attack hunter with padawan sabre</command>
-    <result xml:space="preserve">There is no reply.
-
-The bounty hunter attacks you with the bounty blaster, causing 2 points of damage!
-
-Drong is waiting patiently.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x17467890" />
-    </children>
-  </item>
-  <item nodeId="node-0x17467890">
-    <command xml:space="preserve">drong, attack hunter</command>
-    <result xml:space="preserve">What do you want Drong to attack the bounty hunter with?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x163643e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x163643e0">
-    <command xml:space="preserve">drong, attack hunter with sabre</command>
-    <result xml:space="preserve">There is no reply.
-
-The bounty hunter attacks you with the bounty blaster, causing 1 point of damage!
-
-Drong is waiting patiently.
-
-&quot;pop&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x13e46160" />
-    </children>
-  </item>
-  <item nodeId="node-0x13e46160">
-    <command xml:space="preserve">drong, try attack hunter with sabre</command>
-    <result xml:space="preserve">There is no reply.
-
-The bounty hunter attacks you with the bounty blaster, causing 4 points of damage!
-
-Drong is waiting patiently.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bf64660" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bf64660">
-    <command xml:space="preserve">try drong, attack hunter with sabre</command>
-    <result xml:space="preserve">You seem to want to talk to someone, but I can&apos;t see whom.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x1742de00" />
-    </children>
-  </item>
-  <item nodeId="node-0x1742de00">
-    <command xml:space="preserve">try Drong, attack Hunter with sabre</command>
-    <result xml:space="preserve">You seem to want to talk to someone, but I can&apos;t see whom.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b59690" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b59690">
-    <command xml:space="preserve">Drong</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x196e7a10" />
-    </children>
-  </item>
-  <item nodeId="node-0x196e7a10">
-    <command xml:space="preserve">say drong</command>
-    <result xml:space="preserve">Whom do you want to say that to?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="415">YES</temporary>
-    <children>
-      <child nodeId="node-0x196d6e30" />
-    </children>
-  </item>
-  <item nodeId="node-0x196d6e30">
-    <command xml:space="preserve">say &quot;attack hunter&quot; to drong</command>
-    <result xml:space="preserve">There is no reply.
-
-The bounty hunter attacks you with the shock rifle, causing 6 points of damage!
-
-Drong is waiting patiently.
-
-&quot;crackle&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="414">YES</temporary>
-  </item>
-  <item nodeId="node-0x13e82b50">
-    <command xml:space="preserve">open left drawer</command>
-    <result xml:space="preserve">You open the left drawer, revealing a light sabre.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x1963ff00" />
-    </children>
-  </item>
-  <item nodeId="node-0x1963ff00">
-    <command xml:space="preserve">get sabre</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x13ee62f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x13ee62f0">
-    <command xml:space="preserve">open right drawer</command>
-    <result xml:space="preserve">You open the right drawer, revealing a D battery.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x19626650" />
-    </children>
-  </item>
-  <item nodeId="node-0x19626650">
-    <command xml:space="preserve">get d</command>
-    <result xml:space="preserve">(the D battery)
-Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x118d0460" />
-      <child nodeId="node-0x1962e410" />
-    </children>
-  </item>
-  <item nodeId="node-0x1962e410">
-    <command xml:space="preserve">put d in sabre</command>
-    <result xml:space="preserve">(down in the light sabre)
-You must name something more substantial.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x13eb4d60" />
-    </children>
-  </item>
-  <item nodeId="node-0x13eb4d60">
-    <command xml:space="preserve">put battery in sabre</command>
-    <result xml:space="preserve">(the D battery in the light sabre)
-(first opening the light sabre)
-
-You put the D battery into the light sabre&apos;s battery compartment.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x163a84b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x163a84b0">
-    <command xml:space="preserve">press button</command>
-    <result xml:space="preserve">It is now on.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x19645cf0" />
-    </children>
-  </item>
-  <item nodeId="node-0x19645cf0">
-    <command xml:space="preserve">fight yoda</command>
-    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x13e16950" />
-    </children>
-  </item>
-  <item nodeId="node-0x13e16950">
-    <command xml:space="preserve">hit yoda with sabre</command>
-    <result xml:space="preserve">Yoda blocks your advance with a smile and a playful kick in the ass.
-
-&quot;snap&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x1969f3f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1969f3f0">
-    <command xml:space="preserve">again</command>
-    <result xml:space="preserve">Yoda drops under your blow then tells you to trust the force.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x13e59820" />
-    </children>
-  </item>
-  <item nodeId="node-0x13e59820">
-    <command xml:space="preserve">again</command>
-    <result xml:space="preserve">Yoda is surprised momentarilly by your feint, but recovers with a smile and a playful kick in the ass.
-
-&quot;crackle&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x13e77620" />
-    </children>
-  </item>
-  <item nodeId="node-0x13e77620">
-    <command xml:space="preserve">again</command>
-    <result xml:space="preserve">Yoda blocks your advance then tells you to trust the force.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x118cb470" />
-    </children>
-  </item>
-  <item nodeId="node-0x118cb470">
-    <command xml:space="preserve">again</command>
-    <result xml:space="preserve">Yoda drops under your blow and suggests you loosen your grip.
-Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
-Drong is waiting patiently.
-
-&quot;snap&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0xd9f89f0" />
-    </children>
-  </item>
-  <item nodeId="node-0xd9f89f0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Dead End
-This is a dead end. You&apos;ll have to go back the way you came.
-
-Drong arrives from the south.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x1962ac70" />
-    </children>
-  </item>
-  <item nodeId="node-0x1962ac70">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-Yoda is here.
-
-Drong arrives from the north.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x13e5bea0" />
-    </children>
-  </item>
-  <item nodeId="node-0x13e5bea0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Arena
-Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
-
-A clone warrior faces you, wielding a laser rifle and a blaster.
-
-A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
-
-The clone warrior attacks you with the blaster, causing 1 point of damage!
-
-Drong arrives from the north.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0xd975b20" />
-    </children>
-  </item>
-  <item nodeId="node-0xd975b20">
-    <command xml:space="preserve">drong, fight clone</command>
-    <result xml:space="preserve">Drong is unable to do that.
-
-The clone warrior attacks you with the blaster, causing 1 point of damage!
-
-Drong is waiting patiently.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b69690" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b69690">
-    <command xml:space="preserve">drong, attack hunter with hands</command>
-    <result xml:space="preserve">There is no reply.
-
-The bounty hunter attacks you with the bounty blaster, causing 3 points of damage!
-
-Drong is waiting patiently.
-
-&quot;snap&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x13e00000" />
-    </children>
-  </item>
-  <item nodeId="node-0x13e00000">
-    <command xml:space="preserve">kill hunter with drong</command>
-    <result xml:space="preserve">(first taking Drong)
-I don&apos;t suppose Drong would care for that.
-
-The bounty hunter attacks you with the bounty blaster, causing 0 points of damage!
-
-Drong is waiting patiently.
-
-&quot;pop&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x19662b70" />
-    </children>
-  </item>
-  <item nodeId="node-0x19662b70">
-    <command xml:space="preserve">hit drong with sabre</command>
-    <result xml:space="preserve">Drong blocks your advance then tells you to trust the force.
-
-The bounty hunter attacks you with the shock rifle, causing 7 points of damage!
-
-Drong is waiting patiently.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x71d9620" />
-    </children>
-  </item>
-  <item nodeId="node-0x71d9620">
-    <command xml:space="preserve">kill hunter with sabre</command>
-    <result xml:space="preserve">You attack the bounty hunter with the light sabre, causing 10 points of damage!
-
-The clone warrior attacks you with the laser rifle, causing 3 points of damage!
-
-Drong is waiting patiently.
-
-&quot;hrrrm&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x163257c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x163257c0">
-    <command xml:space="preserve">be drong</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x196f7d70" />
-    </children>
-  </item>
-  <item nodeId="node-0x196f7d70">
-    <command xml:space="preserve">become drong</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="402">YES</temporary>
-    <children>
-      <child nodeId="node-0x196074b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x196074b0">
-    <command xml:space="preserve">look drong</command>
-    <result xml:space="preserve">You see nothing special about Drong.
-
-The clone warrior attacks you with the blaster, causing 0 points of damage!
-
-Drong is waiting patiently.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="401">YES</temporary>
-  </item>
-  <item nodeId="node-0x118d0460">
-    <command xml:space="preserve">put battery in sabre</command>
-    <result xml:space="preserve">(the D battery in the light sabre)
-(first opening the light sabre)
-
-You put the D battery into the light sabre&apos;s battery compartment.
-
-Yoda says
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="378">YES</temporary>
-    <children>
-      <child nodeId="node-0x196a3850" />
-    </children>
-  </item>
-  <item nodeId="node-0x196a3850">
-    <command xml:space="preserve">close sabre</command>
-    <result xml:space="preserve">You close the light sabre&apos;s battery compartment.
-
-Yoda says
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="378">YES</temporary>
-    <children>
-      <child nodeId="node-0x71ca210" />
-    </children>
-  </item>
-  <item nodeId="node-0x71ca210">
-    <command xml:space="preserve">press button</command>
-    <result xml:space="preserve">It is now on.
-
-Yoda says
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="378">YES</temporary>
-    <children>
-      <child nodeId="node-0x13e1c1e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x13e1c1e0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Dead End
-This is a dead end. You&apos;ll have to go back the way you came.
-
-Yoda arrives from the south.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="378">YES</temporary>
-    <children>
-      <child nodeId="node-0x1745bd30" />
-    </children>
-  </item>
-  <item nodeId="node-0x1745bd30">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-Drong is here.
-
-Yoda arrives from the north.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="377">YES</temporary>
-  </item>
-  <item nodeId="node-0x118af490">
-    <command xml:space="preserve">yoda open left drawer</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="368">YES</temporary>
-    <children>
-      <child nodeId="node-0x13e5d160" />
-    </children>
-  </item>
-  <item nodeId="node-0x13e5d160">
-    <command xml:space="preserve">yoda, open left drawer</command>
-    <result xml:space="preserve">Yoda opens the left drawer.
-
-Yoda says
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="368">YES</temporary>
-    <children>
-      <child nodeId="node-0x13e12cd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x13e12cd0">
-    <command xml:space="preserve">yoda, follow me</command>
-    <result xml:space="preserve">There is no reply.
-
-Yoda says
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="367">YES</temporary>
-  </item>
-  <item nodeId="node-0x196a0de0">
-    <command xml:space="preserve">Yoda, attack drong</command>
-    <result xml:space="preserve">(with Drong)
-(Yoda first taking Drong)
-Yoda is unable to do that.
-
-Yoda says
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="368">YES</temporary>
+    <temporary score="498">YES</temporary>
   </item>
   <item nodeId="node-0xd94b810">
     <command xml:space="preserve">test all</command>
@@ -1131,33 +204,33 @@ It is now on.
 &gt;[13] attack yoda with sabre
 Yoda drops under your blow then tells you to trust the force.
 
-&quot;crackle&quot;
+
 &gt;[14] again
-Yoda paries your thrust and suggests you loosen your grip.
-
-
-&gt;[15] again
 Yoda blocks your advance with a smile and a playful kick in the ass.
+
+&quot;vrrrm&quot;
+&gt;[15] again
+Yoda drops under your blow and suggests you loosen your grip.
 
 
 &gt;[16] again
-Yoda drops under your blow and suggests you loosen your grip.
+Yoda paries your thrust then tells you to trust the force.
 
-&quot;crackle&quot;
+&quot;hrrrm&quot;
 &gt;[17] again
-Yoda is surprised momentarilly by your feint, but recovers then tells you to trust the force.
+Yoda blocks your advance and suggests you loosen your grip.
 Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
-&quot;pop&quot;
+&quot;crackle&quot;
 &gt;[18] s
 
 Arena
 Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
 
-A clone warrior faces you, wielding a laser rifle and a blaster.
+A clone warrior faces you, wielding a laser rifle and a clone blaster.
 
 A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
 
-The bounty hunter attacks you with the shock rifle, causing 0 points of damage!
+The clone warrior attacks you with the clone blaster, causing 3 points of damage!
 
 Drong arrives from the north.
 
@@ -1165,12 +238,13 @@ Drong arrives from the north.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="482">YES</temporary>
+    <temporary score="492">YES</temporary>
     <children>
       <child nodeId="node-0x19684e10" />
       <child nodeId="node-0x1632d960" />
       <child nodeId="node-0x1bfae330" />
       <child nodeId="node-0x1742a600" />
+      <child nodeId="node-0x1966c400" />
       <child nodeId="node-0x17401330" />
     </children>
   </item>
@@ -1351,6 +425,23 @@ It is now pitch dark in here!
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="447">YES</temporary>
+  </item>
+  <item nodeId="node-0x1966c400">
+    <command xml:space="preserve">spar with clone with sabre</command>
+    <result xml:space="preserve">(the clone warrior with the light sabre)
+I hope they play nice.
+
+The clone warrior attacks you with the clone blaster, causing 0 points of damage!
+
+The clone warrior attacks Drong with the clone blaster, causing 0 points of damage!
+
+Drong attacks the clone warrior with the blue light sabre, causing 4 points of damage!
+
+&quot;crackle&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="491">YES</temporary>
   </item>
   <item nodeId="node-0x1742a600">
     <command xml:space="preserve">kill clone with sabre</command>
@@ -1927,5 +1018,1095 @@ You can also see a blaster and a laser rifle here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="456">YES</temporary>
+  </item>
+  <item nodeId="node-0xd958af0">
+    <command xml:space="preserve">test table</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] open left drawer
+You open the left drawer, revealing a light sabre.
+
+&gt;[2] open right drawer
+You open the right drawer, revealing a D battery.
+
+&gt;[3] get d battery
+Taken.
+
+&gt;[4] get sabre
+Taken.
+
+&gt;[5] put battery in sabre
+(the D battery in the light sabre)
+(first opening the light sabre)
+
+You put the D battery into the light sabre&apos;s battery compartment.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c1d5330" />
+      <child nodeId="node-0x1be09e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1be09e0">
+    <command xml:space="preserve">test sabre</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] get sabre
+You already have that.
+
+&gt;[2] open it
+That&apos;s already open.
+
+&gt;[3] put battery in it
+Which do you mean, the light sabre&apos;s battery compartment, the D battery, the flashlight&apos;s battery compartment or the cassette recorder&apos;s battery compartment?
+
+&gt;[4] press button
+It is now on.
+
+&quot;wrrym&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="429">YES</temporary>
+    <children>
+      <child nodeId="node-0x118a2890" />
+      <child nodeId="node-0x17475fd0" />
+      <child nodeId="node-0x196360d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x196360d0">
+    <command xml:space="preserve">test fight</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] attack yoda with sabre
+Yoda drops under your blow with a smile and a playful kick in the ass.
+
+
+&gt;[2] again
+Yoda is surprised momentarilly by your feint, but recovers then tells you to trust the force.
+
+&quot;snap&quot;
+&gt;[3] again
+Yoda blocks your advance with a smile and a playful kick in the ass.
+
+&quot;crackle&quot;
+&gt;[4] again
+Yoda drops under your blow then tells you to trust the force.
+
+
+&gt;[5] again
+Yoda blocks your advance and suggests you loosen your grip.
+Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
+Drong is waiting patiently.
+
+&quot;snap&quot;
+&gt;[6] s
+
+Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+The bounty hunter attacks you with the shock rifle, causing 4 points of damage!
+
+Drong arrives from the north.
+
+&quot;vrrrm&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="429">YES</temporary>
+    <children>
+      <child nodeId="node-0x163e8b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x163e8b60">
+    <command xml:space="preserve">kill hunter with sabre</command>
+    <result xml:space="preserve">You attack the bounty hunter with the light sabre, causing 6 points of damage!
+
+The clone warrior attacks you with the laser rifle, causing 3 points of damage!
+
+The bounty hunter attacks Drong with the bounty blaster, causing 0 points of damage!
+
+Drong is waiting patiently.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="429">YES</temporary>
+    <children>
+      <child nodeId="node-0x196a3760" />
+    </children>
+  </item>
+  <item nodeId="node-0x196a3760">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">You attack with the light sabre, killing the bounty hunter!
+
+The clone warrior attacks you with the blaster, causing 0 points of damage!
+
+The clone warrior attacks Drong with the laser rifle, causing 0 points of damage!
+
+Drong is waiting patiently.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="429">YES</temporary>
+    <children>
+      <child nodeId="node-0x196f9660" />
+    </children>
+  </item>
+  <item nodeId="node-0x196f9660">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="429">YES</temporary>
+    <children>
+      <child nodeId="node-0x163c4050" />
+    </children>
+  </item>
+  <item nodeId="node-0x163c4050">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+Drong is here.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+You can also see a bounty blaster and a shock rifle here.
+
+The clone warrior attacks you with the laser rifle, causing 1 point of damage!
+
+The clone warrior attacks Drong with the laser rifle, causing 0 points of damage!
+
+Drong is waiting patiently.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="428">YES</temporary>
+  </item>
+  <item nodeId="node-0x17475fd0">
+    <command xml:space="preserve">test figth</command>
+    <result xml:space="preserve">&gt;--&gt; The following tests are available:
+&apos;test table&apos;
+&apos;test me&apos;
+&apos;test first&apos;
+&apos;test second&apos;
+&apos;test sabre&apos;
+&apos;test fight&apos;
+&apos;test all&apos;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="422">YES</temporary>
+    <children>
+      <child nodeId="node-0x19628be0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19628be0">
+    <command xml:space="preserve">test fight</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] attack yoda with sabre
+Yoda blocks your advance then tells you to trust the force.
+
+
+&gt;[2] again
+Yoda paries your thrust with a smile and a playful kick in the ass.
+
+&quot;crackle&quot;
+&gt;[3] again
+Yoda is surprised momentarilly by your feint, but recovers then tells you to trust the force.
+
+&quot;hrrrm&quot;
+&gt;[4] again
+Yoda blocks your advance and suggests you loosen your grip.
+
+
+&gt;[5] again
+Yoda paries your thrust then tells you to trust the force.
+Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
+Drong is waiting patiently.
+
+
+&gt;[6] s
+
+Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+The bounty hunter attacks you with the bounty blaster, causing 1 point of damage!
+
+Drong arrives from the north.
+
+&quot;wrrym&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="422">YES</temporary>
+    <children>
+      <child nodeId="node-0x118dd4f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x118dd4f0">
+    <command xml:space="preserve">hit hunter with sabre</command>
+    <result xml:space="preserve">You attack the bounty hunter with the light sabre, causing 8 points of damage!
+
+The bounty hunter attacks you with the bounty blaster, causing 4 points of damage!
+
+The clone warrior attacks Drong with the laser rifle, causing 0 points of damage!
+
+Drong is waiting patiently.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="422">YES</temporary>
+    <children>
+      <child nodeId="node-0x196a18b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x196a18b0">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">You attack the bounty hunter with the light sabre, causing 1 point of damage!
+
+The clone warrior attacks you with the blaster, causing 5 points of damage!
+
+The bounty hunter attacks Drong with the shock rifle, causing 0 points of damage!
+
+Drong is waiting patiently.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="422">YES</temporary>
+    <children>
+      <child nodeId="node-0xd91f3f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd91f3f0">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">You attack with the light sabre, killing the bounty hunter!
+
+The clone warrior attacks you with the laser rifle, causing 1 point of damage!
+
+The clone warrior attacks Drong with the blaster, causing 0 points of damage!
+
+Drong is waiting patiently.
+
+&quot;hrrrm&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="421">YES</temporary>
+  </item>
+  <item nodeId="node-0x118a2890">
+    <command xml:space="preserve">test yoda</command>
+    <result xml:space="preserve">&gt;--&gt; The following tests are available:
+&apos;test table&apos;
+&apos;test me&apos;
+&apos;test first&apos;
+&apos;test second&apos;
+&apos;test sabre&apos;
+&apos;test fight&apos;
+&apos;test all&apos;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x17403850" />
+    </children>
+  </item>
+  <item nodeId="node-0x17403850">
+    <command xml:space="preserve">test fight</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] attack yoda with sabre
+Yoda paries your thrust and suggests you loosen your grip.
+
+&quot;vrrrm&quot;
+&gt;[2] again
+Yoda drops under your blow then tells you to trust the force.
+
+&quot;crackle&quot;
+&gt;[3] again
+Yoda is surprised momentarilly by your feint, but recovers and suggests you loosen your grip.
+
+
+&gt;[4] again
+Yoda paries your thrust with a smile and a playful kick in the ass.
+
+&quot;snap&quot;
+&gt;[5] again
+Yoda blocks your advance and suggests you loosen your grip.
+Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
+Drong is waiting patiently.
+
+
+&gt;[6] s
+
+Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+The bounty hunter attacks you with the bounty blaster, causing 3 points of damage!
+
+Drong arrives from the north.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x19629620" />
+    </children>
+  </item>
+  <item nodeId="node-0x19629620">
+    <command xml:space="preserve">drong, attack hunter with padawan sabre</command>
+    <result xml:space="preserve">There is no reply.
+
+The bounty hunter attacks you with the bounty blaster, causing 2 points of damage!
+
+Drong is waiting patiently.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x17467890" />
+    </children>
+  </item>
+  <item nodeId="node-0x17467890">
+    <command xml:space="preserve">drong, attack hunter</command>
+    <result xml:space="preserve">What do you want Drong to attack the bounty hunter with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x163643e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x163643e0">
+    <command xml:space="preserve">drong, attack hunter with sabre</command>
+    <result xml:space="preserve">There is no reply.
+
+The bounty hunter attacks you with the bounty blaster, causing 1 point of damage!
+
+Drong is waiting patiently.
+
+&quot;pop&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x13e46160" />
+    </children>
+  </item>
+  <item nodeId="node-0x13e46160">
+    <command xml:space="preserve">drong, try attack hunter with sabre</command>
+    <result xml:space="preserve">There is no reply.
+
+The bounty hunter attacks you with the bounty blaster, causing 4 points of damage!
+
+Drong is waiting patiently.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bf64660" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bf64660">
+    <command xml:space="preserve">try drong, attack hunter with sabre</command>
+    <result xml:space="preserve">You seem to want to talk to someone, but I can&apos;t see whom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x1742de00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1742de00">
+    <command xml:space="preserve">try Drong, attack Hunter with sabre</command>
+    <result xml:space="preserve">You seem to want to talk to someone, but I can&apos;t see whom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b59690" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b59690">
+    <command xml:space="preserve">Drong</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x196e7a10" />
+    </children>
+  </item>
+  <item nodeId="node-0x196e7a10">
+    <command xml:space="preserve">say drong</command>
+    <result xml:space="preserve">Whom do you want to say that to?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="415">YES</temporary>
+    <children>
+      <child nodeId="node-0x196d6e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x196d6e30">
+    <command xml:space="preserve">say &quot;attack hunter&quot; to drong</command>
+    <result xml:space="preserve">There is no reply.
+
+The bounty hunter attacks you with the shock rifle, causing 6 points of damage!
+
+Drong is waiting patiently.
+
+&quot;crackle&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="414">YES</temporary>
+  </item>
+  <item nodeId="node-0x1c1d5330">
+    <command xml:space="preserve">spar with yoda with sabre</command>
+    <result xml:space="preserve">With what?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x196ce190" />
+    </children>
+  </item>
+  <item nodeId="node-0x196ce190">
+    <command xml:space="preserve">spar with yoda with sabre</command>
+    <result xml:space="preserve">With what?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x13ed24c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13ed24c0">
+    <command xml:space="preserve">spar with yoda with backpack</command>
+    <result xml:space="preserve">The backpack is NOT a weapon.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0xd9057c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd9057c0">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">With what?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x174f8580" />
+    </children>
+  </item>
+  <item nodeId="node-0x174f8580">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">It is now on.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bfa5f60" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bfa5f60">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda blocks your advance then tells you to trust the force.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bf84da0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bf84da0">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda paries your thrust and suggests you loosen your grip.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b2a2f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b2a2f0">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda is surprised momentarilly by your feint, but recovers with a smile and a playful kick in the ass.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x19138a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19138a0">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda drops under your blow then tells you to trust the force.
+
+&quot;wrrym&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1968da30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1968da30">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda blocks your advance with a smile and a playful kick in the ass.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1746af70" />
+    </children>
+  </item>
+  <item nodeId="node-0x1746af70">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda drops under your blow and suggests you loosen your grip.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x19686ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19686ba0">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda is surprised momentarilly by your feint, but recovers with a smile and a playful kick in the ass.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c191830" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c191830">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda blocks your advance and suggests you loosen your grip.
+
+&quot;pop&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1964cde0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1964cde0">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda is surprised momentarilly by your feint, but recovers then tells you to trust the force.
+
+&quot;hrrrm&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1746b340" />
+    </children>
+  </item>
+  <item nodeId="node-0x1746b340">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda blocks your advance and suggests you loosen your grip.
+
+&quot;wrrym&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1746c950" />
+    </children>
+  </item>
+  <item nodeId="node-0x1746c950">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda is surprised momentarilly by your feint, but recovers with a smile and a playful kick in the ass.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x13ee86b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13ee86b0">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda paries your thrust then tells you to trust the force.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x19665d10" />
+    </children>
+  </item>
+  <item nodeId="node-0x19665d10">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda blocks your advance with a smile and a playful kick in the ass.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x118e4e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x118e4e00">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda paries your thrust then tells you to trust the force.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c1939b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c1939b0">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda is surprised momentarilly by your feint, but recovers with a smile and a playful kick in the ass.
+
+&quot;snap&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0xd939c10" />
+    </children>
+  </item>
+  <item nodeId="node-0xd939c10">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda drops under your blow then tells you to trust the force.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x19686c20" />
+    </children>
+  </item>
+  <item nodeId="node-0x19686c20">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda is surprised momentarilly by your feint, but recovers and suggests you loosen your grip.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x118385d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x118385d0">
+    <command xml:space="preserve">spar with yoda with light sabre</command>
+    <result xml:space="preserve">Yoda blocks your advance then tells you to trust the force.
+Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
+&quot;wrrym&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x19661810" />
+    </children>
+  </item>
+  <item nodeId="node-0x19661810">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a clone blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+The bounty hunter attacks you with the bounty blaster, causing 2 points of damage!
+
+Drong arrives from the north.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0xd963ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd963ec0">
+    <command xml:space="preserve">spar with clone with light sabre</command>
+    <result xml:space="preserve">(the clone warrior with the light sabre)
+I don&apos;t think The clone warrior is going to play nice.
+
+The clone warrior attacks you with the laser rifle, causing 4 points of damage!
+
+The clone warrior attacks Drong with the laser rifle, causing 0 points of damage!
+
+Drong attacks the clone warrior with the blue light sabre, causing 1 point of damage!
+
+&quot;pop&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c1e07b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c1e07b0">
+    <command xml:space="preserve">hit clone with light sabre</command>
+    <result xml:space="preserve">(the clone warrior with the light sabre)
+You attack the clone warrior with the light sabre, causing 5 points of damage!
+
+The bounty hunter attacks you with the shock rifle, causing 1 point of damage!
+
+The clone warrior attacks Drong with the clone blaster, causing 0 points of damage!
+
+Drong attacks the clone warrior with the blue light sabre, causing 0 points of damage!
+
+&quot;crackle&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c155f60" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c155f60">
+    <command xml:space="preserve">hit clone with light sabre</command>
+    <result xml:space="preserve">(the clone warrior with the light sabre)
+You attack the clone warrior with the light sabre, causing 8 points of damage!
+
+The clone warrior attacks you with the clone blaster, causing 3 points of damage!
+
+The bounty hunter attacks Drong with the bounty blaster, causing 0 points of damage!
+
+Drong attacks the bounty hunter with the blue light sabre, causing 3 points of damage!
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1965dea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1965dea0">
+    <command xml:space="preserve">hit clone with light sabre</command>
+    <result xml:space="preserve">(the clone warrior with the light sabre)
+You attack the clone warrior with the light sabre, causing 6 points of damage!
+
+The clone warrior attacks you with the laser rifle, causing 2 points of damage!
+
+The clone warrior attacks Drong with the clone blaster, causing 0 points of damage!
+
+Drong attacked the clone warrior with the blue light sabre, killing the clone warrior!
+
+&quot;crackle&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c1c0270" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c1c0270">
+    <command xml:space="preserve">hit clone with light sabre\</command>
+    <result xml:space="preserve">You can only do that to something animate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x19670f50" />
+    </children>
+  </item>
+  <item nodeId="node-0x19670f50">
+    <command xml:space="preserve">hit clone with light sabre</command>
+    <result xml:space="preserve">You can only do that to something animate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bfadb40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bfadb40">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+Drong is here.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+You can also see a clone blaster and a laser rifle here.
+
+The bounty hunter attacks you with the bounty blaster, causing 1 point of damage!
+
+The bounty hunter attacks Drong with the shock rifle, causing 0 points of damage!
+
+Drong attacks the bounty hunter with the blue light sabre, causing 5 points of damage!
+
+&quot;vrrrm&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c1de0a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c1de0a0">
+    <command xml:space="preserve">hit hunter with light sabre</command>
+    <result xml:space="preserve">You attack with the light sabre, killing the bounty hunter!
+
+&quot;pop&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="535">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c157b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c157b60">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+Drong is here.
+
+You can also see a bounty blaster, a shock rifle, a clone blaster and a laser rifle here.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="534">YES</temporary>
+  </item>
+  <item nodeId="node-0x174314d0">
+    <command xml:space="preserve">spar drong with backpack</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="490">YES</temporary>
+    <children>
+      <child nodeId="node-0x13ec0a20" />
+    </children>
+  </item>
+  <item nodeId="node-0x13ec0a20">
+    <command xml:space="preserve">spar with drong with backpack</command>
+    <result xml:space="preserve">The backpack is NOT a weapon.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="490">YES</temporary>
+    <children>
+      <child nodeId="node-0x1961e6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1961e6b0">
+    <command xml:space="preserve">spar with backpack</command>
+    <result xml:space="preserve">You can only do that to something animate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="489">YES</temporary>
+  </item>
+  <item nodeId="node-0x13e33280">
+    <command xml:space="preserve">spar with backpack with backpack</command>
+    <result xml:space="preserve">You can only do that to something animate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="493">YES</temporary>
+  </item>
+  <item nodeId="node-0x1bf7fe30">
+    <command xml:space="preserve">spar with backpack with flashlight</command>
+    <result xml:space="preserve">You can only do that to something animate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="492">YES</temporary>
+  </item>
+  <item nodeId="node-0x196177f0">
+    <command xml:space="preserve">spar with yoda with sabre</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="487">YES</temporary>
+    <children>
+      <child nodeId="node-0x13e05ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13e05ba0">
+    <command xml:space="preserve">test table</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] open left drawer
+You open the left drawer, revealing a light sabre.
+
+&gt;[2] open right drawer
+You open the right drawer, revealing a D battery.
+
+&gt;[3] get d battery
+Taken.
+
+&gt;[4] get sabre
+Taken.
+
+&gt;[5] put battery in sabre
+(the D battery in the light sabre)
+(first opening the light sabre)
+
+You put the D battery into the light sabre&apos;s battery compartment.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="487">YES</temporary>
+    <children>
+      <child nodeId="node-0x19643210" />
+    </children>
+  </item>
+  <item nodeId="node-0x19643210">
+    <command xml:space="preserve">spar with yoda with sabre</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="487">YES</temporary>
+    <children>
+      <child nodeId="node-0x13e03450" />
+    </children>
+  </item>
+  <item nodeId="node-0x13e03450">
+    <command xml:space="preserve">spar yoda with sabre</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="487">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bf5d230" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bf5d230">
+    <command xml:space="preserve">spar with yoda</command>
+    <result xml:space="preserve">What do you want to spar with Yoda with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="486">YES</temporary>
   </item>
 </Skein>

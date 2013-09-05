@@ -1,6 +1,38 @@
 "StarWords" by Campbell Burgess
 
+
+Part 1 - The setup
+
+Section 1 - Hit Points, Damage Multiplier, XP
+
+A person has a number called maximum hit points. 
+A person has a number called current hit points.
+A person has a number called XP.  
+A person has a number called Max XP.
+A person has a number called damage multiplier. A damage multiplier is usually 1.
+
+The maximum hit points of the player is 35. 
+The maximum hit points of the clone warrior is 25.  
+The maximum hit points of the bounty hunter is 25.
+
+The XP of the player is 0. 
+The Max XP of the player is 40. 
+
+When play begins: 
+	repeat with victim running through people: 
+		now the current hit points of the victim is the maximum hit points of the victim - 5
+
+Definition: a person is dead if his current hit points are less than 0.
+Definition: a person is a master if his XP is greater than his Max XP.
+
+
+Part 2 - Training
+
 The Training Room is a room. "A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall."
+
+A dead end is a kind of room with a description "This is a dead end. You'll have to go back the way you came." A dead end is usually dark.
+ 
+The closet is a dead end.  The closet is north of the training room. 
 
 A battery is a kind of thing. A battery has a number called charge. The charge of a battery is usually 35.
 
@@ -22,7 +54,7 @@ A friendly is a kind of rebel.
 
 Persuasion rule for asking a friendly to try doing something: persuasion succeeds.
 
-Stalking is an action applying to one thing.
+
 
 A friendly is either following or not following.
 
@@ -30,44 +62,14 @@ Yoda is not following.
 Drong is not following.
 
 
-[Every turn:
-	repeat with hollow running through battery compartments:]
-
-
-[Every turn: 
-	if the location of Yoda is not the location of the player and Yoda is following: 
-		let the way be the best route from the location of Yoda to the location of the player, using doors; 
-		try Yoda going the way; 
-	otherwise: 
-		say "Yoda says"]
+ 
 		
 Every turn: 
 	if Drong is following:
 		if the location of Drong is not the location of the player:
 			let the way be the best route from the location of Drong to the location of the player, using doors; 
 			try Drong going the way.
-		[otherwise: 
-			say "Drong is waiting patiently."]
-
-
-[Understand "follow [someone]" as following.]
-
-[Understand "follow" as following.]
-
-
-[Following is an action applying to someone.]
-
-[Tasting a person is disorderly conduct. Jumping is disorderly conduct. Singing is disorderly conduct. ]
-
-[Carry out following someone:
-	Now Yoda is following.
-	
-Report following someone:
-	say "Yoda is following you"]
-
-
-[Instead of Yoda trying attacking someone:
-	say "[Noun] is now following you".]
+ 
  
 
 Drong is a friendly in the training room.  "Drong is here."
@@ -152,16 +154,111 @@ Ohhh. Great warrior. Wars not make one great.
 ]
 
 
+Section 1 - Sparring with
 
-[Instead of attacking Yoda, say "No way!"]
+Understand the commands "spar with" and "train with" as something new.
+
+Sparring is an action applying to one visible thing and one carried thing. Understand "spar with [someone] with [something preferably held]" as sparring.
+
+[Understand the commands "spar [someone] with [something]" and "train [someone] with [something]"as "sparring".]
+
+ 
+
+The sparring action has a number called the training points.
+Setting action variables for sparring: 
+	if the second noun is a weapon and the noun is a friendly: 
+		let the maximum TP be the maximum damage of the second noun; 
+		now the training points is a random number between 0 and the maximum TP times the damage multiplier of the actor;
+	otherwise:
+		now the training points is 0.
+
+Check an actor sparring (this is the can't spar with something that isn't a weapon rule): 
+	if the second noun is not a weapon: 
+		if the actor is the player, say "[The second noun] is NOT a weapon."; 
+		stop the action.
+Check an actor sparring (this is the can't spar a non-person rule): 
+	if the noun is not a person: 
+		if the actor is the player, say "[The noun] is a poor sparring partner."; 
+		stop the action;
+	if the noun is not friendly:
+		say "I don't think [the noun] is going to play nice.";
+		stop the action.
+
+[Carry out an player sparring (this is the standard sparring rule): 
+	if 
+	increase the XP of the player by the training points;
+	say "HI".]
+ 
+
+[Report attacking a friendly person: 
+	say "You feint with [the second noun], surpising [the noun]!" instead.]
+[Report attacking a dead person with something (this is the death-report priority rule): 
+	if the dead person carries something, now everything carried by the dead person is in the location; 
+	say "You attack with [the second noun], killing [the noun]!" instead.]
+
+Report sparring (this is the normal sparring report rule): 
+	if the noun is friendly:	
+		if the sabre is switched on:
+			say "[The noun] [one of]paries your thrust[or]blocks your advance[or]drops under your blow[or]is surprised momentarilly by your feint, but recovers[at random] [one of]with a smile and a playful kick in the ass[or]and suggests you loosen your grip[or]then tells you to trust the force[at random].";
+			if the XP of the player < the Max XP of the player:
+				increase the XP of the player by the training points;
+				if the XP of the player >= the Max XP of the player:
+					if the damage multiplier of the player is 1:
+						increment the damage multiplier of the player;
+						say "[The noun] says 'You're training is now complete!'.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav";
+						Now Drong is following;
+		otherwise:
+			say "With what?";
+		stop the action.	
+	[otherwise:
+ 		if training points is 0:
+			say "You missed [the noun]";
+		otherwise:
+			say "You attack [the noun] with [the second noun], causing [damage inflicted] point[s] of damage!" instead.]
+			
+[Report attacking someone with something (this is the normal attacking report rule): 
+	 if damage inflicted is 0:
+		say "You missed [the noun]";
+	otherwise:
+		say "You attack [the noun] with [the second noun], causing [damage inflicted] point[s] of damage!" instead.]
+[
+Report someone attacking the player with something when the player is dead (this is the player's-death priority rule): 
+	say "[The actor] attacks you with [the second noun], finishing you off!"; 
+	end the story; 
+	stop the action.
+	
+Report someone attacking the player with something (this is the standard report someone attacking the player with rule): 
+	say "[The actor] attacks you with [the second noun], causing [damage inflicted] point[s] of damage!" instead.
+Report someone attacking something with something (this is the standard report attacking it with rule): 
+	say "[The actor] attacks [the noun] with [the second noun], causing [damage inflicted] point[s] of damage!" instead.
+	
+
+Report someone attacking a dead person with something (this is the friendly-kill-report priority rule): 
+	if the dead person carries something, now everything carried by the dead person is in the location; 
+	say "[The actor] attacked [the noun] with [the second noun], killing [the noun]!" instead.
+
+ 
+When play begins: 
+	now the left hand status line is "You: [current hit points of player]";
+	now the right hand status line is "Clone: [current hit points of clone warrior] Hunter: [current hit points of bounty hunter]".
+
+Every turn (this is the enemy-attack rule): 
+	if player can see an enemy:
+		let attacker be a random enemy in the arena;
+		if the attacker is not dead, try the attacker attacking the player with a random weapon which is carried by the attacker.
+		
+Every turn (this is the enemy-attack-drong rule): 
+	if drong can see an enemy:
+		let attacker be a random enemy in the arena;
+		if the attacker is not dead, try the attacker attacking drong with a random weapon which is carried by the attacker;
+		if drong is not dead, try drong attacking the attacker with a random weapon which is carried by drong.
 
 
-[A light sabre is here. "A light sabre is discarded nearby"]
+]
 
 
-A dead end is a kind of room with printed name "Dead End" and description "This is a dead end. You'll have to go back the way you came." A dead end is usually dark.
-
-The closet is a dead end.  The closet is north of the training room. 
+Part 2 - Arena
+ 
 
 The Arena is a room. "Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor." 
 
@@ -172,24 +269,7 @@ The bounty hunter is an enemy in the Arena. "A bounty hunter circles you, pointi
 
 
 
-Section 1 - Hit Points
 
-A person has a number called maximum hit points. 
-A person has a number called current hit points.
-A person has a number called damage multiplier. A damage multiplier is usually 1.
-[The damage multiplier of the player is 1. ]
-The maximum hit points of the player is 35. The maximum hit points of the clone warrior is 25.  The maximum hit points of the bounty hunter is 25.
-[The damage multiplier of the clone warrior is 1. 
-The damage multiplier of the bounty hunter is 1. ]
-
-
-[In our simpler version of this example we set the current hit points by hand, but in a game with many characters this would get dull and repetitive, so here we'll use a "when play begins" to set all current hit point values automatically to maximum:]
-
-When play begins: 
-	repeat with victim running through people: 
-		now the current hit points of the victim is the maximum hit points of the victim - 5
-
-Definition: a person is dead if his current hit points are less than 0.
 
 Section 2 - Diagnosis
 
@@ -217,35 +297,7 @@ Attacking it with is an action applying to one visible thing and one carried thi
 
 Understand the commands "punch" and "destroy" and "kill" and "murder" and "hit" and "thump" and "break" and "smash" and "torture" and "wreck" and "strike" as "attack".
 
-[oringal code][
-The attacking it with action has a number called the damage inflicted.
-Setting action variables for attacking something with something: 
-	if the second noun is a weapon: 
-		let the maximum attack be the maximum damage of the second noun; 
-		now the damage inflicted is a random number between 1 and the maximum attack.
-		 
-Check an actor attacking something with something (this is the can't attack with something that isn't a weapon rule): 
-	if the second noun is not a weapon: 
-		if the actor is the player, say "[The second noun] does not qualify as a weapon."; 
-		stop the action.
-		]
-		[
-Check an actor attacking something with something (this is the can't attack a non-person rule): 
-	if the noun is not a person: 
-		if the actor is the player, say "[The noun] has no life to lose."; 
-		stop the action.]
-		[
-Carry out an actor attacking something with something (this is the standard attacking it with a weapon rule): 
-	decrease the current hit points of the noun by the damage inflicted; 
-	if the noun is dead, remove the noun from play.
-	]
-[commented out to check failure]
-
-[Check an actor attacking a visible person (this is the can't attack missing persons rule):
-	if the actor can not see the noun:
-		say "[The noun] is not here.";
-		stop the action.]
-
+ 
 
 The attacking it with action has a number called the damage inflicted.
 Setting action variables for attacking something with something: 
