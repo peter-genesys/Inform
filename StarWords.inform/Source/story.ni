@@ -1,17 +1,73 @@
 "StarWords" by Campbell Burgess
 
-The Training Room is a room. "A place to practice jedi skills.  There is a door to the north and an exit to the south". 
+The Training Room is a room. "A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall."
 
 A battery is a kind of thing. A battery has a number called charge. The charge of a battery is usually 35.
 
 
-A bench is in the training room.  "There is a bench by the wall."   The description of the bench is "It is an ordinary bench with two drawers, left and right".
-A left drawer is a container that is closed and openable.  A left drawer is part of the bench. A D battery is a battery in the left drawer.
-A right drawer is a container that is closed and openable.  A right drawer is part of the bench. The light sabre is in the right drawer.
+A bench is in the training room.  The description of the bench is "It is an ordinary bench with two drawers, left and right".
+A left drawer is a container that is closed and openable.  A left drawer is part of the bench. The light sabre is in the left drawer.
+
+A right drawer is a container that is closed and openable.   A right drawer is part of the bench.  A D battery is a battery.  [4 D batteries are in the right drawer.] A D battery is in the right drawer.
+
+The bench is scenery.
 
 
 An enemy is a kind of man.
 A friendly is a kind of man.
+A rebel is a kind of man.
+A friendly is a kind of rebel.
+
+
+
+Persuasion rule for asking a friendly to try doing something: persuasion succeeds.
+
+Stalking is an action applying to one thing.
+
+A friendly is either following or not following.
+
+Yoda is not following.
+Drong is not following.
+
+
+[Every turn:
+	repeat with hollow running through battery compartments:]
+
+
+[Every turn: 
+	if the location of Yoda is not the location of the player and Yoda is following: 
+		let the way be the best route from the location of Yoda to the location of the player, using doors; 
+		try Yoda going the way; 
+	otherwise: 
+		say "Yoda says"]
+		
+Every turn: 
+	if Drong is following:
+		if the location of Drong is not the location of the player:
+			let the way be the best route from the location of Drong to the location of the player, using doors; 
+			try Drong going the way.
+		[otherwise: 
+			say "Drong is waiting patiently."]
+
+
+[Understand "follow [someone]" as following.]
+
+[Understand "follow" as following.]
+
+
+[Following is an action applying to someone.]
+
+[Tasting a person is disorderly conduct. Jumping is disorderly conduct. Singing is disorderly conduct. ]
+
+[Carry out following someone:
+	Now Yoda is following.
+	
+Report following someone:
+	say "Yoda is following you"]
+
+
+[Instead of Yoda trying attacking someone:
+	say "[Noun] is now following you".]
  
 
 Drong is a friendly in the training room.  "Drong is here."
@@ -22,6 +78,8 @@ The maximum hit points of Yoda is 100.
 The description of Yoda is "Yoda is respected as one of the most wise and powerful Jedi Masters in the history of the galaxy. Yoda is a master of the Force and Light Sabre combat. Yoda has served as the Grand Master of the Jedi High Council for over 700 years."
 
 [
+Table of Yoda Remarks 
+response 
 
 Try not. Do or do not, there is no try.
 
@@ -144,15 +202,12 @@ Carry out diagnosing:
 Section 3 - Weapons
 
 A weapon is a kind of thing. A weapon has a number called the maximum damage. The maximum damage of a weapon is usually 4.
-The clone warrior carries a weapon called a laser rifle. The maximum damage of the laser rifle is 7. The clone warrior carries a weapon called a blaster. The maximum damage of the blaster is 5.
+The clone warrior carries a weapon called a laser rifle. The maximum damage of the laser rifle is 7. The clone warrior carries a weapon called a clone blaster. The maximum damage of the clone blaster is 5.
 [The player carries a weapon called a mace. The maximum damage of the mace is 3.]
 
 The bounty hunter carries a weapon called a shock rifle. The maximum damage of the shock rifle is 7. The bounty hunter carries a weapon called a bounty blaster. The maximum damage of the bounty blaster is 5.
 
- 
-[A sabre is a kind of thinghere. "A light sabre is discarded on the ground."  The sabre is unlit.
-The sabre has a handle.  The handle has a green button and a red button.]
- 
+
 
 Section 4 - Attacking it with
 
@@ -214,25 +269,12 @@ Carry out an actor attacking something with something (this is the standard atta
 	if the noun is dead, remove the noun from play.
 	
 
-[put original code in
-Report attacking a dead person with something (this is the death-report priority rule): 
-	say "You attack with [the second noun], killing [the noun]!" instead.
-Report attacking someone with something (this is the normal attacking report rule): 
-	say "You attack [the noun] with [the second noun], causing [damage inflicted] point[s] of damage!" instead.
-Report someone attacking the player with something when the player is dead (this is the player's-death priority rule): 
-	say "[The actor] attacks you with [the second noun], finishing you off!"; 
-	end the story; 
-	stop the action.
-Report someone attacking the player with something (this is the standard report someone attacking the player with rule): 
-	say "[The actor] attacks you with [the second noun], causing [damage inflicted] point[s] of damage!" instead.
-Report someone attacking something with something (this is the standard report attacking it with rule): 
-	say "[The actor] attacks [the noun] with [the second noun], causing [damage inflicted] point[s] of damage!" instead.
-]
-[Commented out this code to figure out why it died]
+ 
 
 [Report attacking a friendly person: 
 	say "You feint with [the second noun], surpising [the noun]!" instead.]
 Report attacking a dead person with something (this is the death-report priority rule): 
+	if the dead person carries something, now everything carried by the dead person is in the location; 
 	say "You attack with [the second noun], killing [the noun]!" instead.
 Report attacking someone with something (this is the normal attacking report rule): 
 	if the noun is friendly:	
@@ -243,7 +285,8 @@ Report attacking someone with something (this is the normal attacking report rul
 				if the current hit points of the player >= the maximum hit points of the player:
 					if the damage multiplier of the player is 1:
 						increment the damage multiplier of the player;
-						say "[The noun] says 'You're training is now complete!'.  The force feels stronger in you now.";
+						say "[The noun] says 'You're training is now complete!'.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav";
+						Now Drong is following;
 		otherwise:
 			say "With what?";
 		stop the action;	
@@ -268,6 +311,12 @@ Report someone attacking the player with something (this is the standard report 
 	say "[The actor] attacks you with [the second noun], causing [damage inflicted] point[s] of damage!" instead.
 Report someone attacking something with something (this is the standard report attacking it with rule): 
 	say "[The actor] attacks [the noun] with [the second noun], causing [damage inflicted] point[s] of damage!" instead.
+	
+
+Report someone attacking a dead person with something (this is the friendly-kill-report priority rule): 
+	if the dead person carries something, now everything carried by the dead person is in the location; 
+	say "[The actor] attacked [the noun] with [the second noun], killing [the noun]!" instead.
+
  
 When play begins: 
 	now the left hand status line is "You: [current hit points of player]";
@@ -277,16 +326,23 @@ Every turn (this is the enemy-attack rule):
 	if player can see an enemy:
 		let attacker be a random enemy in the arena;
 		if the attacker is not dead, try the attacker attacking the player with a random weapon which is carried by the attacker.
+		
+Every turn (this is the enemy-attack-drong rule): 
+	if drong can see an enemy:
+		let attacker be a random enemy in the arena;
+		if the attacker is not dead, try the attacker attacking drong with a random weapon which is carried by the attacker;
+		if drong is not dead, try drong attacking the attacker with a random weapon which is carried by drong.
 
 
 Section 5 - The Light Sabre
 
+Brightness is a kind of value. The brightnesses are guttering, weak, radiant and blazing.
 
 A device is a kind of weapon.
 
 An on/off button is part of the light sabre.
  
-test table with "open left drawer / open right drawer / get D battery / get sabre / kill yoda with sabre"
+test table with "open left drawer / open right drawer / get D battery / get sabre / put battery in sabre"
 
 Every turn:
 	repeat with hollow running through battery compartments:
@@ -329,6 +385,10 @@ Understand "ignite [device]" as switching on.
 
 Understand "extinguish [device]" as switching off.
 
+Before inserting something into something which is not open:
+	say "(first opening [the second noun])[line break]";
+	silently try opening the second noun.
+	[if the second noun is not open, stop the action.]
 
 
 Instead of pushing an on/off button which is part of a switched on device (called the machine): 
@@ -381,6 +441,13 @@ The description of the Light Sabre is "[if switched on]It's blade is glowing [on
 
 Every turn: if the Light Sabre is switched on, say "[one of]'vrrrm'[or][or][or]'wrrym'[or][or][or]'hrrrm'[or][or][or]'snap'[or][or][or]'crackle'[or][or][or]'pop'[at random]"
  
+
+ 
+
+The blue light sabre is a kind of weapon. The description of the blue light sabre is "A light sabre with a blue blade, weak, but long lasting." The maximum damage of the blue light sabre is 5.
+The blue light sabre is privately-named.
+
+Drong is carrying the blue light sabre.
 
 Rule for warning about failure of the cassette recorder:
 	if a random battery compartment which is part of the cassette recorder contains a battery (called the power source):
