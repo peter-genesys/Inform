@@ -80,7 +80,7 @@ Every turn:
 				if character follows entity, say "  l[character] is follower[line break]";
 				]
 
-Section 3 - Stalking
+Section 3 - Following
 
 A man is either stalking or not stalking.
 A man is usually not stalking.
@@ -96,10 +96,11 @@ Yoda helps the player.
 		
 Every turn: 
 	repeat with actor running through person:
-		if actor is stalking and actor is not dead:
-			if the location of actor is not the location of the player:
-				let the way be the best route from the location of actor to the location of the player, using doors; 
-				try actor going the way.
+		if actor is not the player:
+			if actor follows the player and actor is not dead:
+				if the location of actor is not the location of the player:
+					let the way be the best route from the location of actor to the location of the player, using doors; 
+					try actor going the way.
  
 
 Section 4 - Yoda talk
@@ -169,16 +170,6 @@ A right drawer is a container that is closed and openable.   A right drawer is p
 
 The bench is scenery.
 
-
-
-
-
-
-
-
-
-
- 
  
 
 Drong is a rebel in the training room.  "Drong is here."
@@ -188,6 +179,7 @@ The XP of Drong is 25.
 Yoda is a rebel in the training room.  "Yoda is here."
 The maximum hit points of Yoda is 100.
 The description of Yoda is "Yoda is respected as one of the most wise and powerful Jedi Masters in the history of the galaxy. Yoda is a master of the Force and Light Sabre combat. Yoda has served as the Grand Master of the Jedi High Council for over 700 years."
+The damage multiplier of Yoda is 2.
 
 The XP of yoda is 100.
 
@@ -211,9 +203,16 @@ Setting action variables for sparring:
 		now the training points is 0.
 
 Check an actor sparring (this is the can't spar with something that isn't a weapon rule): 
-	if the second noun is not a weapon: 
-		if the actor is the player, say "[The second noun] is NOT a weapon."; 
-		stop the action.
+	if the actor is the player:
+		if the second noun is not a weapon: 
+			say "[The second noun] is NOT a weapon."; 
+			stop the action;
+		if the second noun is not the sabre: 
+			say "[Noun] is expecting you to spar with the sabre."; 
+			stop the action;
+		if the sabre is not switched on: 
+			say "The sabre is not on."; 
+			stop the action.
 Check an actor sparring (this is the can't spar a non-person rule): 
 	if the noun is not a person: 
 		if the actor is the player, say "[The noun] is a poor sparring partner."; 
@@ -238,26 +237,23 @@ Check an actor sparring (this is the can't spar a non-person rule):
 	say "You attack with [the second noun], killing [the noun]!" instead.]
 
 Report sparring (this is the normal sparring report rule): 
-	if the noun is a rebel:	
-		if the sabre is switched on:
-			if the noun is Yoda:
-				say "[The noun] [one of]side steps your clumsy maneuver[or]easilly evades your reach[or]performs an elegant backflip to avoid your well aimed stroke[or]strikes like a viper while seeming to hover outside your range[at random].[line break]";
-    				choose a random row in the Table of Yoda Remarks; 
-				say "Yoda says '[remark entry]'[paragraph break]";		
-			otherwise:
-				say "[The noun] [one of]paries your thrust[or]blocks your advance[or]drops under your blow[or]is surprised momentarilly by your feint, but recovers[at random] [one of]with a smile and a playful kick in the ass[or]and suggests you loosen your grip[or]then tells you to trust the force[at random].";
-			if the XP of the player < the Max XP of the player:
-				increase the XP of the player by the training points;
-				say "Your experience points increases by [training points].  ";
-				if the XP of the player >= the Max XP of the player:
-					if the damage multiplier of the player is 1:
-						increment the damage multiplier of the player;
-						say "[The noun] says 'You're training is now complete!'.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav";
-						Now Drong is stalking;
-						[Now Drong helps the player;]
-		otherwise:
-			say "With what?";
-		stop the action.	
+	if the noun is Yoda:
+		say "[The noun] [one of]side steps your clumsy maneuver[or]easilly evades your reach[or]performs an elegant backflip to avoid your well aimed stroke[or]strikes like a viper while seeming to hover outside your range[at random].[line break]";
+		choose a random row in the Table of Yoda Remarks; 
+		say "Yoda says '[remark entry]'[paragraph break]";		
+	otherwise:
+		say "[The noun] [one of]paries your thrust[or]blocks your advance[or]drops under your blow[or]is surprised momentarilly by your feint, but recovers[at random] [one of]with a smile and a playful kick in the ass[or]and suggests you loosen your grip[or]then tells you to trust the force[at random].";
+		if the XP of the player < the Max XP of the player:
+			increase the XP of the player by the training points;
+			say "Your experience points increases by [training points].  ";
+			if the XP of the player >= the Max XP of the player:
+				if the damage multiplier of the player is 1:
+					increment the damage multiplier of the player;
+					[Now the damage multiplier of the player is 2;]
+					say "[The noun] says 'You're training is now complete!'.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav";
+					Now Drong follows the player.
+					[Now Drong helps the player;]
+
 	[otherwise:
  		if training points is 0:
 			say "You missed [the noun]";
@@ -403,8 +399,14 @@ Report attacking someone with something (this is the normal attacking report rul
  	if damage inflicted is 0:
 		say "You missed [the noun]";
 	otherwise:
-		say "You attack [the noun] with [the second noun], causing [damage inflicted] point[s] of damage!" instead.
-			
+		say "You attack [the noun] with [the second noun], causing [damage inflicted] point[s] of damage!"; 
+		if a random chance of 1 in 3 succeeds:
+			if the noun does not follow the player:
+				Now the noun follows the player;
+				say "Looks like [the noun] is taking this personally.".
+	
+
+
 [Report attacking someone with something (this is the normal attacking report rule): 
 	 if damage inflicted is 0:
 		say "You missed [the noun]";
@@ -420,7 +422,7 @@ Report someone attacking the player with something (this is the standard report 
 	say "[The actor] attacks you with [the second noun], causing [damage inflicted] point[s] of damage!" instead.
 Report someone attacking something with something (this is the standard report attacking it with rule): 
 	say "[The actor] attacks [the noun] with [the second noun], causing [damage inflicted] point[s] of damage!" instead.
-	
+
 
 Report someone attacking a dead person with something (this is the friendly-kill-report priority rule): 
 	if the dead person carries something, now everything carried by the dead person is in the location; 
@@ -444,11 +446,12 @@ Every turn (this is the attacker attacks an enemy rule):
 			if N > 0:
 				sort foes in random order;
 				[say "[attacker] to attack [entry 1 of foes]".]
-				let victim be entry 1 of foes;
+				let victim be entry 1 of foes;[
 				if victim is player and attacker can see victim:
-					if a random chance of 1 in 2 succeeds:
-						Now attacker is stalking;
-						say "Looks like [the attacker] is taking this personally.";
+					if a random chance of 1 in 3 succeeds:
+						if the attacker does not follow the player:
+							Now attacker follows the player;
+							say "Looks like [the attacker] is taking this personally.";]
 				if the attacker is not dead, try the attacker attacking victim with a random weapon which is carried by the attacker.
 				
  
@@ -573,7 +576,7 @@ The cassette recorder is a device. Every turn: if the cassette recorder is switc
 The light sabre is a light source.  The maximum damage of the light sabre is 0.
 
 After switching on light sabre:
-	Now the maximum damage of the light sabre is 10.
+	Now the maximum damage of the light sabre is 5.
 	
 After switching off light sabre:
 	Now the maximum damage of the light sabre is 0.
@@ -592,7 +595,7 @@ The blue light sabre is privately-named.
 Drong is carrying the blue light sabre.
 
 
-The green light sabre is a kind of weapon. The description of the green light sabre is "A light sabre with a strong green blade." The maximum damage of the blue light sabre is 15.
+The green light sabre is a kind of weapon. The description of the green light sabre is "A light sabre with a strong green blade." The maximum damage of the blue light sabre is 5.
 The green light sabre is privately-named.
 
 Yoda is carrying the green light sabre.
