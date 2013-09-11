@@ -32,7 +32,7 @@ Foes relates people to each other.
 ]
 [Friend relates people to one person[ in groups]. The verb to like (he likes, they like, he liked, he is liked) implies the friend relation.
 Foe relates people to one person[ in groups]. The verb to hate (he hates, they hate, he hated, he is hated) implies the foe relation.]
-Follower relates one person to one person[ in groups]. The verb to follow (he follows, they follow, he followed, he is followed) implies the follower relation.
+Follower relates various persons to one person[ in groups]. The verb to follow (he follows, they follow, he followed, he is followed) implies the follower relation.
 
 Ally relates people to each other [in groups]. The verb to help (he helps , they help, he helped, he is helped) implies the ally relation.
 Enemy relates people to each other [in groups]. The verb to hinder (he hinders, they hinder, he hindered, he is hindered) implies the enemy relation.
@@ -82,8 +82,8 @@ Every turn:
 
 Section 3 - Following
 
-A man is either stalking or not stalking.
-A man is usually not stalking.
+[A man is either stalking or not stalking.
+A man is usually not stalking.]
 
 [Yoda is not stalking.
 Drong is not stalking.
@@ -142,16 +142,7 @@ For the dark side looks back."
 "Blind we are, if creation of this clone army we could not see."
 "Ohhh. Great warrior. Wars not make one great."
 
-[Every turn when a random chance of 1 in 2 succeeds:
-	if player can see yoda and yoda helps player:
-    		choose a random row in the Table of Yoda Remarks; 
-		say "Yoda says '[remark entry]'[paragraph break]".]
-
-
  
-
-
-
 Part 2 - Training
 
 The Training Room is a room. "A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall."

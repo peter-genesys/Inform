@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x71074e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x26ac73d0" />
+  <activeNode nodeId="node-0x234ad6b0" />
   <item nodeId="node-0x71074e0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -22,11 +22,11 @@ Yoda is here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1041">NO</temporary>
+    <temporary score="1087">NO</temporary>
     <children>
       <child nodeId="node-0x234eb010" />
       <child nodeId="node-0x26987900" />
-      <child nodeId="node-0x26aab6e0" />
+      <child nodeId="node-0x729bb00" />
       <child nodeId="node-0xd958af0" />
       <child nodeId="node-0x2343d530" />
     </children>
@@ -77,7 +77,7 @@ Taken.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1041">YES</temporary>
+    <temporary score="1087">YES</temporary>
     <children>
       <child nodeId="node-0x23438b90" />
       <child nodeId="node-0x26987f00" />
@@ -739,23 +739,6 @@ Yoda attacks the bounty hunter with the green light sabre, causing 1 point of da
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="829">YES</temporary>
-    <children>
-      <child nodeId="node-0x269c30d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x269c30d0">
-    <command xml:space="preserve">attack bounty hunter with sabre</command>
-    <result xml:space="preserve">You attack the bounty hunter with the light sabre, causing 1 point of damage!
-
-The bounty hunter attacks Drong with the shock rifle, causing 4 points of damage!
-
-Drong attacked the bounty hunter with the blue light sabre, killing the bounty hunter!
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="828">YES</temporary>
   </item>
   <item nodeId="node-0x269d7af0">
     <command xml:space="preserve">spar with yoda</command>
@@ -1092,15 +1075,14 @@ You missed Yoda
     <command xml:space="preserve">press button</command>
     <result xml:space="preserve">It is now on.
 
-
+&quot;crackle&quot;
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1041">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="1087">YES</temporary>
     <children>
       <child nodeId="node-0x17436660" />
       <child nodeId="node-0x26a7ed10" />
-      <child nodeId="node-0x1bfd92b0" />
       <child nodeId="node-0x26a8ebb0" />
     </children>
   </item>
@@ -1260,294 +1242,6 @@ Yoda arrives from the south.
     <changed>YES</changed>
     <temporary score="1017">YES</temporary>
   </item>
-  <item nodeId="node-0x1bfd92b0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Arena
-Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
-
-A clone warrior faces you, wielding a laser rifle and a clone blaster.
-
-A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
-
-The clone warrior attacks you with the laser rifle, causing 5 points of damage!
-
-The bounty hunter attacks you with the bounty blaster, causing 5 points of damage!
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="819">YES</temporary>
-    <children>
-      <child nodeId="node-0x11863300" />
-    </children>
-  </item>
-  <item nodeId="node-0x11863300">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-Drong is here.
-
-Yoda is here.
-
-The clone warrior arrives from the south.
-
-The bounty hunter arrives from the south.
-
-&quot;wrrym&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="819">YES</temporary>
-    <children>
-      <child nodeId="node-0x269a1420" />
-      <child nodeId="node-0x2340c6d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x2340c6d0">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
-
-A clone warrior faces you, wielding a laser rifle and a clone blaster.
-
-Drong is here.
-
-Yoda is here.
-
-The bounty hunter attacks you with the bounty blaster, causing 0 points of damage!
-
-The clone warrior attacks Drong with the laser rifle, causing 3 points of damage!
-
-Drong attacks the bounty hunter with the blue light sabre, causing 5 points of damage!
-
-Yoda attacks the clone warrior with the green light sabre, causing 4 points of damage!
-
-&quot;snap&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="809">YES</temporary>
-    <children>
-      <child nodeId="node-0x11830610" />
-    </children>
-  </item>
-  <item nodeId="node-0x11830610">
-    <command xml:space="preserve">attack hunter with sabre</command>
-    <result xml:space="preserve">You attack the bounty hunter with the light sabre, causing 8 points of damage!
-
-The bounty hunter attacks you with the shock rifle, causing 7 points of damage!
-
-The clone warrior attacks Yoda with the clone blaster, causing 0 points of damage!
-
-Drong attacked the bounty hunter with the blue light sabre, killing the bounty hunter!
-
-Yoda attacks the clone warrior with the green light sabre, causing 1 point of damage!
-
-You must supply a noun.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="809">YES</temporary>
-    <children>
-      <child nodeId="node-0x25d01d40" />
-    </children>
-  </item>
-  <item nodeId="node-0x25d01d40">
-    <command xml:space="preserve">attack hunter with sabre</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="809">YES</temporary>
-    <children>
-      <child nodeId="node-0x26985b50" />
-    </children>
-  </item>
-  <item nodeId="node-0x26985b50">
-    <command xml:space="preserve">attack clone with sabre</command>
-    <result xml:space="preserve">(the clone warrior with the light sabre)
-You attack the clone warrior with the light sabre, causing 2 points of damage!
-
-The clone warrior attacks Drong with the laser rifle, causing 7 points of damage!
-
-Drong attacks the clone warrior with the blue light sabre, causing 6 points of damage!
-
-Yoda attacks the clone warrior with the green light sabre, causing 4 points of damage!
-
-You must supply a noun.
-
-&quot;snap&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="809">YES</temporary>
-    <children>
-      <child nodeId="node-0xda470b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xda470b0">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:
-  a light sabre (providing light)
-
-The clone warrior attacks Yoda with the clone blaster, causing 1 point of damage!
-
-Drong attacked the clone warrior with the blue light sabre, killing the clone warrior!
-
-You must supply a noun.
-
-You must supply a noun.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="809">YES</temporary>
-    <children>
-      <child nodeId="node-0x2341e100" />
-    </children>
-  </item>
-  <item nodeId="node-0x2341e100">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-Drong is here.
-
-Yoda is here.
-
-You can also see a clone blaster, a laser rifle, a bounty blaster and a shock rifle here.
-
-You must supply a noun.
-
-You must supply a noun.
-
-&quot;hrrrm&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="808">YES</temporary>
-  </item>
-  <item nodeId="node-0x269a1420">
-    <command xml:space="preserve">attack clone with sabre</command>
-    <result xml:space="preserve">(the clone warrior with the light sabre)
-You attack the clone warrior with the light sabre, causing 7 points of damage!
-
-The bounty hunter attacks you with the shock rifle, causing 2 points of damage!
-
-The clone warrior attacks you with the clone blaster, causing 5 points of damage!
-
-Drong attacks the clone warrior with the blue light sabre, causing 11 points of damage!
-
-Yoda attacks the clone warrior with the green light sabre, causing 2 points of damage!
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="819">YES</temporary>
-    <children>
-      <child nodeId="node-0x269c9e70" />
-    </children>
-  </item>
-  <item nodeId="node-0x269c9e70">
-    <command xml:space="preserve">attack clone with sabre</command>
-    <result xml:space="preserve">(the clone warrior with the light sabre)
-You attack with the light sabre, killing the clone warrior!
-
-The bounty hunter attacks you with the shock rifle, causing 6 points of damage!
-
-Drong attacks the bounty hunter with the blue light sabre, causing 4 points of damage!
-
-Yoda attacks the bounty hunter with the green light sabre, causing 4 points of damage!
-
-&quot;hrrrm&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="819">YES</temporary>
-    <children>
-      <child nodeId="node-0x1c05be30" />
-    </children>
-  </item>
-  <item nodeId="node-0x1c05be30">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Arena
-Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
-
-The bounty hunter arrives from the north.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="819">YES</temporary>
-    <children>
-      <child nodeId="node-0x1749d8f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1749d8f0">
-    <command xml:space="preserve">attack hunter with sabre</command>
-    <result xml:space="preserve">You attack the bounty hunter with the light sabre, causing 8 points of damage!
-
-The bounty hunter attacks you with the bounty blaster, causing 2 points of damage!
-
-&quot;hrrrm&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="819">YES</temporary>
-    <children>
-      <child nodeId="node-0x23441c70" />
-    </children>
-  </item>
-  <item nodeId="node-0x23441c70">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-Drong is here.
-
-Yoda is here.
-
-You can also see a clone blaster and a laser rifle here.
-
-The bounty hunter arrives from the south.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="819">YES</temporary>
-    <children>
-      <child nodeId="node-0x25d08260" />
-    </children>
-  </item>
-  <item nodeId="node-0x25d08260">
-    <command xml:space="preserve">attack hunter with sabre</command>
-    <result xml:space="preserve">You attack the bounty hunter with the light sabre, causing 1 point of damage!
-
-The bounty hunter attacks Drong with the shock rifle, causing 5 points of damage!
-
-Drong attacked the bounty hunter with the blue light sabre, killing the bounty hunter!
-
-&quot;pop&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="818">YES</temporary>
-  </item>
   <item nodeId="node-0x26a7ed10">
     <command xml:space="preserve">hit yoda with sabre</command>
     <result xml:space="preserve">Ooh I think this is a mistake.
@@ -1563,14 +1257,14 @@ You attack Yoda with the light sabre, causing 10 points of damage!
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
 Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;You must unlearn what you have learned.&quot;
+Yoda says &quot;Many of the truths that we cling to depend on our point of view.&quot;
 
-Your experience points increases by 7.  
-&quot;pop&quot;
+Your experience points increases by 3.  
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1041">YES</temporary>
+    <temporary score="1087">YES</temporary>
     <children>
       <child nodeId="node-0x71294f0" />
     </children>
@@ -1578,15 +1272,15 @@ Your experience points increases by 7.
   <item nodeId="node-0x71294f0">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;A Jedi&apos;s strength flows from the Force.&quot;
+Yoda performs an elegant backflip to avoid your well aimed stroke.
+Yoda says &quot;Always two there are, a master and an apprentice.&quot;
 
-Your experience points increases by 6.  
-
+Your experience points increases by 7.  
+&quot;crackle&quot;
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1041">YES</temporary>
+    <temporary score="1087">YES</temporary>
     <children>
       <child nodeId="node-0x23477860" />
     </children>
@@ -1594,15 +1288,15 @@ Your experience points increases by 6.
   <item nodeId="node-0x23477860">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;Truly how wonderful the mind of a child is.&quot;
+Yoda side steps your clumsy maneuver.
+Yoda says &quot;The dark side clouds everything. Impossible to see the light, the future is.&quot;
 
-Your experience points increases by 5.  
-&quot;pop&quot;
+Your experience points increases by 1.  
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1041">YES</temporary>
+    <temporary score="1087">YES</temporary>
     <children>
       <child nodeId="node-0x26ab5880" />
     </children>
@@ -1610,15 +1304,15 @@ Your experience points increases by 5.
   <item nodeId="node-0x26ab5880">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;When you look at the dark side, careful you must be. For the dark side looks back.&quot;
+Yoda easilly evades your reach.
+Yoda says &quot;The dark side clouds everything. Impossible to see the light, the future is.&quot;
 
 Your experience points increases by 3.  
-
+&quot;wrrym&quot;
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1041">YES</temporary>
+    <temporary score="1087">YES</temporary>
     <children>
       <child nodeId="node-0x1c01c600" />
     </children>
@@ -1626,15 +1320,15 @@ Your experience points increases by 3.
   <item nodeId="node-0x1c01c600">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda easilly evades your reach.
-Yoda says &quot;Already know you that which you need.&quot;
+Yoda side steps your clumsy maneuver.
+Yoda says &quot;Always pass on what you have learned.&quot;
 
-Your experience points increases by 3.  
+Your experience points increases by 0.  
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1041">YES</temporary>
+    <temporary score="1087">YES</temporary>
     <children>
       <child nodeId="node-0x23462790" />
     </children>
@@ -1642,15 +1336,15 @@ Your experience points increases by 3.
   <item nodeId="node-0x23462790">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;Always in motion is the future.&quot;
+Yoda strikes like a viper while seeming to hover outside your range.
+Yoda says &quot;Through the Force, things you will see. Other places. The future...the past. Old friends long gone. &quot;
 
-Your experience points increases by 2.  
-&quot;vrrrm&quot;
+Your experience points increases by 0.  
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1041">YES</temporary>
+    <temporary score="1087">YES</temporary>
     <children>
       <child nodeId="node-0x25d142f0" />
     </children>
@@ -1658,15 +1352,15 @@ Your experience points increases by 2.
   <item nodeId="node-0x25d142f0">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda easilly evades your reach.
-Yoda says &quot;Already know you that which you need.&quot;
+Yoda performs an elegant backflip to avoid your well aimed stroke.
+Yoda says &quot;You must unlearn what you have learned.&quot;
 
 Your experience points increases by 4.  
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1041">YES</temporary>
+    <temporary score="1087">YES</temporary>
     <children>
       <child nodeId="node-0x25d6d520" />
     </children>
@@ -1674,31 +1368,250 @@ Your experience points increases by 4.
   <item nodeId="node-0x25d6d520">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;Train yourself to let go of everything you fear to lose.&quot;
+Yoda strikes like a viper while seeming to hover outside your range.
+Yoda says &quot;In a dark place we find ourselves, and a little more knowledge lights our way.&quot;
 
-Your experience points increases by 6.  
+Your experience points increases by 1.  
+&quot;wrrym&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1087">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c05f650" />
+      <child nodeId="node-0x261365b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x261365b0">
+    <command xml:space="preserve">relations</command>
+    <result xml:space="preserve">Follower relates various persons to one person:
+  Drong  &gt;=&gt;  yourself
+Ally relates people to each other:
+  Drong  &lt;=&gt;  yourself
+  Yoda  &lt;=&gt;  yourself
+  Yoda  &lt;=&gt;  Drong
+  The bounty hunter  &lt;=&gt;  the clone warrior
+Enemy relates people to each other:
+  The clone warrior  &lt;=&gt;  yourself
+  The clone warrior  &lt;=&gt;  Drong
+  The clone warrior  &lt;=&gt;  Yoda
+  The bounty hunter  &lt;=&gt;  yourself
+  The bounty hunter  &lt;=&gt;  Drong
+  The bounty hunter  &lt;=&gt;  Yoda
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1041">YES</temporary>
+    <temporary score="1067">YES</temporary>
     <children>
-      <child nodeId="node-0x1c05f650" />
+      <child nodeId="node-0x26ae80f0" />
     </children>
+  </item>
+  <item nodeId="node-0x26ae80f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a clone blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+The clone warrior attacks you with the laser rifle, causing 2 points of damage!
+
+The bounty hunter attacks you with the bounty blaster, causing 5 points of damage!
+
+Drong arrives from the north.
+
+&quot;snap&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1067">YES</temporary>
+    <children>
+      <child nodeId="node-0x26990d80" />
+    </children>
+  </item>
+  <item nodeId="node-0x26990d80">
+    <command xml:space="preserve">hit clone with sabre</command>
+    <result xml:space="preserve">(the clone warrior with the light sabre)
+You attack the clone warrior with the light sabre, causing 2 points of damage!
+
+Drong attacks the bounty hunter with the blue light sabre, causing 0 points of damage!
+
+The clone warrior attacks Drong with the laser rifle, causing 4 points of damage!
+
+The bounty hunter attacks you with the shock rifle, causing 3 points of damage!
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1067">YES</temporary>
+    <children>
+      <child nodeId="node-0x25dca9b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x25dca9b0">
+    <command xml:space="preserve">hit clone with sabre</command>
+    <result xml:space="preserve">(the clone warrior with the light sabre)
+You attack the clone warrior with the light sabre, causing 7 points of damage!
+
+Drong attacks the clone warrior with the blue light sabre, causing 5 points of damage!
+
+The clone warrior attacks you with the clone blaster, causing 1 point of damage!
+
+The bounty hunter attacks Drong with the shock rifle, causing 0 points of damage!
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1067">YES</temporary>
+    <children>
+      <child nodeId="node-0x25d8a6e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x25d8a6e0">
+    <command xml:space="preserve">hit clone with sabre</command>
+    <result xml:space="preserve">(the clone warrior with the light sabre)
+You attack the clone warrior with the light sabre, causing 2 points of damage!
+
+Drong attacks the bounty hunter with the blue light sabre, causing 2 points of damage!
+
+The clone warrior attacks you with the laser rifle, causing 5 points of damage!
+
+The bounty hunter attacks you with the bounty blaster, causing 2 points of damage!
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1067">YES</temporary>
+    <children>
+      <child nodeId="node-0x23442b70" />
+    </children>
+  </item>
+  <item nodeId="node-0x23442b70">
+    <command xml:space="preserve">hit hunter with sabre</command>
+    <result xml:space="preserve">You attack the bounty hunter with the light sabre, causing 3 points of damage!
+
+Drong attacks the bounty hunter with the blue light sabre, causing 3 points of damage!
+
+The clone warrior attacks you with the laser rifle, causing 0 points of damage!
+
+The bounty hunter attacks Drong with the shock rifle, causing 5 points of damage!
+
+&quot;wrrym&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1067">YES</temporary>
+    <children>
+      <child nodeId="node-0x2613a0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2613a0c0">
+    <command xml:space="preserve">hit hunter with sabre</command>
+    <result xml:space="preserve">You attack the bounty hunter with the light sabre, causing 2 points of damage!
+
+Drong attacks the bounty hunter with the blue light sabre, causing 3 points of damage!
+
+The clone warrior attacks you with the clone blaster, causing 3 points of damage!
+
+The bounty hunter attacks Drong with the bounty blaster, causing 4 points of damage!
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1067">YES</temporary>
+    <children>
+      <child nodeId="node-0x269e9dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x269e9dd0">
+    <command xml:space="preserve">hit hunter with sabre</command>
+    <result xml:space="preserve">You attack the bounty hunter with the light sabre, causing 6 points of damage!
+Looks like the bounty hunter is taking this personally.
+
+Drong attacked the bounty hunter with the blue light sabre, killing the bounty hunter!
+
+The clone warrior attacks you with the laser rifle, causing 3 points of damage!
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1067">YES</temporary>
+    <children>
+      <child nodeId="node-0x26970c30" />
+    </children>
+  </item>
+  <item nodeId="node-0x26970c30">
+    <command xml:space="preserve">hit hunter with sabre</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1067">YES</temporary>
+    <children>
+      <child nodeId="node-0x269e9200" />
+    </children>
+  </item>
+  <item nodeId="node-0x269e9200">
+    <command xml:space="preserve">hit clone with sabre</command>
+    <result xml:space="preserve">(the clone warrior with the light sabre)
+You attack with the light sabre, killing the clone warrior!
+
+&quot;crackle&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1067">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c011e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c011e30">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1067">YES</temporary>
+    <children>
+      <child nodeId="node-0x11856790" />
+    </children>
+  </item>
+  <item nodeId="node-0x11856790">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please answer yes or no.&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1067">YES</temporary>
+    <children>
+      <child nodeId="node-0x1930be0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1930be0">
+    <command xml:space="preserve">yes</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1066">YES</temporary>
   </item>
   <item nodeId="node-0x1c05f650">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda easilly evades your reach.
-Yoda says &quot;Clear your mind must be, if you are to find the villains behind this plot.&quot;
+Yoda side steps your clumsy maneuver.
+Yoda says &quot;You will know ...the good from the bad… when you are calm, at peace. Passive. A Jedi uses the Force for knowledge and defense, never for attack.&quot;
 
-Your experience points increases by 3.  
-
+Your experience points increases by 0.  
+&quot;snap&quot;
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1041">YES</temporary>
+    <temporary score="1087">YES</temporary>
     <children>
       <child nodeId="node-0x26ac73d0" />
     </children>
@@ -1707,14 +1620,161 @@ Your experience points increases by 3.
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
 Yoda performs an elegant backflip to avoid your well aimed stroke.
-Yoda says &quot;You will find only what you bring in.&quot;
+Yoda says &quot;Always in motion is the future.&quot;
 
-Your experience points increases by 3.  Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
+Your experience points increases by 4.  
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1040">YES</temporary>
+    <temporary score="1087">YES</temporary>
+    <children>
+      <child nodeId="node-0x23471180" />
+    </children>
+  </item>
+  <item nodeId="node-0x23471180">
+    <command xml:space="preserve">spar with yoda</command>
+    <result xml:space="preserve">(with the light sabre)
+Yoda side steps your clumsy maneuver.
+Yoda says &quot;Once you start down the dark path, forever will it dominate your destiny, consume you it will.&quot;
+
+Your experience points increases by 4.  
+&quot;hrrrm&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1087">YES</temporary>
+    <children>
+      <child nodeId="node-0x23498c70" />
+    </children>
+  </item>
+  <item nodeId="node-0x23498c70">
+    <command xml:space="preserve">spar with yoda</command>
+    <result xml:space="preserve">(with the light sabre)
+Yoda easilly evades your reach.
+Yoda says &quot;You think Yoda stops teaching, just because his student does not want to hear? A teacher Yoda is. Yoda teaches like drunkards drink, like killers kill.&quot;
+
+Your experience points increases by 7.  
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1087">YES</temporary>
+    <children>
+      <child nodeId="node-0x269ca980" />
+    </children>
+  </item>
+  <item nodeId="node-0x269ca980">
+    <command xml:space="preserve">spar with yoda</command>
+    <result xml:space="preserve">(with the light sabre)
+Yoda performs an elegant backflip to avoid your well aimed stroke.
+Yoda says &quot;I cannot teach him. The boy has no patience.&quot;
+
+Your experience points increases by 3.  
+&quot;pop&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1087">YES</temporary>
+    <children>
+      <child nodeId="node-0x261d59b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x261d59b0">
+    <command xml:space="preserve">spar with yoda</command>
+    <result xml:space="preserve">(with the light sabre)
+Yoda easilly evades your reach.
+Yoda says &quot;Size matters not. Look at me. Judge me by my size, do you?  Hmm?  Hmm.  And well you should not.  For my ally is the Force, and a powerful ally it is. Life creates it, makes it grow. Its energy surrounds us and binds us. Luminous beings are we, not this crude matter. You must feel the Force around you; here, between you, me, the tree, the rock, everywhere, yes. Even between the land and the ship.&quot;
+
+Your experience points increases by 0.  
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1087">YES</temporary>
+    <children>
+      <child nodeId="node-0x25d69710" />
+    </children>
+  </item>
+  <item nodeId="node-0x25d69710">
+    <command xml:space="preserve">spar with yoda</command>
+    <result xml:space="preserve">(with the light sabre)
+Yoda strikes like a viper while seeming to hover outside your range.
+Yoda says &quot;You will know ...the good from the bad… when you are calm, at peace. Passive. A Jedi uses the Force for knowledge and defense, never for attack.&quot;
+
+Your experience points increases by 3.  Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
+&quot;crackle&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1087">YES</temporary>
+    <children>
+      <child nodeId="node-0x25dd5370" />
+    </children>
+  </item>
+  <item nodeId="node-0x25dd5370">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a clone blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+The clone warrior attacks you with the clone blaster, causing 4 points of damage!
+
+The bounty hunter attacks you with the bounty blaster, causing 3 points of damage!
+
+Drong arrives from the north.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1087">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bf0eef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bf0eef0">
+    <command xml:space="preserve">attack clone with sabre</command>
+    <result xml:space="preserve">(the clone warrior with the light sabre)
+You attack the clone warrior with the light sabre, causing 2 points of damage!
+Looks like the clone warrior is taking this personally.
+
+Drong attacks the clone warrior with the blue light sabre, causing 0 points of damage!
+
+The clone warrior attacks you with the laser rifle, causing 4 points of damage!
+
+The bounty hunter attacks Drong with the shock rifle, causing 0 points of damage!
+
+&quot;snap&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1087">YES</temporary>
+    <children>
+      <child nodeId="node-0x234ad6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x234ad6b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Training Room
+A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
+
+Yoda is here.
+
+Drong arrives from the south.
+
+The clone warrior arrives from the south.
+
+&quot;wrrym&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1086">YES</temporary>
   </item>
   <item nodeId="node-0x26987f00">
     <command xml:space="preserve">push butt</command>
@@ -2736,184 +2796,49 @@ Yoda attacked the clone warrior with the green light sabre, killing the clone wa
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
   </item>
-  <item nodeId="node-0x26aab6e0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Darkness
-It is pitch dark, and you can&apos;t see a thing.
+  <item nodeId="node-0x729bb00">
+    <command xml:space="preserve">relations</command>
+    <result xml:space="preserve">Ally relates people to each other:
+  Drong  &lt;=&gt;  yourself
+  Yoda  &lt;=&gt;  yourself
+  Yoda  &lt;=&gt;  Drong
+  The bounty hunter  &lt;=&gt;  the clone warrior
+Enemy relates people to each other:
+  The clone warrior  &lt;=&gt;  yourself
+  The clone warrior  &lt;=&gt;  Drong
+  The clone warrior  &lt;=&gt;  Yoda
+  The bounty hunter  &lt;=&gt;  yourself
+  The bounty hunter  &lt;=&gt;  Drong
+  The bounty hunter  &lt;=&gt;  Yoda
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="799">YES</temporary>
+    <temporary score="1044">YES</temporary>
     <children>
-      <child nodeId="node-0x26988620" />
+      <child nodeId="node-0x1bf007d0" />
     </children>
   </item>
-  <item nodeId="node-0x26988620">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-Drong is here.
-
-Yoda is here.
+  <item nodeId="node-0x1bf007d0">
+    <command xml:space="preserve">x yoda</command>
+    <result xml:space="preserve">Yoda is respected as one of the most wise and powerful Jedi Masters in the history of the galaxy. Yoda is a master of the Force and Light Sabre combat. Yoda has served as the Grand Master of the Jedi High Council for over 700 years.   Yoda is carrying green light sabre.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="799">YES</temporary>
+    <temporary score="1044">YES</temporary>
     <children>
-      <child nodeId="node-0x1c1343f0" />
+      <child nodeId="node-0x269ef510" />
     </children>
   </item>
-  <item nodeId="node-0x1c1343f0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Darkness
-It is pitch dark, and you can&apos;t see a thing.
+  <item nodeId="node-0x269ef510">
+    <command xml:space="preserve">diagnose yoda</command>
+    <result xml:space="preserve">Yoda has 95 out of a possible 100 hit points remaining.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="799">YES</temporary>
-    <children>
-      <child nodeId="node-0x1925f70" />
-    </children>
-  </item>
-  <item nodeId="node-0x1925f70">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-Drong is here.
-
-Yoda is here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="799">YES</temporary>
-    <children>
-      <child nodeId="node-0x25d2a060" />
-    </children>
-  </item>
-  <item nodeId="node-0x25d2a060">
-    <command xml:space="preserve">test table</command>
-    <result xml:space="preserve">(Testing.)
-
-&gt;[1] open left drawer
-You open the left drawer, revealing a light sabre.
-
-&gt;[2] open right drawer
-You open the right drawer, revealing a D battery.
-
-&gt;[3] get d battery
-Taken.
-
-&gt;[4] get sabre
-Taken.
-
-&gt;[5] put battery in sabre
-(the D battery in the light sabre)
-(first opening the light sabre)
-(then closing the light sabre&apos;s battery compartment)
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="799">YES</temporary>
-    <children>
-      <child nodeId="node-0x26aa31a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x26aa31a0">
-    <command xml:space="preserve">press button</command>
-    <result xml:space="preserve">It is now on.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="799">YES</temporary>
-    <children>
-      <child nodeId="node-0x17444870" />
-    </children>
-  </item>
-  <item nodeId="node-0x17444870">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Arena
-Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
-
-A clone warrior faces you, wielding a laser rifle and a clone blaster.
-
-A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
-
-The clone warrior attacks you with the laser rifle, causing 6 points of damage!
-
-The bounty hunter attacks you with the bounty blaster, causing 3 points of damage!
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="799">YES</temporary>
-    <children>
-      <child nodeId="node-0x25dcb130" />
-    </children>
-  </item>
-  <item nodeId="node-0x25dcb130">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-Drong is here.
-
-Yoda is here.
-
-The clone warrior arrives from the south.
-
-The bounty hunter arrives from the south.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="799">YES</temporary>
-    <children>
-      <child nodeId="node-0x196aa200" />
-    </children>
-  </item>
-  <item nodeId="node-0x196aa200">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
-
-A clone warrior faces you, wielding a laser rifle and a clone blaster.
-
-Drong is here.
-
-Yoda is here.
-
-The bounty hunter attacks Drong with the bounty blaster, causing 5 points of damage!
-
-The clone warrior attacks Drong with the clone blaster, causing 5 points of damage!
-
-Drong attacks the bounty hunter with the blue light sabre, causing 1 point of damage!
-
-You must supply a second noun.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="799">YES</temporary>
+    <temporary score="1043">YES</temporary>
   </item>
   <item nodeId="node-0x26987900">
     <command xml:space="preserve">say hi to drong</command>
