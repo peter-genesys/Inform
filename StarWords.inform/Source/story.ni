@@ -172,13 +172,13 @@ The bench is scenery.
 
  
 
-Drong is a rebel in the training room.  "Drong is here."
+Drong is a rebel in the training room.  "Drong is here." The description of Drong is "Drong is a youngling of extraudinary potential.  Drong is carrying [list of objects carried by Drong]."
 The maximum hit points of Drong is 25.
 The XP of Drong is 25.
 
-Yoda is a rebel in the training room.  "Yoda is here."
+Yoda is a rebel in the training room.  "Yoda is here." 
+The description of Yoda is "Yoda is respected as one of the most wise and powerful Jedi Masters in the history of the galaxy. Yoda is a master of the Force and Light Sabre combat. Yoda has served as the Grand Master of the Jedi High Council for over 700 years.   Yoda is carrying [list of objects carried by Yoda]."
 The maximum hit points of Yoda is 100.
-The description of Yoda is "Yoda is respected as one of the most wise and powerful Jedi Masters in the history of the galaxy. Yoda is a master of the Force and Light Sabre combat. Yoda has served as the Grand Master of the Jedi High Council for over 700 years."
 The damage multiplier of Yoda is 2.
 
 The XP of yoda is 100.
@@ -243,16 +243,16 @@ Report sparring (this is the normal sparring report rule):
 		say "Yoda says '[remark entry]'[paragraph break]";		
 	otherwise:
 		say "[The noun] [one of]paries your thrust[or]blocks your advance[or]drops under your blow[or]is surprised momentarilly by your feint, but recovers[at random] [one of]with a smile and a playful kick in the ass[or]and suggests you loosen your grip[or]then tells you to trust the force[at random].";
-		if the XP of the player < the Max XP of the player:
-			increase the XP of the player by the training points;
-			say "Your experience points increases by [training points].  ";
-			if the XP of the player >= the Max XP of the player:
-				if the damage multiplier of the player is 1:
-					increment the damage multiplier of the player;
-					[Now the damage multiplier of the player is 2;]
-					say "[The noun] says 'You're training is now complete!'.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav";
-					Now Drong follows the player.
-					[Now Drong helps the player;]
+	if the XP of the player < the Max XP of the player:
+		increase the XP of the player by the training points;
+		say "Your experience points increases by [training points].  ";
+		if the XP of the player >= the Max XP of the player:
+			if the damage multiplier of the player is 1:
+				increment the damage multiplier of the player;
+				[Now the damage multiplier of the player is 2;]
+				say "[The noun] says 'You're training is now complete!'.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav";
+				Now Drong follows the player.
+				[Now Drong helps the player;]
 
 	[otherwise:
  		if training points is 0:
