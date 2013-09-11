@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x71074e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x234ad6b0" />
+  <activeNode nodeId="node-0x1180b480" />
   <item nodeId="node-0x71074e0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -22,7 +22,7 @@ Yoda is here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1087">NO</temporary>
+    <temporary score="1114">NO</temporary>
     <children>
       <child nodeId="node-0x234eb010" />
       <child nodeId="node-0x26987900" />
@@ -77,7 +77,7 @@ Taken.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1114">YES</temporary>
     <children>
       <child nodeId="node-0x23438b90" />
       <child nodeId="node-0x26987f00" />
@@ -1075,11 +1075,11 @@ You missed Yoda
     <command xml:space="preserve">press button</command>
     <result xml:space="preserve">It is now on.
 
-&quot;crackle&quot;
+&quot;hrrrm&quot;
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1114">YES</temporary>
     <children>
       <child nodeId="node-0x17436660" />
       <child nodeId="node-0x26a7ed10" />
@@ -1256,31 +1256,91 @@ You attack Yoda with the light sabre, causing 10 points of damage!
   <item nodeId="node-0x17436660">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;Many of the truths that we cling to depend on our point of view.&quot;
+Yoda performs an elegant backflip to avoid your well aimed stroke.
+Yoda says &quot;You will find only what you bring in.&quot;
 
-Your experience points increases by 3.  
+Your experience points increases by 2.  
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1114">YES</temporary>
     <children>
       <child nodeId="node-0x71294f0" />
+      <child nodeId="node-0x1bf6e4d0" />
     </children>
   </item>
-  <item nodeId="node-0x71294f0">
-    <command xml:space="preserve">spar with yoda</command>
+  <item nodeId="node-0x1bf6e4d0">
+    <command xml:space="preserve">attack yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda performs an elegant backflip to avoid your well aimed stroke.
-Yoda says &quot;Always two there are, a master and an apprentice.&quot;
+Ooh I think this is a mistake.
+You attack Yoda with the light sabre, causing 5 points of damage!
 
-Your experience points increases by 7.  
 &quot;crackle&quot;
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1114">YES</temporary>
+    <children>
+      <child nodeId="node-0x2613dc20" />
+    </children>
+  </item>
+  <item nodeId="node-0x2613dc20">
+    <command xml:space="preserve">spar with yoda</command>
+    <result xml:space="preserve">(with the light sabre)
+Yoda is not inclined to spar with you.
+
+&quot;wrrym&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1114">YES</temporary>
+    <children>
+      <child nodeId="node-0x269a4d20" />
+    </children>
+  </item>
+  <item nodeId="node-0x269a4d20">
+    <command xml:space="preserve">attack yoda</command>
+    <result xml:space="preserve">(with the light sabre)
+If you are very lucky you&apos;ll live long enough to regret this.
+You attack Yoda with the light sabre, causing 3 points of damage!
+
+Yoda attacks you with the green light sabre, causing 0 points of damage!
+
+&quot;hrrrm&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1114">YES</temporary>
+    <children>
+      <child nodeId="node-0x1180b480" />
+    </children>
+  </item>
+  <item nodeId="node-0x1180b480">
+    <command xml:space="preserve">spar with yoda</command>
+    <result xml:space="preserve">(with the light sabre)
+Yoda is going to play for keeps.
+
+Yoda attacks you with the green light sabre, causing 8 points of damage!
+
+&quot;pop&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1113">YES</temporary>
+  </item>
+  <item nodeId="node-0x71294f0">
+    <command xml:space="preserve">spar with yoda</command>
+    <result xml:space="preserve">(with the light sabre)
+Yoda side steps your clumsy maneuver.
+Yoda says &quot;Named must your fear be before banish it you can.&quot;
+
+Your experience points increases by 6.  
+&quot;hrrrm&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1107">YES</temporary>
     <children>
       <child nodeId="node-0x23477860" />
     </children>
@@ -1288,15 +1348,15 @@ Your experience points increases by 7.
   <item nodeId="node-0x23477860">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;The dark side clouds everything. Impossible to see the light, the future is.&quot;
+Yoda easilly evades your reach.
+Yoda says &quot;Many of the truths that we cling to depend on our point of view.&quot;
 
-Your experience points increases by 1.  
+Your experience points increases by 7.  
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1107">YES</temporary>
     <children>
       <child nodeId="node-0x26ab5880" />
     </children>
@@ -1304,15 +1364,15 @@ Your experience points increases by 1.
   <item nodeId="node-0x26ab5880">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda easilly evades your reach.
-Yoda says &quot;The dark side clouds everything. Impossible to see the light, the future is.&quot;
+Yoda performs an elegant backflip to avoid your well aimed stroke.
+Yoda says &quot;Ready are you? What know you of ready? For eight hundred years have I trained Jedi. My own counsel will I keep on who is to be trained. A Jedi must have the deepest commitment, the most serious mind. This one a long time have I watched. All his life has he looked away... to the future, to the horizon. Never his mind on where he was. Hmm? What he was doing. Hmph. Adventure. Heh. Excitement. Heh. A Jedi craves not these things. You are reckless.&quot;
 
-Your experience points increases by 3.  
-&quot;wrrym&quot;
+Your experience points increases by 6.  
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1107">YES</temporary>
     <children>
       <child nodeId="node-0x1c01c600" />
     </children>
@@ -1321,14 +1381,14 @@ Your experience points increases by 3.
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
 Yoda side steps your clumsy maneuver.
-Yoda says &quot;Always pass on what you have learned.&quot;
+Yoda says &quot;In a dark place we find ourselves, and a little more knowledge lights our way.&quot;
 
-Your experience points increases by 0.  
-
+Your experience points increases by 4.  
+&quot;snap&quot;
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1107">YES</temporary>
     <children>
       <child nodeId="node-0x23462790" />
     </children>
@@ -1337,14 +1397,14 @@ Your experience points increases by 0.
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
 Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;Through the Force, things you will see. Other places. The future...the past. Old friends long gone. &quot;
+Yoda says &quot;And well you should not. For my ally in the Force. And a powerful ally it is. Life creates it, makes it grow. It&apos;s energy surrounds us and binds us. Luminous beings are we...(Yoda pinches Luke&apos;s shoulder)...not this crude matter. (a sweeping gesture) You must feel the Force around you. (gesturing) Here, between you...me...the tree...the rock...everywhere! Yes, even between this land and that ship!&quot;
 
-Your experience points increases by 0.  
+Your experience points increases by 4.  
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1107">YES</temporary>
     <children>
       <child nodeId="node-0x25d142f0" />
     </children>
@@ -1352,15 +1412,15 @@ Your experience points increases by 0.
   <item nodeId="node-0x25d142f0">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda performs an elegant backflip to avoid your well aimed stroke.
-Yoda says &quot;You must unlearn what you have learned.&quot;
+Yoda side steps your clumsy maneuver.
+Yoda says &quot;You think Yoda stops teaching, just because his student does not want to hear? A teacher Yoda is. Yoda teaches like drunkards drink, like killers kill.&quot;
 
-Your experience points increases by 4.  
-
+Your experience points increases by 2.  
+&quot;snap&quot;
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1107">YES</temporary>
     <children>
       <child nodeId="node-0x25d6d520" />
     </children>
@@ -1368,15 +1428,15 @@ Your experience points increases by 4.
   <item nodeId="node-0x25d6d520">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;In a dark place we find ourselves, and a little more knowledge lights our way.&quot;
+Yoda performs an elegant backflip to avoid your well aimed stroke.
+Yoda says &quot;Always in motion is the future.&quot;
 
-Your experience points increases by 1.  
-&quot;wrrym&quot;
+Your experience points increases by 5.  
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1107">YES</temporary>
     <children>
       <child nodeId="node-0x1c05f650" />
       <child nodeId="node-0x261365b0" />
@@ -1604,14 +1664,14 @@ You attack with the light sabre, killing the clone warrior!
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
 Yoda side steps your clumsy maneuver.
-Yoda says &quot;You will know ...the good from the bad… when you are calm, at peace. Passive. A Jedi uses the Force for knowledge and defense, never for attack.&quot;
+Yoda says &quot;Try not. Do or do not, there is no try.&quot;
 
-Your experience points increases by 0.  
-&quot;snap&quot;
+Your experience points increases by 4.  Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1107">YES</temporary>
     <children>
       <child nodeId="node-0x26ac73d0" />
     </children>
@@ -1620,14 +1680,13 @@ Your experience points increases by 0.
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
 Yoda performs an elegant backflip to avoid your well aimed stroke.
-Yoda says &quot;Always in motion is the future.&quot;
+Yoda says &quot;You will know ...the good from the bad… when you are calm, at peace. Passive. A Jedi uses the Force for knowledge and defense, never for attack.&quot;
 
-Your experience points increases by 4.  
-
+&quot;pop&quot;
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1107">YES</temporary>
     <children>
       <child nodeId="node-0x23471180" />
     </children>
@@ -1635,15 +1694,14 @@ Your experience points increases by 4.
   <item nodeId="node-0x23471180">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;Once you start down the dark path, forever will it dominate your destiny, consume you it will.&quot;
+Yoda easilly evades your reach.
+Yoda says &quot;Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.&quot;
 
-Your experience points increases by 4.  
-&quot;hrrrm&quot;
+&quot;snap&quot;
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1107">YES</temporary>
     <children>
       <child nodeId="node-0x23498c70" />
     </children>
@@ -1651,15 +1709,14 @@ Your experience points increases by 4.
   <item nodeId="node-0x23498c70">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda easilly evades your reach.
-Yoda says &quot;You think Yoda stops teaching, just because his student does not want to hear? A teacher Yoda is. Yoda teaches like drunkards drink, like killers kill.&quot;
+Yoda strikes like a viper while seeming to hover outside your range.
+Yoda says &quot;In a dark place we find ourselves, and a little more knowledge lights our way.&quot;
 
-Your experience points increases by 7.  
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1107">YES</temporary>
     <children>
       <child nodeId="node-0x269ca980" />
     </children>
@@ -1667,15 +1724,14 @@ Your experience points increases by 7.
   <item nodeId="node-0x269ca980">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda performs an elegant backflip to avoid your well aimed stroke.
-Yoda says &quot;I cannot teach him. The boy has no patience.&quot;
+Yoda easilly evades your reach.
+Yoda says &quot;To answer power with power, the Jedi way this is not. In this war, a danger there is, of losing who we are.&quot;
 
-Your experience points increases by 3.  
-&quot;pop&quot;
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1107">YES</temporary>
     <children>
       <child nodeId="node-0x261d59b0" />
     </children>
@@ -1683,15 +1739,14 @@ Your experience points increases by 3.
   <item nodeId="node-0x261d59b0">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda easilly evades your reach.
-Yoda says &quot;Size matters not. Look at me. Judge me by my size, do you?  Hmm?  Hmm.  And well you should not.  For my ally is the Force, and a powerful ally it is. Life creates it, makes it grow. Its energy surrounds us and binds us. Luminous beings are we, not this crude matter. You must feel the Force around you; here, between you, me, the tree, the rock, everywhere, yes. Even between the land and the ship.&quot;
+Yoda side steps your clumsy maneuver.
+Yoda says &quot;A Jedi&apos;s strength flows from the Force.&quot;
 
-Your experience points increases by 0.  
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1107">YES</temporary>
     <children>
       <child nodeId="node-0x25d69710" />
     </children>
@@ -1699,15 +1754,14 @@ Your experience points increases by 0.
   <item nodeId="node-0x25d69710">
     <command xml:space="preserve">spar with yoda</command>
     <result xml:space="preserve">(with the light sabre)
-Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;You will know ...the good from the bad… when you are calm, at peace. Passive. A Jedi uses the Force for knowledge and defense, never for attack.&quot;
+Yoda performs an elegant backflip to avoid your well aimed stroke.
+Yoda says &quot;Truly how wonderful the mind of a child is.&quot;
 
-Your experience points increases by 3.  Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
-&quot;crackle&quot;
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1107">YES</temporary>
     <children>
       <child nodeId="node-0x25dd5370" />
     </children>
@@ -1722,9 +1776,9 @@ A clone warrior faces you, wielding a laser rifle and a clone blaster.
 
 A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
 
-The clone warrior attacks you with the clone blaster, causing 4 points of damage!
+The clone warrior attacks you with the laser rifle, causing 2 points of damage!
 
-The bounty hunter attacks you with the bounty blaster, causing 3 points of damage!
+The bounty hunter attacks you with the bounty blaster, causing 5 points of damage!
 
 Drong arrives from the north.
 
@@ -1732,7 +1786,7 @@ Drong arrives from the north.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1107">YES</temporary>
     <children>
       <child nodeId="node-0x1bf0eef0" />
     </children>
@@ -1740,20 +1794,20 @@ Drong arrives from the north.
   <item nodeId="node-0x1bf0eef0">
     <command xml:space="preserve">attack clone with sabre</command>
     <result xml:space="preserve">(the clone warrior with the light sabre)
-You attack the clone warrior with the light sabre, causing 2 points of damage!
+You attack the clone warrior with the light sabre, causing 9 points of damage!
 Looks like the clone warrior is taking this personally.
 
-Drong attacks the clone warrior with the blue light sabre, causing 0 points of damage!
+Drong attacks the clone warrior with the blue light sabre, causing 1 point of damage!
 
 The clone warrior attacks you with the laser rifle, causing 4 points of damage!
 
-The bounty hunter attacks Drong with the shock rifle, causing 0 points of damage!
+The bounty hunter attacks Drong with the bounty blaster, causing 0 points of damage!
 
-&quot;snap&quot;
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1087">YES</temporary>
+    <temporary score="1107">YES</temporary>
     <children>
       <child nodeId="node-0x234ad6b0" />
     </children>
@@ -1770,11 +1824,11 @@ Drong arrives from the south.
 
 The clone warrior arrives from the south.
 
-&quot;wrrym&quot;
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1086">YES</temporary>
+    <temporary score="1106">YES</temporary>
   </item>
   <item nodeId="node-0x26987f00">
     <command xml:space="preserve">push butt</command>

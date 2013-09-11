@@ -38,18 +38,12 @@ Ally relates people to each other [in groups]. The verb to help (he helps , they
 Enemy relates people to each other [in groups]. The verb to hinder (he hinders, they hinder, he hindered, he is hindered) implies the enemy relation.
 
 Definition: a person is unfriendly if he hinders the player.
-[Definition: a person is friendly if he helps the player.
-Definition: a person is neutral if he neither helps nor hinders the player.]
+Definition: a person is friendly if he helps the player.
+Definition: a person is neutral if he is not friendly and he is not unfriendly.
 
 A rebel is a kind of man.
 An imperial is a kind of man.
-[An imperial hinders a rebel.]
-
-[An enemy is a kind of man.
-A friendly is a kind of man.
-A rebel is a kind of man.
-A friendly is a kind of rebel.]
-
+ 
 Persuasion rule for asking rebels to try doing something: persuasion succeeds.
 
 When play begins:
@@ -81,19 +75,7 @@ Every turn:
 				]
 
 Section 3 - Following
-
-[A man is either stalking or not stalking.
-A man is usually not stalking.]
-
-[Yoda is not stalking.
-Drong is not stalking.
-
-Yoda helps the player.
-[Drong helps Yoda.]
-
-[Player likes Drong.]
- ]
-		
+ 		
 Every turn: 
 	repeat with actor running through person:
 		if actor is not the player:
@@ -208,10 +190,11 @@ Check an actor sparring (this is the can't spar a non-person rule):
 	if the noun is not a person: 
 		if the actor is the player, say "[The noun] is a poor sparring partner."; 
 		stop the action;
-	if the noun hinders the player:
+	[if the noun hinders the player:]
+	if the noun is unfriendly:
 		say "[Noun] is going to play for keeps.";
 		stop the action;
-	if the noun does not help the player:
+	if the noun is neutral: [does not help the player:]
 		say "[Noun] is not inclined to spar with you.";
 		stop the action.
 
