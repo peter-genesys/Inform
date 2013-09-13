@@ -35,7 +35,10 @@ Definition: a person is neutral if he is not friendly and he is not unfriendly.
 Persuasion rule for asking a person to try doing something: 
 	if the person is friendly:
 		[say "'Ok.'[line break]";]
-		persuasion succeeds.
+		persuasion succeeds;
+	otherwise:
+		[say "[person] ignores you";]
+		persuasion fails;	
 
 A rebel is a kind of man.
 An imperial is a kind of man.
@@ -168,6 +171,25 @@ The XP of yoda is 100.
 The Max XP of yoda is 100.
 
 Section 1 - Sparring with
+
+[Understand the command "track" as something new.
+
+Tracking is an action applying to one visible thing. Understand "track [someone]" as tracking.
+
+Report someone tracking (this is the standard report tracking with rule): 
+	Now the actor follows the noun;
+	say "[The actor] says 'Ok, I will follow [the noun].'[line break]";]
+	
+
+Understand the command "follow" as something new.
+
+Following is an action applying to one visible thing. Understand "follow [someone]" as following.
+
+Report someone following (this is the standard report following with rule): 
+	Now the actor follows the noun;
+	say "[The actor] says 'Ok, I will follow [the noun].'[line break]";
+ 
+
 
 Understand the commands "spar with" and "train with" as something new.
 
