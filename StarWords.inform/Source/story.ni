@@ -32,17 +32,37 @@ Definition: a person is unfriendly if he hinders the player.
 Definition: a person is friendly if he helps the player.
 Definition: a person is neutral if he is not friendly and he is not unfriendly.
 
-Persuasion rule for asking a person to try doing something: 
+[Persuasion rule for asking a person to try doing something: 
 	if the person is friendly:
 		[say "'Ok.'[line break]";]
 		persuasion succeeds;
 	otherwise:
 		[say "[person] ignores you";]
 		persuasion fails;	
-
+]
 A rebel is a kind of man.
 An imperial is a kind of man.
+
+[Persuasion rule for asking an rebel to try doing something: 
+		say "'Ok.'[line break]";
+		persuasion succeeds;
+		
+Persuasion rule for asking an imperial to try doing something: 
+		say "'Get stuffed.'[line break]";
+		persuasion fails;]
  
+Persuasion rule for asking a person who is friendly to try doing something: 
+		say "'Okay.'[line break]";
+		persuasion succeeds;
+		
+Persuasion rule for asking a person who is unfriendly to try doing something: 
+		say "'How dare you?'[line break]";
+		persuasion fails;
+		
+Persuasion rule for asking a person who is not friendly to try doing something: 
+		say "'Do I know you?'[line break]";
+		persuasion fails;
+
 
 
 When play begins:
@@ -58,6 +78,7 @@ When play begins:
 		repeat with goodguy2 running through rebel:
 			if goodguy is not goodguy2:
 				Now goodguy helps goodguy2;
+	[now the player is luke;]
 
 [testing relations]
 [
@@ -169,6 +190,32 @@ The damage multiplier of Yoda is 2.
 
 The XP of yoda is 100.
 The Max XP of yoda is 100.
+
+Luke is a rebel in the training room.  "Luke is here." The description of Luke is "Luke is a headstrong young man hoping to become a great warrior.  Luke is carrying [list of objects carried by Luke]."
+The maximum hit points of Luke is 25.
+ 
+The XP of Luke is 10. 
+The Max XP of Luke is 20. 
+
+The player is Luke.
+
+
+Section - Being someone
+
+Understand the command "become" as something new.
+
+Being is an action applying to one visible thing. Understand "become [someone]" as being.
+
+Check an actor being something (this is the can only become a friend rule): 
+	if the noun is not friendly:
+		say "You can only 'become' an ally, and [the noun] is NOT an ally of yours."; 
+		stop the action;
+
+Report being (this is the standard report being rule): 
+	say "I feel quite [noun]-ish now.";
+	Now the player is the noun.
+	[say "[The actor] says 'Ok, I will follow [the noun].'[line break]";]
+
 
 Section 1 - Sparring with
 
