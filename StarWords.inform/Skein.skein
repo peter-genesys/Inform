@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x731fc10" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xd1914b0" />
+  <activeNode nodeId="node-0x902cf00" />
   <item nodeId="node-0x731fc10">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -22,7 +22,7 @@ Yoda is here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="108">NO</temporary>
+    <temporary score="115">NO</temporary>
     <children>
       <child nodeId="node-0x73ba940" />
       <child nodeId="node-0x731fc60" />
@@ -30,7 +30,9 @@ Yoda is here.
       <child nodeId="node-0x73ba400" />
       <child nodeId="node-0x73ba0f0" />
       <child nodeId="node-0x73b9fa0" />
+      <child nodeId="node-0x91d3d40" />
       <child nodeId="node-0x73b9c90" />
+      <child nodeId="node-0xd177ec0" />
       <child nodeId="node-0x73ba5c0" />
       <child nodeId="node-0x330eec0" />
       <child nodeId="node-0x73b7c60" />
@@ -732,6 +734,38 @@ The bounty hunter attacks you with the bounty blaster, causing 1 point of damage
     <changed>YES</changed>
     <temporary score="1848">YES</temporary>
   </item>
+  <item nodeId="node-0xd177ec0">
+    <command xml:space="preserve">yoda become drong</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0x918b9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x918b9a0">
+    <command xml:space="preserve">become drong</command>
+    <result xml:space="preserve">I feel quite Drong-ish now.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0x8d8e7b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8d8e7b0">
+    <command xml:space="preserve">yoda, become luke</command>
+    <result xml:space="preserve">&quot;Okay.&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="110">YES</temporary>
+  </item>
   <item nodeId="node-0x73b9c90">
     <command xml:space="preserve">drong, spar with yoda</command>
     <result xml:space="preserve">(with the blue light sabre)
@@ -830,6 +864,27 @@ Drong spars with yourself with the blue light sabre
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="1748">YES</temporary>
+  </item>
+  <item nodeId="node-0x91d3d40">
+    <command xml:space="preserve">yoda, become dorng</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0x7437d70" />
+    </children>
+  </item>
+  <item nodeId="node-0x7437d70">
+    <command xml:space="preserve">yoda, become drong</command>
+    <result xml:space="preserve">That is just to existentially confusing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="112">YES</temporary>
   </item>
   <item nodeId="node-0x73b9fa0">
     <command xml:space="preserve">yoda, follow drong</command>
@@ -999,12 +1054,11 @@ Yoda arrives from the north.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="115">YES</temporary>
     <children>
-      <child nodeId="node-0x80cdda0" />
+      <child nodeId="node-0x902cf00" />
       <child nodeId="node-0xd13ac60" />
-      <child nodeId="node-0x80d9b30" />
       <child nodeId="node-0x8d6f890" />
     </children>
   </item>
@@ -1109,232 +1163,6 @@ You attack Yoda with the light sabre, causing 5 points of damage!
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="90">YES</temporary>
-  </item>
-  <item nodeId="node-0x80d9b30">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-Drong is here.
-
-Luke is here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="64">YES</temporary>
-    <children>
-      <child nodeId="node-0x91cf0b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x91cf0b0">
-    <command xml:space="preserve">become drong</command>
-    <result xml:space="preserve">I feel quite Drong-ish now.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="64">YES</temporary>
-    <children>
-      <child nodeId="node-0x91bcc00" />
-    </children>
-  </item>
-  <item nodeId="node-0x91bcc00">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-Drong is here.
-
-Luke is here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="64">YES</temporary>
-    <children>
-      <child nodeId="node-0x6e9e10" />
-    </children>
-  </item>
-  <item nodeId="node-0x6e9e10">
-    <command xml:space="preserve">become Luke</command>
-    <result xml:space="preserve">I feel quite Luke-ish now.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="64">YES</temporary>
-    <children>
-      <child nodeId="node-0x803a070" />
-    </children>
-  </item>
-  <item nodeId="node-0x803a070">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-Drong is here.
-
-Luke is here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="64">YES</temporary>
-    <children>
-      <child nodeId="node-0xd184560" />
-    </children>
-  </item>
-  <item nodeId="node-0xd184560">
-    <command xml:space="preserve">Become Yoda</command>
-    <result xml:space="preserve">I feel quite yourself-ish now.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="64">YES</temporary>
-    <children>
-      <child nodeId="node-0x9190e70" />
-    </children>
-  </item>
-  <item nodeId="node-0x9190e70">
-    <command xml:space="preserve">Become Yoda</command>
-    <result xml:space="preserve">I feel quite yourself-ish now.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="64">YES</temporary>
-    <children>
-      <child nodeId="node-0xd181f20" />
-    </children>
-  </item>
-  <item nodeId="node-0xd181f20">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-Drong is here.
-
-Luke is here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="64">YES</temporary>
-    <children>
-      <child nodeId="node-0x91c68f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x91c68f0">
-    <command xml:space="preserve">become Luke</command>
-    <result xml:space="preserve">I feel quite Luke-ish now.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="64">YES</temporary>
-    <children>
-      <child nodeId="node-0x33af5a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x33af5a0">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-Drong is here.
-
-Luke is here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="64">YES</temporary>
-    <children>
-      <child nodeId="node-0x91a4310" />
-    </children>
-  </item>
-  <item nodeId="node-0x91a4310">
-    <command xml:space="preserve">x drong</command>
-    <result xml:space="preserve">Drong is a youngling of extraudinary potential.  Drong is carrying blue light sabre.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="64">YES</temporary>
-    <children>
-      <child nodeId="node-0x91862b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x91862b0">
-    <command xml:space="preserve">examine luke</command>
-    <result xml:space="preserve">Luke is a headstrong young man hoping to become a great warrior.  Luke is carrying nothing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="64">YES</temporary>
-    <children>
-      <child nodeId="node-0x91b7710" />
-    </children>
-  </item>
-  <item nodeId="node-0x91b7710">
-    <command xml:space="preserve">examine yoda</command>
-    <result xml:space="preserve">Yoda is respected as one of the most wise and powerful Jedi Masters in the history of the galaxy. Yoda is a master of the Force and Light Sabre combat. Yoda has served as the Grand Master of the Jedi High Council for over 700 years.   Yoda is carrying green light sabre.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="64">YES</temporary>
-    <children>
-      <child nodeId="node-0x33aedb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x33aedb0">
-    <command xml:space="preserve">examine yourself</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="64">YES</temporary>
-    <children>
-      <child nodeId="node-0x91dfad0" />
-    </children>
-  </item>
-  <item nodeId="node-0x91dfad0">
-    <command xml:space="preserve">examine self</command>
-    <result xml:space="preserve">Yoda is respected as one of the most wise and powerful Jedi Masters in the history of the galaxy. Yoda is a master of the Force and Light Sabre combat. Yoda has served as the Grand Master of the Jedi High Council for over 700 years.   Yoda is carrying green light sabre.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="64">YES</temporary>
-    <children>
-      <child nodeId="node-0x91096c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x91096c0">
-    <command xml:space="preserve">become drong</command>
-    <result xml:space="preserve">I feel quite Drong-ish now.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="64">YES</temporary>
-    <children>
-      <child nodeId="node-0x9109910" />
-    </children>
-  </item>
-  <item nodeId="node-0x9109910">
-    <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Yoda is respected as one of the most wise and powerful Jedi Masters in the history of the galaxy. Yoda is a master of the Force and Light Sabre combat. Yoda has served as the Grand Master of the Jedi High Council for over 700 years.   Yoda is carrying green light sabre.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="63">YES</temporary>
   </item>
   <item nodeId="node-0xd13ac60">
     <command xml:space="preserve">become drong</command>
@@ -1453,80 +1281,15 @@ Luke is expecting you to spar with the sabre.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="82">YES</temporary>
-    <children>
-      <child nodeId="node-0x3331c50" />
-    </children>
   </item>
-  <item nodeId="node-0x3331c50">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-Drong is here.
-
-Luke is here.
+  <item nodeId="node-0x902cf00">
+    <command xml:space="preserve">drong, become luke</command>
+    <result xml:space="preserve">That is just too existentially confusing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="81">YES</temporary>
-  </item>
-  <item nodeId="node-0x80cdda0">
-    <command xml:space="preserve">examine self</command>
-    <result xml:space="preserve">Yoda is respected as one of the most wise and powerful Jedi Masters in the history of the galaxy. Yoda is a master of the Force and Light Sabre combat. Yoda has served as the Grand Master of the Jedi High Council for over 700 years.   Yoda is carrying green light sabre.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="70">YES</temporary>
-    <children>
-      <child nodeId="node-0xd037770" />
-    </children>
-  </item>
-  <item nodeId="node-0xd037770">
-    <command xml:space="preserve">become dorng</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="70">YES</temporary>
-    <children>
-      <child nodeId="node-0x919cad0" />
-    </children>
-  </item>
-  <item nodeId="node-0x919cad0">
-    <command xml:space="preserve">become drong</command>
-    <result xml:space="preserve">I feel quite yourself-ish now.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="70">YES</temporary>
-    <children>
-      <child nodeId="node-0x9185a80" />
-    </children>
-  </item>
-  <item nodeId="node-0x9185a80">
-    <command xml:space="preserve">become dorng</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="70">YES</temporary>
-    <children>
-      <child nodeId="node-0x8042d70" />
-    </children>
-  </item>
-  <item nodeId="node-0x8042d70">
-    <command xml:space="preserve">examine self</command>
-    <result xml:space="preserve">Drong is a youngling of extraudinary potential.  Drong is carrying blue light sabre.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="69">YES</temporary>
+    <temporary score="114">YES</temporary>
   </item>
   <item nodeId="node-0x731fc60">
     <command xml:space="preserve">yoda, fight yoda</command>

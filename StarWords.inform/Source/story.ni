@@ -50,10 +50,14 @@ An imperial is a kind of man.
 Persuasion rule for asking an imperial to try doing something: 
 		say "'Get stuffed.'[line break]";
 		persuasion fails;]
+		
+Persuasion rule for asking a person to try being someone:
+	say "That is just too existentially confusing.";
+	persuasion fails;
  
 Persuasion rule for asking a person who is friendly to try doing something: 
-		say "'Okay.'[line break]";
-		persuasion succeeds;
+	say "'Okay.'[line break]";
+	persuasion succeeds;
 		
 Persuasion rule for asking a person who is unfriendly to try doing something: 
 		say "'How dare you?'[line break]";
