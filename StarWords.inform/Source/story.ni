@@ -8,12 +8,12 @@ Section 1 - Hit Points, Damage Multiplier, XP
 A person has a number called maximum hit points. 
 A person has a number called current hit points.
 A person has a number called XP.  
-A person has a number called Max XP.
+A person has a number called Max XP.   
 A person has a number called damage multiplier. A damage multiplier is usually 1.
  
-The XP of the player is 0. 
+[The XP of the player is 0. 
 The Max XP of the player is 40. 
-The maximum hit points of the player is 35. 
+The maximum hit points of the player is 35. ]
  
 When play begins: 
 	repeat with victim running through people: 
@@ -160,48 +160,11 @@ For the dark side looks back."
 "Blind we are, if creation of this clone army we could not see."
 "Ohhh. Great warrior. Wars not make one great."
 
- 
-Part 2 - Training
-
-The Training Room is a room. "A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall."
-
-A dead end is a kind of room with a description "This is a dead end. You'll have to go back the way you came." A dead end is usually dark.
- 
-The closet is a dead end.  The closet is north of the training room. 
-
-A battery is a kind of thing. A battery has a number called charge. The charge of a battery is usually 35.
+Section 5 - Light Sabres
 
 
-A bench is in the training room.  The description of the bench is "It is an ordinary bench with two drawers, left and right".
-A left drawer is a container that is closed and openable.  A left drawer is part of the bench. The light sabre is in the left drawer.
-
-A right drawer is a container that is closed and openable.   A right drawer is part of the bench.  A D battery is a battery.  [4 D batteries are in the right drawer.] A D battery is in the right drawer.
-
-The bench is scenery.
 
  
-
-Drong is a rebel in the training room.  "Drong is here." The description of Drong is "Drong is a youngling of extraudinary potential.  Drong is carrying [list of objects carried by Drong]."
-The maximum hit points of Drong is 25.
- 
-The XP of Drong is 10. 
-The Max XP of drong is 20. 
-
-Yoda is a rebel in the training room.  "Yoda is here." 
-The description of Yoda is "Yoda is respected as one of the most wise and powerful Jedi Masters in the history of the galaxy. Yoda is a master of the Force and Light Sabre combat. Yoda has served as the Grand Master of the Jedi High Council for over 700 years.   Yoda is carrying [list of objects carried by Yoda]."
-The maximum hit points of Yoda is 100.
-The damage multiplier of Yoda is 2.
-
-The XP of yoda is 100.
-The Max XP of yoda is 100.
-
-Luke is a rebel in the training room.  "Luke is here." The description of Luke is "Luke is a headstrong young man hoping to become a great warrior.  Luke is carrying [list of objects carried by Luke]."
-The maximum hit points of Luke is 25.
- 
-The XP of Luke is 10. 
-The Max XP of Luke is 20. 
-
-The player is Luke.
 
 
 Section - Being someone
@@ -318,6 +281,75 @@ Report sparring (this is the normal sparring report rule):
 				say "[The noun] says 'You're training is now complete!'.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav";
 				Now Drong follows the player.
  
+
+
+
+Part 2 - Training
+
+The Training Room is a room. "A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall."
+
+A dead end is a kind of room with a description "This is a dead end. You'll have to go back the way you came." A dead end is usually dark.
+ 
+The closet is a dead end.  The closet is north of the training room. 
+
+A battery is a kind of thing. A battery has a number called charge. The charge of a battery is usually 35.
+The printed name of a battery is "[if discharged]a dead battery[otherwise]a battery".
+ 
+Understand "dead battery" as battery.
+
+
+A bench is in the training room.  The description of the bench is "It is an ordinary bench with two drawers, left and right".
+A left drawer is a container that is closed and openable.  A left drawer is part of the bench. The blue light sabre is in the left drawer.
+
+A right drawer is a container that is closed and openable.   A right drawer is part of the bench.  
+battery 1 is a battery. battery 1 is in the right drawer.
+
+battery 2 is a battery.  
+battery 3 is a battery.  
+
+The bench is scenery.
+
+ 
+
+Drong is a rebel in the training room.  "Drong is here." The description of Drong is "Drong is a youngling of extraudinary potential."[  Drong is carrying [list of visible objects carried by Drong]."]
+The maximum hit points of Drong is 35.
+ 
+The XP of Drong is 10. 
+The Max XP of drong is 20. 
+
+Yoda is a rebel in the training room.  "Yoda is here." 
+The description of Yoda is "Yoda is respected as one of the most wise and powerful Jedi Masters in the history of the galaxy. Yoda is a master of the Force and Light Sabre combat. Yoda has served as the Grand Master of the Jedi High Council for over 700 years.  Yoda is carrying [list of visible objects carried by Yoda]."
+The maximum hit points of Yoda is 100.
+The damage multiplier of Yoda is 2.
+
+The XP of yoda is 100.
+The Max XP of yoda is 100.
+
+Drong is carrying the purple light sabre and battery 2.
+
+ 
+Yoda is carrying the green light sabre and battery 3.
+
+
+Luke is a rebel in the training room.  "Luke is here." The description of Luke is "Luke is a headstrong young man hoping to become a great warrior.  Luke is carrying [list of visible objects carried by Luke]."
+The maximum hit points of Luke is 35.
+ 
+The XP of Luke is 0. 
+The Max XP of Luke is 40. 
+
+The player is Luke.
+
+[The XP of the player is 0. 
+The Max XP of the player is 40. 
+The maximum hit points of the player is 35. ]
+
+
+
+
+Rule for deciding the concealed possessions of a man: if the particular possession is a light-sabre or the particular possession is a battery, yes; otherwise no.
+
+
+
 
 Part 2 - Arena
  
@@ -491,9 +523,24 @@ Brightness is a kind of value. The brightnesses are guttering, weak, radiant and
 
 A device is a kind of weapon.
 
-An on/off button is part of the light sabre.
+A light source is a kind of device. 
+
+A light-sabre is a kind of light source.
+A light-sabre has some text called colour.
+
+The maximum damage of a light-sabre is 5.
+
+The blue light sabre is a light-sabre.  The colour of the blue light sabre is "blue". 
+The purple light sabre is a light-sabre.  The colour of the purple light sabre is "purple". 
+The green light sabre is a light-sabre.  The colour of the green light sabre is "green". 
+
+The printed name of a light-sabre is "light sabre".
+[The printed name of the blue light sabre is "light sabre".
+The printed name of the purple light sabre is "light sabre".
+The printed name of the green light sabre is "light sabre".]
+
  
-test table with "open left drawer / open right drawer / get D battery / get sabre / put battery in sabre"
+test table with "open left drawer / open right drawer / get battery / get sabre / put battery in sabre / press button"
 
 Every turn:
 	repeat with hollow running through battery compartments:
@@ -518,6 +565,10 @@ Rule for putting out a device (called the machine):
 		silently try switching off the machine.
 
 A battery compartment is a kind of container. A battery compartment is usually closed and openable. One battery compartment is part of every device. Instead of inserting something which is not a battery into a battery compartment, say "Only batteries should go in a battery compartment."
+
+[An on/off button is a kind of switch.]
+An on/off button is a kind of thing.
+One on/off button is part of every device.
 
 [And to get rid of annoying messages like "Which would you like to close, the flashlight or the flashlight's battery compartment?" when only the compartment is closable, we might add some understanding instructions:]
 
@@ -546,15 +597,17 @@ After inserting something into something:
 
 
 Instead of pushing an on/off button which is part of a switched on device (called the machine): 
-	try switching off the machine.
+	try silently switching off the machine.
 Instead of pushing an on/off button which is part of a switched off device (called the machine): 
-	try switching on the machine.
+	try silently switching on the machine.
 
 [Instead of switching on an on/off button which is part of a device (called the machine): 
 	try switching on the machine.
 Instead of switching off an on/off button which is part of a device (called the machine): 
 	try switching off the machine.]
  
+ 
+
 
 Instead of opening a device, try opening a random battery compartment which is part of the noun. Instead of closing a device, try closing a random battery compartment which is part of the noun. Instead of inserting a battery into a device, try inserting the noun into a random battery compartment which is part of the second noun.
 
@@ -571,10 +624,28 @@ Definition: a device is empty:
 
 Definition: a battery is discharged if its charge < 1.
 
+ 
 
-A light source is a kind of device. 
-Carry out switching on a light source: now the noun is lit; say "It is now on."
-Carry out switching off a light source: now the noun is unlit.; say "It is now off."
+	
+Carry out switching on a light-sabre: 
+	now the noun is lit; 
+	say "The [noun]'s blade now glows [the colour of the noun].";
+
+	
+Carry out switching off a light-sabre: 
+	now the noun is unlit; 
+	say "The [noun]'s [the colour of the noun] blade is extinguished.";
+
+[NOT USING OTHER LIGHT SOURCES RIGHT NOW
+Carry out switching off a light source: 
+	now the noun is unlit.; 
+	say "It is now off."
+Carry out switching on a light source: 
+	now the noun is lit; 
+	say "It is now on."
+]
+
+
 
 
 
@@ -582,7 +653,7 @@ The flashlight is a light source.
 
 The cassette recorder is a device. Every turn: if the cassette recorder is switched on, say "The cassette recorder hisses faintly."
  
-The light sabre is a light source.  The maximum damage of the light sabre is 0.
+The maximum damage of the light sabre is 0.
 
 After switching on light sabre:
 	Now the maximum damage of the light sabre is 5.
@@ -591,23 +662,25 @@ After switching off light sabre:
 	Now the maximum damage of the light sabre is 0.
 
 
-The description of the Light Sabre is "[if switched on]It's blade is glowing [one of]green[or]blue[or]purple[at random].[otherwise]The light sabre has a button at the hilt, and concealed compartment.[end if]"
+[The description of the Light Sabre is "[if switched on]It's blade is glowing [one of]green[or]blue[or]purple[at random].[otherwise]The light sabre has a button at the hilt, and concealed compartment.[end if]"]
 
-Every turn: if the Light Sabre is switched on, say "[one of]'vrrrm'[or][or][or]'wrrym'[or][or][or]'hrrrm'[or][or][or]'snap'[or][or][or]'crackle'[or][or][or]'pop'[at random]"
+[Instead of describing a thing which is a light-sabre:
+	say "It's blade is glowing [the colour of the noun]."]
+
+[The description of a light-sabre is "It's blade is glowing [the colour of the light-sabre]."]
+
+The description of a light-sabre is "The light sabre has a button at the hilt, and concealed compartment."
+
+Every turn: if a light-sabre carried by the player is switched on, say "[one of]'vrrrm'[or][or][or]'wrrym'[or][or][or]'hrrrm'[or][or][or]'snap'[or][or][or]'crackle'[or][or][or]'pop'[at random]"
  
 
  
 
-The blue light sabre is a kind of weapon. The description of the blue light sabre is "A light sabre with a blue blade, weak, but long lasting." The maximum damage of the blue light sabre is 5.
-The blue light sabre is privately-named.
+ [The description of the purple light sabre is "A light sabre with a purple blade, weak, but long lasting." 
 
-Drong is carrying the blue light sabre.
-
-
-The green light sabre is a kind of weapon. The description of the green light sabre is "A light sabre with a strong green blade." The maximum damage of the blue light sabre is 5.
-The green light sabre is privately-named.
-
-Yoda is carrying the green light sabre.
+The maximum damage of the purple light sabre is 5.]
+[The purple light sabre is privately-named.]
+ 
 
 Rule for warning about failure of the cassette recorder:
 	if a random battery compartment which is part of the cassette recorder contains a battery (called the power source):
@@ -640,6 +713,18 @@ The wind chimes are fixed in place in Thirtieth Street. "Carefully attached to t
 Does the player mean doing something other than searching to a battery compartment: it is unlikely. [We discourage Inform from choosing a compartment when the player uses just the name of a device or the word 'battery'.]
 
 [We also need to deal with commands like PUT BATTERY IN FLASHLIGHT, where Inform might construe BATTERY as the D battery, the flashlight's battery compartment, or the cassette recorder's battery compartment -- and might also construe FLASHLIGHT as either the flashlight's battery compartment or the flashlight itself.]
+
+[Does the player mean doing something to a thing which is not visible: it is unlikely.]
+
+[This bit stops inform asking which sabre we are trying to use]
+Does the player mean doing something with a light-sabre which is not held: 
+	it is unlikely.
+
+[This bit stops inform asking which battery we are trying to use]
+Does the player mean doing something with a battery which is not held: 
+	it is unlikely.
+Does the player mean doing something with a battery which is not visible: 
+	it is very unlikely.
 
 Does the player mean inserting into a battery compartment:
 	if the noun is nothing:
