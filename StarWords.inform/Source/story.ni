@@ -10,6 +10,17 @@ A person has a number called current hit points.
 A person has a number called XP.  
 A person has a number called Max XP.   
 A person has a number called damage multiplier. A damage multiplier is usually 1.
+A person is either good or evil.
+A person is either onguard or offguard.
+
+
+
+Section - Suggestion
+
+[Suggestion is the ability of a jedi to imploy others to do their bidding
+Suggestion is different to the normal persuasion.
+Normal attempts to persuade are only successful if they obey the normal persuassion rules, where as Suggestion implies the jedi can overcome a mind that is inferior to their own, convincing the subject to perform some action they would not otherwise normally do]
+A person has a number called suggestion. Suggestion is usually 1. 
  
 [The XP of the player is 0. 
 The Max XP of the player is 40. 
@@ -20,7 +31,7 @@ When play begins:
 		now the current hit points of the victim is the maximum hit points of the victim - 5
 
 Definition: a person is dead if his current hit points are less than 0.
-Definition: a person is a master if his XP is greater than his Max XP.
+Definition: a person is a master jedi if his XP is greater than 39.
 
 Section 2- Relationships
 
@@ -31,6 +42,7 @@ Enemy relates people to each other. The verb to hinder (he hinders, they hinder,
 Definition: a person is unfriendly if he hinders the player.
 Definition: a person is friendly if he helps the player.
 Definition: a person is neutral if he is not friendly and he is not unfriendly.
+Definition: a person is suggestable if his suggestion is 0.
 
 [Persuasion rule for asking a person to try doing something: 
 	if the person is friendly:
@@ -42,6 +54,8 @@ Definition: a person is neutral if he is not friendly and he is not unfriendly.
 ]
 A rebel is a kind of man.
 An imperial is a kind of man.
+
+Section - Persuasion and Suggestability
 
 [Persuasion rule for asking an rebel to try doing something: 
 		say "'Ok.'[line break]";
@@ -56,18 +70,65 @@ Persuasion rule for asking a person to try being someone:
 	persuasion fails;
  
 Persuasion rule for asking a person who is friendly to try doing something: 
-	say "'Okay.'[line break]";
-	persuasion succeeds;
+	if a master jedi:
+		say "'Yes, master jedi.'[line break]";
+		persuasion succeeds;
+	otherwise:
+		say "'I will not take instructions from one such as you!'";
+		persuasion fails. 
 		
-Persuasion rule for asking a person who is unfriendly to try doing something: 
+[Persuasion rule for asking a person who is suggestable to try doing something: 
+	[if suggestion of the player is greater than 1:]
+	say "'As you suggest...'";
+	persuasion succeeds;]
+
+[Persuasion rule for asking a person who is unfriendly to try doing something: 
+	if suggestion of the player is greater than 1:
+		say "mutters 'I need to … [the action name part of the current action] .. [the noun part of the current action]'[line break]";
+		persuasion succeeds;
+	otherwise:
 		say "'How dare you?'[line break]";
-		persuasion fails;
+		persuasion fails;]
 		
 Persuasion rule for asking a person who is not friendly to try doing something: 
+	if the suggestion of the player is greater than the suggestion of the actor:
+		if the actor is unfriendly:
+			say "mutters 'I need to … [the action name part of the current action] .. [the noun part of the current action]'[line break]";
+			persuasion succeeds;
+		otherwise:
+			say "murmours 'I feel compelled to … [the action name part of the current action] .. [the noun part of the current action]'[line break]";
+			persuasion succeeds;
+	otherwise:
+		if the actor is unfriendly:
+			say "'How dare you?'[line break]";
+			persuasion fails;	
+		otherwise:
+			say "'Do I know you?'[line break]";
+			persuasion fails;
+		
+
+[Persuasion rule for asking a person who is not friendly to try doing something: 
+	if the suggestion of the player is greater than the suggestion of the noun:
+	if the noun is unfriendly:
+		say "mutters 'I need to … [the action name part of the current action] .. [the noun part of the current action]'[line break]";
+		persuasion succeeds;
+	if suggestion of the player is greater than 1:
+		say "murmours 'I feel compelled to … [the action name part of the current action] .. [the noun part of the current action]'[line break]";
+		persuasion succeeds;
+	otherwise:
 		say "'Do I know you?'[line break]";
-		persuasion fails;
+		persuasion fails;]
+		
+[Persuasion rule for asking a person who is unfriendly to try doing something: 
+	say "'How dare you?'[line break]";
+	persuasion fails;]
 
+		
+[Persuasion rule for asking a person who is not friendly to try doing something: 
+	say "'Do I know you?'[line break]";
+	persuasion fails;]
 
+Section - Play Begins
 
 When play begins:
 	repeat with badguy running through imperial:
@@ -81,7 +142,8 @@ When play begins:
 		Now goodguy helps player;
 		repeat with goodguy2 running through rebel:
 			if goodguy is not goodguy2:
-				Now goodguy helps goodguy2;
+				Now goodguy helps goodguy2;			
+
 	[now the player is luke;]
 
 [testing relations]
@@ -98,15 +160,25 @@ Every turn:
 				if character follows entity, say "  l[character] is follower[line break]";
 				]
 
-Section 3 - Following
+Section 3 - ACTION Following
  		
-Every turn: 
+[Every turn: 
 	repeat with actor running through person:
 		if actor is not the player:
 			if actor follows the player and actor is not dead:
 				if the location of actor is not the location of the player:
 					let the way be the best route from the location of actor to the location of the player, using doors; 
-					try actor going the way.
+					try actor going the way.]
+					
+Every turn: 
+	repeat with actor running through person:
+		if actor is not the player:
+			repeat with target running through person:		
+				if target is not actor and actor follows target and actor is not dead:
+					if the location of actor is not the location of the target:
+						let the way be the best route from the location of actor to the location of the target, using doors; 
+						try actor going the way;
+						Now the actor is onguard.
  
 
 Section 4 - Yoda talk
@@ -160,12 +232,32 @@ For the dark side looks back."
 "Blind we are, if creation of this clone army we could not see."
 "Ohhh. Great warrior. Wars not make one great."
 
-Section 5 - Light Sabres
+[Section 5 - Confronting someone
 
 
+Understand the command "confront" as something new.
 
+Confronting is an action applying to one visible thing. Understand "confront [someone]" as confronting.
+
+Check an actor confronting something (this is the can only confront an enemy rule):
+	if the noun helps the actor:
+		say "You can only 'confront' an enemy, and [the noun] is NOT an enemy of yours."; 
+		stop the action;
+
+
+Report confronting (this is the standard report confronting rule): 
+	say "CONFRONT";
+	[Now the actor is onguard;]
+	say "[The actor] [one of]turns to face[or]faces[or]fixes on[at random] [the noun], [one of]wielding[or]pointing[or]menacing[at random] [a list of weapons carried by the actor].".
+[
  
+				if the attacker is offguard:
+					Now the attacker is onguard;
+					say "[The attacker] [one of]turns to face[or]faces[or]fixes on[at random] [the victim], [one of]wielding[or]pointing[or]menacing[at random] [a list of weapons carried by the attacker].";
 
+
+
+]]
 
 Section - Being someone
 
@@ -177,14 +269,23 @@ Check an actor being something (this is the can only become a friend rule):
 	if the noun is not friendly:
 		say "You can only 'become' an ally, and [the noun] is NOT an ally of yours."; 
 		stop the action;
+		
+Check an actor being something (this is the can only become a follower rule): 
+	if the noun does not follow the player:
+		say "You can only 'become' a follower, and [the noun] is NOT following you."; 
+		stop the action;
 
 Report being (this is the standard report being rule): 
 	say "I feel quite [noun]-ish now.";
+	Now the noun does not follow the player;
+	Now the player follows the noun;
 	Now the player is the noun.
 	[say "[The actor] says 'Ok, I will follow [the noun].'[line break]";]
 
+[The printed name of the player is "you".]
 
-Section 1 - Sparring with
+
+Section - Command Follow
 
 [Understand the command "track" as something new.
 
@@ -199,11 +300,17 @@ Understand the command "follow" as something new.
 
 Following is an action applying to one visible thing. Understand "follow [someone]" as following.
 
-Report someone following (this is the standard report following with rule): 
+Report someone following (this is the standard report someone following with rule): 
 	Now the actor follows the noun;
-	say "[The actor] says 'Ok, I will follow [the noun].'[line break]";
- 
+	say "[The actor] says 'Ok, I will follow [if the noun is the player]you[else][the noun][end if].'[line break]";
+	
+Report following (this is the standard report following with rule): 
+	Now the player follows the noun;
+	say "Ok, where ever [the noun] goes, I follow.";
+	[say "[The actor] says 'Ok, I will follow [if the noun is the player]you[else][the noun][end if].'[line break]";]
 
+ 
+Section - Command Spar with
 
 Understand the commands "spar with" and "train with" as something new.
 
@@ -309,35 +416,40 @@ battery 3 is a battery.
 
 The bench is scenery.
 
- 
+Maud is a person in the training room. "The groom, Maud is here."
+The suggestion of maud is 0.
 
 Drong is a rebel in the training room.  "Drong is here." The description of Drong is "Drong is a youngling of extraudinary potential."[  Drong is carrying [list of visible objects carried by Drong]."]
 The maximum hit points of Drong is 35.
  
 The XP of Drong is 10. 
 The Max XP of drong is 20. 
+The suggestion of drong is 0.
 
 Yoda is a rebel in the training room.  "Yoda is here." 
 The description of Yoda is "Yoda is respected as one of the most wise and powerful Jedi Masters in the history of the galaxy. Yoda is a master of the Force and Light Sabre combat. Yoda has served as the Grand Master of the Jedi High Council for over 700 years.  Yoda is carrying [list of visible objects carried by Yoda]."
 The maximum hit points of Yoda is 100.
 The damage multiplier of Yoda is 2.
+The suggestion of Yoda is 2.
 
 The XP of yoda is 100.
 The Max XP of yoda is 100.
 
 Drong is carrying the purple light sabre and battery 2.
+[Battery 2 is inside compartment of the purple light sabre.]
 
+[The battery compartment attached to the purple light sabre contains Battery 2.]
  
 Yoda is carrying the green light sabre and battery 3.
 
 
-Luke is a rebel in the training room.  "Luke is here." The description of Luke is "Luke is a headstrong young man hoping to become a great warrior.  Luke is carrying [list of visible objects carried by Luke]."
-The maximum hit points of Luke is 35.
+Keav is a rebel in the training room.  "Keav is here." The description of Luke is "Keav is a headstrong young man hoping to become a great warrior.  Keav is carrying [list of visible objects carried by Keav]."
+The maximum hit points of Keav is 35.
  
-The XP of Luke is 0. 
-The Max XP of Luke is 40. 
+The XP of Keav is 0. 
+The Max XP of Keav is 40. 
 
-The player is Luke.
+The player is Keav.
 
 [The XP of the player is 0. 
 The Max XP of the player is 40. 
@@ -358,11 +470,12 @@ The Arena is a room. "Sand, blood, iron. These festivals are normally held on ho
 
 The Arena is south of the training room.  The Arena is dark.
 
-The clone warrior is an imperial in the Arena. "A clone warrior faces you, wielding [a list of weapons carried by the clone warrior]."
-The bounty hunter is an imperial in the Arena. "A bounty hunter circles you, pointing [a list of weapons carried by the bounty hunter]."
+The clone warrior is an imperial in the Arena. "A clone of the Empire is here."
+The bounty hunter is an imperial in the Arena. "One of Jabba's bounty hunters is here."
 
 The maximum hit points of the clone warrior is 25.  
 The maximum hit points of the bounty hunter is 25.
+The suggestion of the clone warrior is 0.
 
 Section 2 - Diagnosis
 
@@ -493,7 +606,7 @@ When play begins:
 	now the left hand status line is "You HP: [current hit points of player] XP: [XP of the player]";
 	now the right hand status line is "Clone: [current hit points of clone warrior] Hunter: [current hit points of bounty hunter]".
 
-Every turn (this is the attacker attacks an enemy rule):
+Every turn (this is the attacker attacks an enemy rule):	
 	repeat with attacker running through person in the location:
 		let foes be a list of persons;
 		now foes is {};
@@ -505,16 +618,32 @@ Every turn (this is the attacker attacks an enemy rule):
 			let N be the number of entries in foes; 
 			if N > 0:
 				sort foes in random order;
-				[say "[attacker] to attack [entry 1 of foes]".]
-				let victim be entry 1 of foes;[
-				if victim is player and attacker can see victim:
+					[say "[attacker] to attack [entry 1 of foes]".]
+				let victim be entry 1 of foes;
+				[if victim is player:
+					let victim_name be "you";
+				otherwise:
+					let victim_name be "[victim]";]
+				[if victim is player and attacker can see victim:
 					if a random chance of 1 in 3 succeeds:
 						if the attacker does not follow the player:
 							Now attacker follows the player;
 							say "Looks like [the attacker] is taking this personally.";]
-				if the attacker is not dead, try the attacker attacking victim with a random weapon which is carried by the attacker.
-				
+				if the attacker is offguard:
+					[say "OFFGUARD [victim]";
+					if the attacker is not dead, try the attacker confronting the victim;]
+					Now the attacker is onguard;
+					say "[The attacker] [one of]turns to face[or]faces[or]fixes on[at random] [if the victim is the player]you[else][the victim][end if], [one of]wielding[or]pointing[or]menacing[at random] [a list of weapons carried by the attacker].";
+					[say "[the attacker] looks ready to fight.";]
+				otherwise:
+					if the attacker is not dead, try the attacker attacking victim with a random weapon which is carried by the attacker;
+		
 
+				
+Every turn (this is the other persons go to sleep rule):
+	repeat with sleeper running through person not in the location:
+		Now the sleeper is offguard;
+		[say "[the sleeper] is now offguard.";]	
 
 
 Section 5 - The Light Sabre
@@ -528,11 +657,13 @@ A light source is a kind of device.
 A light-sabre is a kind of light source.
 A light-sabre has some text called colour.
 
-The maximum damage of a light-sabre is 5.
+[The maximum damage of a light-sabre is 5.]
 
 The blue light sabre is a light-sabre.  The colour of the blue light sabre is "blue". 
 The purple light sabre is a light-sabre.  The colour of the purple light sabre is "purple". 
 The green light sabre is a light-sabre.  The colour of the green light sabre is "green". 
+
+[Battery 2 is in the battery compartment of the purple light sabre.]
 
 The printed name of a light-sabre is "light sabre".
 [The printed name of the blue light sabre is "light sabre".
@@ -612,7 +743,7 @@ Instead of switching off an on/off button which is part of a device (called the 
 Instead of opening a device, try opening a random battery compartment which is part of the noun. Instead of closing a device, try closing a random battery compartment which is part of the noun. Instead of inserting a battery into a device, try inserting the noun into a random battery compartment which is part of the second noun.
 
 Instead of switching on an empty device:
-	say "Nothing happens, perhaps because there isn't a charged battery in [the noun]."
+	say "Nothing happens, perhaps because there isn't a battery in [the noun]."
 
 Instead of switching on a battery compartment which is part of a device (called the power user), try switching on the power user.
 
@@ -653,13 +784,13 @@ The flashlight is a light source.
 
 The cassette recorder is a device. Every turn: if the cassette recorder is switched on, say "The cassette recorder hisses faintly."
  
-The maximum damage of the light sabre is 0.
+The maximum damage of a light-sabre is 0.
 
-After switching on light sabre:
-	Now the maximum damage of the light sabre is 5.
+After switching on a light-sabre (called the sabre):
+	Now the maximum damage of the sabre is 5.
 	
-After switching off light sabre:
-	Now the maximum damage of the light sabre is 0.
+After switching off a light-sabre (called the sabre):
+	Now the maximum damage of the sabre is 0.
 
 
 [The description of the Light Sabre is "[if switched on]It's blade is glowing [one of]green[or]blue[or]purple[at random].[otherwise]The light sabre has a button at the hilt, and concealed compartment.[end if]"]
@@ -714,7 +845,7 @@ Does the player mean doing something other than searching to a battery compartme
 
 [We also need to deal with commands like PUT BATTERY IN FLASHLIGHT, where Inform might construe BATTERY as the D battery, the flashlight's battery compartment, or the cassette recorder's battery compartment -- and might also construe FLASHLIGHT as either the flashlight's battery compartment or the flashlight itself.]
 
-[Does the player mean doing something to a thing which is not visible: it is unlikely.]
+Does the player mean doing something to a thing which is not visible: it is unlikely.
 
 [This bit stops inform asking which sabre we are trying to use]
 Does the player mean doing something with a light-sabre which is not held: 
@@ -746,9 +877,11 @@ Test second with "get d battery / put d battery in flashlight compartment / turn
 
 Test sabre with "get sabre / open it / put battery in it / press button"
 
-test spar with "spar with yoda with sabre / again / again / again /again/ s"
+test spar with "spar with yoda with sabre / again / again / again /again/ again / again / again /again / again /again /again "
 
-test all with "test table / press button / test spar"
+test beyoda with "yoda, follow me / become yoda"
+
+test all with "test table / test spar / test beyoda"
 
 
 
