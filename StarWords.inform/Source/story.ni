@@ -325,8 +325,41 @@ Setting action variables for sparring:
 		now the training points is a random number between 0 and the maximum TP;
 	otherwise:
 		now the training points is 0.
+		
+Check an actor sparring (this is the noun must carry a lit light-sabre rule):
+	if the noun is carrying a light-sabre:
+		if the noun is not carrying a switched on light-sabre:
+			let sabres be a list of light-sabres;
+			now sabres is list of light-sabres carried by the noun;
+			let weapon2 be entry 1 of sabres;
+			try the noun switching on weapon2;
+			if weapon2 is not switched on:
+				say "[the noun]'s light sabre will not turn on";			
+	otherwise:
+		say "[the noun] does not have a light sabre to spar with";
+			
 
-Check an actor sparring (this is the can't spar with something that isn't a weapon rule): 
+
+[
+
+		let foes be a list of persons;
+		now foes is {};
+		if attacker is not player:
+			repeat with character running through person in the location:
+				if attacker is not character:
+					if character hinders attacker:	
+						add character to foes;	
+			let N be the number of entries in foes; 
+			if N > 0:
+				sort foes in random order;
+					[say "[attacker] to attack [entry 1 of foes]".]
+				let victim be entry 1 of foes;
+ 
+]
+ 
+
+
+Check an actor sparring (this is the can't spar using something that isn't a weapon rule): 
 	if the actor is the player:
 		if the second noun is not a weapon: 
 			say "[The second noun] is NOT a weapon."; 
@@ -657,19 +690,22 @@ A light source is a kind of device.
 A light-sabre is a kind of light source.
 A light-sabre has some text called colour.
 
-[The maximum damage of a light-sabre is 5.]
+ 
 
 The blue light sabre is a light-sabre.  The colour of the blue light sabre is "blue". 
 The purple light sabre is a light-sabre.  The colour of the purple light sabre is "purple". 
 The green light sabre is a light-sabre.  The colour of the green light sabre is "green". 
 
-[Battery 2 is in the battery compartment of the purple light sabre.]
-
-The printed name of a light-sabre is "light sabre".
-[The printed name of the blue light sabre is "light sabre".
-The printed name of the purple light sabre is "light sabre".
-The printed name of the green light sabre is "light sabre".]
-
+ 
+When play begins:
+	repeat with hollow running through battery compartments:
+		if the hollow is part of the purple light sabre:
+			now the hollow contains battery 2;
+		if the hollow is part of the green light sabre:
+			now the hollow contains battery 3;
+ 
+The printed name of a light-sabre is "[if light-sabre is lit][colour] [end if]light sabre".
+ 
  
 test table with "open left drawer / open right drawer / get battery / get sabre / put battery in sabre / press button"
 
@@ -754,9 +790,7 @@ Definition: a device is empty:
 	yes.
 
 Definition: a battery is discharged if its charge < 1.
-
  
-
 	
 Carry out switching on a light-sabre: 
 	now the noun is lit; 
