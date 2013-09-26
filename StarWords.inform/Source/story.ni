@@ -43,6 +43,7 @@ Definition: a person is unfriendly if he hinders the player.
 Definition: a person is friendly if he helps the player.
 Definition: a person is neutral if he is not friendly and he is not unfriendly.
 Definition: a person is suggestable if his suggestion is 0.
+Definition: a person is following if he follows the player.
 
 [Persuasion rule for asking a person to try doing something: 
 	if the person is friendly:
@@ -69,13 +70,42 @@ Persuasion rule for asking a person to try being someone:
 	say "That is just too existentially confusing.";
 	persuasion fails;
  
-Persuasion rule for asking a person who is friendly to try doing something: 
-	if a master jedi:
-		say "'Yes, master jedi.'[line break]";
+
+Persuasion rule for asking a person who is friendly to try going: 
+	if the player is a master jedi:
+		say "[the actor] says ''I will leave you, master jedi.'[line break]";
+		now the actor follows nothing;
 		persuasion succeeds;
 	otherwise:
-		say "'I will not take instructions from one such as you!'";
-		persuasion fails. 
+		if the person follows the player:
+			say "[the actor] says 'I will leave you.'[line break]";
+			now the actor follows nothing;
+			persuasion succeeds;
+		otherwise:
+			say "[the actor] says 'I do not come and go at your bidding!'";
+			persuasion fails. 
+
+
+Persuasion rule for asking a person who is friendly to try doing something: 
+	if the player is a master jedi:
+		say "[the actor] says 'Yes, master jedi.'[line break]";
+		persuasion succeeds;
+	otherwise:
+		if the person follows the player:
+			say "[the actor] says 'As you wish.'[line break]";
+			persuasion succeeds;
+		otherwise:
+			say "[the actor] says 'I will not take instructions from one such as you!'";
+			persuasion fails. 
+
+ 
+[
+Persuasion rule for asking a person who follows the player to try doing something: 
+	[if the actor is friendly:]
+		say "'As you wish.'[line break]";
+		persuasion succeeds.]
+
+
 		
 [Persuasion rule for asking a person who is suggestable to try doing something: 
 	[if suggestion of the player is greater than 1:]
@@ -93,17 +123,17 @@ Persuasion rule for asking a person who is friendly to try doing something:
 Persuasion rule for asking a person who is not friendly to try doing something: 
 	if the suggestion of the player is greater than the suggestion of the actor:
 		if the actor is unfriendly:
-			say "mutters 'I need to … [the action name part of the current action] .. [the noun part of the current action]'[line break]";
+			say "[the actor] mutters 'I need to … [the action name part of the current action] .. [the noun part of the current action]'[line break]";
 			persuasion succeeds;
 		otherwise:
-			say "murmours 'I feel compelled to … [the action name part of the current action] .. [the noun part of the current action]'[line break]";
+			say "[the actor] murmours 'I feel compelled to … [the action name part of the current action] .. [the noun part of the current action]'[line break]";
 			persuasion succeeds;
 	otherwise:
 		if the actor is unfriendly:
-			say "'How dare you?'[line break]";
+			say "[the actor] says 'How dare you?'[line break]";
 			persuasion fails;	
 		otherwise:
-			say "'Do I know you?'[line break]";
+			say "[the actor] says 'Do I know you?'[line break]";
 			persuasion fails;
 		
 
@@ -308,6 +338,42 @@ Report following (this is the standard report following with rule):
 	Now the player follows the noun;
 	say "Ok, where ever [the noun] goes, I follow.";
 	[say "[The actor] says 'Ok, I will follow [if the noun is the player]you[else][the noun][end if].'[line break]";]
+	
+
+[Section - Command Wait There
+ 
+Understand the command "wait there" as something new.
+
+Waiting there is an action applying to a location. Understand "wait there" as waiting there.
+
+Report someone waiting there (this is the standard report someone waiting there rule): 
+	Now the actor follows the actor;
+	say "[The actor] says 'Ok, I will wait there.'[line break]";
+	
+Report waiting (this is the standard report waiting there rule): 
+	Now the player follows the player;
+	say "Ok, i am waiting there.";]
+	
+[Section - Command Ignore 
+
+Understand the command "ignore" as something new.
+
+Ignoring is an action applying to one visible thing. Understand "ignore [someone]" as ignoring.
+
+Report someone ignoring (this is the standard report someone ignoring rule): 
+	now the actor follows the actor;
+	say "[The actor] says 'Ok, I will stop following you.'[line break]";]
+ 
+
+Section - Command Stop Following 
+
+Understand the command "stop following" as something new.
+
+Ignoring is an action applying to one visible thing. Understand "stop following [someone]" as ignoring.
+
+Report someone ignoring (this is the standard report someone ignoring rule): 
+	now the actor follows nothing;
+	say "[The actor] says 'Ok, I will stop following [if the noun is the player]you[else][the noun][end if].'[line break]";
 
  
 Section - Command Spar with
@@ -333,6 +399,10 @@ Check an actor sparring (this is the noun must carry a lit light-sabre rule):
 			now sabres is list of light-sabres carried by the noun;
 			let weapon2 be entry 1 of sabres;
 			try the noun switching on weapon2;
+			if weapon2 is not lit:
+				now weapon2 is lit;
+			if weapon2 is not lit:
+				say "[the noun]'s light sabre is not lit!";	
 			if weapon2 is not switched on:
 				say "[the noun]'s light sabre will not turn on";			
 	otherwise:
@@ -449,8 +519,8 @@ battery 3 is a battery.
 
 The bench is scenery.
 
-Maud is a person in the training room. "The groom, Maud is here."
-The suggestion of maud is 0.
+[Maud is a person in the training room. "The groom, Maud is here."]
+[The suggestion of maud is 0.]
 
 Drong is a rebel in the training room.  "Drong is here." The description of Drong is "Drong is a youngling of extraudinary potential."[  Drong is carrying [list of visible objects carried by Drong]."]
 The maximum hit points of Drong is 35.
@@ -704,7 +774,10 @@ When play begins:
 		if the hollow is part of the green light sabre:
 			now the hollow contains battery 3;
  
-The printed name of a light-sabre is "[if light-sabre is lit][colour] [end if]light sabre".
+[THIS WORKS WELL TO NAME THE SABRE BY ITS COLOUR, AS LONG AS IT HAS BEEN SWITCHED ON ONCE
+THOUGH THE LOGIC switched on SEEMS SILIMAR TO lit TO ME. ]
+The printed name of a light-sabre is "[if light-sabre is switched on or light-sabre is lit][colour] [end if]light sabre".
+[The printed name of a light-sabre is "[if light-sabre is lit][colour] [end if]light sabre".]
  
  
 test table with "open left drawer / open right drawer / get battery / get sabre / put battery in sabre / press button"
@@ -751,6 +824,12 @@ Understand "put [something] in [container]" as inserting it into.
 
 Understand "ignite [device]" as switching on.
 
+[Want to avoid saying this "get battery from blue light sabre's battery compartment"]
+[Understand "unload [device]" as getting battery from]
+
+[Instead of unloading a device (called the machine): 
+	try getting a random battery from machine's battery compartment;]
+
 
 Understand "extinguish [device]" as switching off.
 
@@ -763,17 +842,26 @@ After inserting something into something:
 	silently try closing the second noun.
 
 
+
 Instead of pushing an on/off button which is part of a switched on device (called the machine): 
 	try silently switching off the machine.
 Instead of pushing an on/off button which is part of a switched off device (called the machine): 
 	try silently switching on the machine.
+	
+Before switching on a device (called the machine) which is not carried: 	
+	say "(first taking [the machine])";
+	try taking the machine.
+
+
 
 [Instead of switching on an on/off button which is part of a device (called the machine): 
 	try switching on the machine.
 Instead of switching off an on/off button which is part of a device (called the machine): 
 	try switching off the machine.]
  
- 
+Instead of dropping a light-sabre which is switched on (called the sabre):
+	try switching off the sabre;
+	try dropping the sabre;
 
 
 Instead of opening a device, try opening a random battery compartment which is part of the noun. Instead of closing a device, try closing a random battery compartment which is part of the noun. Instead of inserting a battery into a device, try inserting the noun into a random battery compartment which is part of the second noun.
@@ -834,7 +922,7 @@ After switching off a light-sabre (called the sabre):
 
 [The description of a light-sabre is "It's blade is glowing [the colour of the light-sabre]."]
 
-The description of a light-sabre is "The light sabre has a button at the hilt, and concealed compartment."
+The description of a light-sabre is "The [noun] has a button at the hilt, and concealed compartment."
 
 Every turn: if a light-sabre carried by the player is switched on, say "[one of]'vrrrm'[or][or][or]'wrrym'[or][or][or]'hrrrm'[or][or][or]'snap'[or][or][or]'crackle'[or][or][or]'pop'[at random]"
  
@@ -879,6 +967,8 @@ Does the player mean doing something other than searching to a battery compartme
 
 [We also need to deal with commands like PUT BATTERY IN FLASHLIGHT, where Inform might construe BATTERY as the D battery, the flashlight's battery compartment, or the cassette recorder's battery compartment -- and might also construe FLASHLIGHT as either the flashlight's battery compartment or the flashlight itself.]
 
+Does the player mean doing something to a thing which is part of a light-sabre which is not carried: it is unlikely.
+
 Does the player mean doing something to a thing which is not visible: it is unlikely.
 
 [This bit stops inform asking which sabre we are trying to use]
@@ -896,6 +986,9 @@ Does the player mean inserting into a battery compartment:
 		it is very likely;
 	otherwise:
 		make no decision.
+
+[Want to avoid saying this "get battery from blue light sabre's battery compartment"]
+[Does the player mean get a battery compartment: it is very unlikely.]
 
 Does the player mean inserting a battery compartment into: it is very unlikely.
 

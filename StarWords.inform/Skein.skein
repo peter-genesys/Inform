@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1914c40" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xcd57860" />
+  <activeNode nodeId="node-0x13d0a7e0" />
   <item nodeId="node-0x1914c40">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -10,12 +10,10 @@
 
 StarWords
 An Interactive Fiction by Campbell Burgess
-Release 1 / Serial number 130925 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 130927 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Training Room
 A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-The groom, Maud is here.
 
 Drong is here.
 
@@ -24,23 +22,231 @@ Yoda is here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="374">NO</temporary>
+    <temporary score="689">NO</temporary>
     <children>
       <child nodeId="node-0x7b64d90" />
-      <child nodeId="node-0x19145a0" />
-      <child nodeId="node-0x1914c90" />
-      <child nodeId="node-0xcd769e0" />
+      <child nodeId="node-0x9803fb0" />
       <child nodeId="node-0x7b63ff0" />
+      <child nodeId="node-0xcaef1e0" />
       <child nodeId="node-0x7b64690" />
       <child nodeId="node-0x7b64230" />
-      <child nodeId="node-0x13da0610" />
+      <child nodeId="node-0x9765600" />
       <child nodeId="node-0x7b63b90" />
-      <child nodeId="node-0x7b64c40" />
-      <child nodeId="node-0x13aaa1f0" />
-      <child nodeId="node-0xcd29790" />
+      <child nodeId="node-0x7e5af90" />
+      <child nodeId="node-0x19145a0" />
+      <child nodeId="node-0x1914c90" />
     </children>
   </item>
-  <item nodeId="node-0xcd29790">
+  <item nodeId="node-0x1914c90">
+    <command xml:space="preserve">yoda, fight yoda</command>
+    <result xml:space="preserve">(with the green light sabre)
+Yoda  says &quot;Don&apos;t be absurd.&quot;
+
+Yoda is unable to do that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1713">YES</temporary>
+  </item>
+  <item nodeId="node-0x19145a0">
+    <command xml:space="preserve">yoda, fight me</command>
+    <result xml:space="preserve">(with the green light sabre)
+Yoda  says &quot;I will not fight you, my friend.
+
+Yoda is unable to do that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1724">YES</temporary>
+    <children>
+      <child nodeId="node-0x19145f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19145f0">
+    <command xml:space="preserve">test table</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] open left drawer
+You open the left drawer, revealing a light sabre.
+
+&gt;[2] open right drawer
+You open the right drawer, revealing a D battery.
+
+&gt;[3] get d battery
+Taken.
+
+&gt;[4] get sabre
+Taken.
+
+&gt;[5] put battery in sabre
+(the D battery in the light sabre)
+(first opening the light sabre)
+(then closing the light sabre&apos;s battery compartment)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1724">YES</temporary>
+    <children>
+      <child nodeId="node-0x19148f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19148f0">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">It is now on.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1724">YES</temporary>
+    <children>
+      <child nodeId="node-0x1914960" />
+    </children>
+  </item>
+  <item nodeId="node-0x1914960">
+    <command xml:space="preserve">yoda, fight me</command>
+    <result xml:space="preserve">(with the green light sabre)
+Yoda  says &quot;I will not fight you, my friend.
+
+Yoda is unable to do that.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1724">YES</temporary>
+    <children>
+      <child nodeId="node-0x19149d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19149d0">
+    <command xml:space="preserve">fight yoda</command>
+    <result xml:space="preserve">(with the light sabre)
+Ooh I think this is a mistake.
+You attack Yoda with the light sabre, causing 2 points of damage!
+
+&quot;crackle&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1724">YES</temporary>
+    <children>
+      <child nodeId="node-0x7b63390" />
+    </children>
+  </item>
+  <item nodeId="node-0x7b63390">
+    <command xml:space="preserve">yoda, fight me</command>
+    <result xml:space="preserve">(with the green light sabre)
+Yoda attacks you with the green light sabre, causing 5 points of damage!
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1724">YES</temporary>
+    <children>
+      <child nodeId="node-0x7b633e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7b633e0">
+    <command xml:space="preserve">yoda, fight me</command>
+    <result xml:space="preserve">(with the green light sabre)
+Yoda attacks you with the green light sabre, causing 7 points of damage!
+
+&quot;pop&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1724">YES</temporary>
+    <children>
+      <child nodeId="node-0x7b63430" />
+    </children>
+  </item>
+  <item nodeId="node-0x7b63430">
+    <command xml:space="preserve">fight yoda</command>
+    <result xml:space="preserve">(with the light sabre)
+If you are very lucky you&apos;ll live long enough to regret this.
+You attack Yoda with the light sabre, causing 2 points of damage!
+
+Yoda attacks you with the green light sabre, causing 8 points of damage!
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1724">YES</temporary>
+    <children>
+      <child nodeId="node-0x7b63480" />
+    </children>
+  </item>
+  <item nodeId="node-0x7b63480">
+    <command xml:space="preserve">spar with yoda</command>
+    <result xml:space="preserve">(with the light sabre)
+Yoda is going to play for keeps.
+
+Yoda attacks you with the green light sabre, causing 4 points of damage!
+
+&quot;wrrym&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1724">YES</temporary>
+    <children>
+      <child nodeId="node-0x7b634f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7b634f0">
+    <command xml:space="preserve">yoda, spar with me</command>
+    <result xml:space="preserve">(with the green light sabre)
+Yoda says &quot;How about you spar with me!&quot;
+
+yourself is going to play for keeps.
+
+Yoda is unable to do that.
+
+Yoda attacks you with the green light sabre, causing 5 points of damage!
+
+&quot;crackle&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1724">YES</temporary>
+    <children>
+      <child nodeId="node-0x7b63620" />
+    </children>
+  </item>
+  <item nodeId="node-0x7b63620">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Arena
+Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+
+A clone warrior faces you, wielding a laser rifle and a clone blaster.
+
+A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
+
+The clone warrior attacks you with the clone blaster, causing 0 points of damage!
+
+The bounty hunter attacks you with the shock rifle, finishing you off!
+
+
+
+    *** The End ***
+
+
+In that game you scored 0 out of a possible 0, in 15 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1723">YES</temporary>
+  </item>
+  <item nodeId="node-0x7e5af90">
     <command xml:space="preserve">test table</command>
     <result xml:space="preserve">(Testing.)
 
@@ -69,583 +275,43 @@ The blue light sabre&apos;s blade now glows blue.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="374">YES</temporary>
+    <temporary score="689">YES</temporary>
     <children>
-      <child nodeId="node-0xcdac560" />
-      <child nodeId="node-0xcd57860" />
+      <child nodeId="node-0x7e83f40" />
     </children>
   </item>
-  <item nodeId="node-0xcd57860">
-    <command xml:space="preserve">test spar</command>
-    <result xml:space="preserve">(Testing.)
-
-&gt;[1] spar with yoda with sabre
+  <item nodeId="node-0x7e83f40">
+    <command xml:space="preserve">spar with yoda</command>
+    <result xml:space="preserve">(with the blue light sabre)
 Yoda switches the green light sabre on.
 
-Yoda easilly evades your reach.
-Yoda says &quot;Many of the truths that we cling to depend on our point of view.&quot;
-
-Your experience points increases by 0.  
-&quot;pop&quot;
-&gt;[2] again
-Yoda performs an elegant backflip to avoid your well aimed stroke.
-Yoda says &quot;Named must your fear be before banish it you can.&quot;
-
-Your experience points increases by 7.  
-
-&gt;[3] again
-Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;I cannot teach him. The boy has no patience.&quot;
-
-Your experience points increases by 4.  
-&quot;crackle&quot;
-&gt;[4] again
-Yoda easilly evades your reach.
-Yoda says &quot;The dark side clouds everything. Impossible to see the light, the future is.&quot;
-
-Your experience points increases by 7.  
-&quot;pop&quot;
-&gt;[5] again
 Yoda side steps your clumsy maneuver.
-Yoda says &quot;Ready are you? What know you of ready? For eight hundred years have I trained Jedi. My own counsel will I keep on who is to be trained. A Jedi must have the deepest commitment, the most serious mind. This one a long time have I watched. All his life has he looked away... to the future, to the horizon. Never his mind on where he was. Hmm? What he was doing. Hmph. Adventure. Heh. Excitement. Heh. A Jedi craves not these things. You are reckless.&quot;
+Yoda says &quot;Ohhh. Great warrior. Wars not make one great.&quot;
 
-Your experience points increases by 0.  
-
-&gt;[6] again
-Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;Size matters not. Look at me. Judge me by my size, do you?  Hmm?  Hmm.  And well you should not.  For my ally is the Force, and a powerful ally it is. Life creates it, makes it grow. Its energy surrounds us and binds us. Luminous beings are we, not this crude matter. You must feel the Force around you; here, between you, me, the tree, the rock, everywhere, yes. Even between the land and the ship.&quot;
-
-Your experience points increases by 7.  
-
-&gt;[7] again
-Yoda easilly evades your reach.
-Yoda says &quot;Always two there are, a master and an apprentice.&quot;
-
-Your experience points increases by 6.  
-
-&gt;[8] again
-Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;The dark side clouds everything. Impossible to see the light, the future is.&quot;
-
-Your experience points increases by 2.  
-&quot;vrrrm&quot;
-&gt;[9] again
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;The dark side clouds everything. Impossible to see the light, the future is.&quot;
-
-Your experience points increases by 2.  
-
-&gt;[10] again
-Yoda easilly evades your reach.
-Yoda says &quot;When you look at the dark side, careful you must be. For the dark side looks back.&quot;
-
-Your experience points increases by 5.  Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
-
-&gt;[11] again
-Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;In a dark place we find ourselves, and a little more knowledge lights our way.&quot;
-
+Your experience points increases by 10.  
 &quot;wrrym&quot;
-&gt;[12] again
-Yoda performs an elegant backflip to avoid your well aimed stroke.
-Yoda says &quot;Blind we are, if creation of this clone army we could not see.&quot;
-
-
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="373">YES</temporary>
+    <temporary score="689">YES</temporary>
     <children>
-      <child nodeId="node-0x13a0a930" />
+      <child nodeId="node-0x97cc0b0" />
     </children>
   </item>
-  <item nodeId="node-0x13a0a930">
-    <command xml:space="preserve">yoda, follow me</command>
-    <result xml:space="preserve">&quot;Yes, master jedi.&quot;
-Yoda says &quot;Ok, I will follow you.&quot;
-
+  <item nodeId="node-0x97cc0b0">
+    <command xml:space="preserve">x green sabre</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="351">YES</temporary>
+    <temporary score="689">YES</temporary>
     <children>
-      <child nodeId="node-0xcd870e0" />
+      <child nodeId="node-0xcda8020" />
     </children>
   </item>
-  <item nodeId="node-0xcd870e0">
-    <command xml:space="preserve">become yoda</command>
-    <result xml:space="preserve">I feel quite Yoda-ish now.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="351">YES</temporary>
-    <children>
-      <child nodeId="node-0x98c5080" />
-    </children>
-  </item>
-  <item nodeId="node-0x98c5080">
-    <command xml:space="preserve">x sabre</command>
-    <result xml:space="preserve">The light sabre has a button at the hilt, and concealed compartment.
-
-The light sabre is currently switched off.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="351">YES</temporary>
-    <children>
-      <child nodeId="node-0x13ddd630" />
-    </children>
-  </item>
-  <item nodeId="node-0x13ddd630">
-    <command xml:space="preserve">press button</command>
-    <result xml:space="preserve">The light sabre&apos;s blade now glows green.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="351">YES</temporary>
-    <children>
-      <child nodeId="node-0x13d15ce0" />
-    </children>
-  </item>
-  <item nodeId="node-0x13d15ce0">
-    <command xml:space="preserve">drong, follow me</command>
-    <result xml:space="preserve">&quot;Yes, master jedi.&quot;
-Drong says &quot;Ok, I will follow you.&quot;
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="351">YES</temporary>
-    <children>
-      <child nodeId="node-0x13db1610" />
-    </children>
-  </item>
-  <item nodeId="node-0x13db1610">
-    <command xml:space="preserve">become drong</command>
-    <result xml:space="preserve">I feel quite Drong-ish now.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="351">YES</temporary>
-    <children>
-      <child nodeId="node-0x7e49ba0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7e49ba0">
-    <command xml:space="preserve">x sabre</command>
-    <result xml:space="preserve">The light sabre has a button at the hilt, and concealed compartment.
-
-The light sabre is currently switched off.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="351">YES</temporary>
-    <children>
-      <child nodeId="node-0xca26890" />
-    </children>
-  </item>
-  <item nodeId="node-0xca26890">
-    <command xml:space="preserve">press button</command>
-    <result xml:space="preserve">The light sabre&apos;s blade now glows purple.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="350">YES</temporary>
-  </item>
-  <item nodeId="node-0xcdac560">
-    <command xml:space="preserve">spar with yoda</command>
-    <result xml:space="preserve">(with the blue light sabre)
-Yoda switches the green light sabre on.
-
-Yoda easilly evades your reach.
-Yoda says &quot;To answer power with power, the Jedi way this is not. In this war, a danger there is, of losing who we are.&quot;
-
-Your experience points increases by 0.  
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="370">YES</temporary>
-    <children>
-      <child nodeId="node-0x13d9b9a0" />
-      <child nodeId="node-0x7e499b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7e499b0">
-    <command xml:space="preserve">test spar</command>
-    <result xml:space="preserve">(Testing.)
-
-&gt;[1] spar with yoda with sabre
-Yoda&apos;s light-sabre will not turn on
-Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;To answer power with power, the Jedi way this is not. In this war, a danger there is, of losing who we are.&quot;
-
-Your experience points increases by 7.  
-
-&gt;[2] again
-Yoda&apos;s light-sabre will not turn on
-Yoda performs an elegant backflip to avoid your well aimed stroke.
-Yoda says &quot;Blind we are, if creation of this clone army we could not see.&quot;
-
-Your experience points increases by 7.  
-&quot;vrrrm&quot;
-&gt;[3] again
-Yoda&apos;s light-sabre will not turn on
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;A Jedi must have the deepest commitment, the most serious mind. &quot;
-
-Your experience points increases by 8.  
-&quot;hrrrm&quot;
-&gt;[4] again
-Yoda&apos;s light-sabre will not turn on
-Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;Always in motion is the future.&quot;
-
-Your experience points increases by 3.  
-
-&gt;[5] again
-Yoda&apos;s light-sabre will not turn on
-Yoda performs an elegant backflip to avoid your well aimed stroke.
-Yoda says &quot;The dark side clouds everything. Impossible to see the light, the future is.&quot;
-
-Your experience points increases by 0.  
-&quot;snap&quot;
-&gt;[6] again
-Yoda&apos;s light-sabre will not turn on
-Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;A Jedi must have the deepest commitment, the most serious mind. &quot;
-
-Your experience points increases by 5.  
-
-&gt;[7] again
-Yoda&apos;s light-sabre will not turn on
-Yoda performs an elegant backflip to avoid your well aimed stroke.
-Yoda says &quot;The dark side clouds everything. Impossible to see the light, the future is.&quot;
-
-Your experience points increases by 0.  
-
-&gt;[8] again
-Yoda&apos;s light-sabre will not turn on
-Yoda easilly evades your reach.
-Yoda says &quot;Named must your fear be before banish it you can.&quot;
-
-Your experience points increases by 5.  
-
-&gt;[9] again
-Yoda&apos;s light-sabre will not turn on
-Yoda performs an elegant backflip to avoid your well aimed stroke.
-Yoda says &quot;A Jedi must have the deepest commitment, the most serious mind. &quot;
-
-Your experience points increases by 6.  Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
-
-&gt;[10] again
-Yoda&apos;s light-sabre will not turn on
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;Truly how wonderful the mind of a child is.&quot;
-
-
-&gt;[11] again
-Yoda&apos;s light-sabre will not turn on
-Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;Always two there are, a master and an apprentice.&quot;
-
-
-&gt;[12] again
-Yoda&apos;s light-sabre will not turn on
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;A Jedi&apos;s strength flows from the Force.&quot;
-
-&quot;pop&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="361">YES</temporary>
-    <children>
-      <child nodeId="node-0x13d86f60" />
-    </children>
-  </item>
-  <item nodeId="node-0x13d86f60">
-    <command xml:space="preserve">yoda, follow me</command>
-    <result xml:space="preserve">&quot;Yes, master jedi.&quot;
-Yoda says &quot;Ok, I will follow you.&quot;
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="361">YES</temporary>
-    <children>
-      <child nodeId="node-0xcd2cd00" />
-    </children>
-  </item>
-  <item nodeId="node-0xcd2cd00">
-    <command xml:space="preserve">become yoda</command>
-    <result xml:space="preserve">I feel quite Yoda-ish now.
-
-&quot;pop&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="361">YES</temporary>
-    <children>
-      <child nodeId="node-0xcd77810" />
-    </children>
-  </item>
-  <item nodeId="node-0xcd77810">
-    <command xml:space="preserve">x sabre</command>
-    <result xml:space="preserve">The light sabre has a button at the hilt, and concealed compartment.
-
-The light sabre is currently switched on.
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="360">YES</temporary>
-  </item>
-  <item nodeId="node-0x13d9b9a0">
-    <command xml:space="preserve">spar with yoda</command>
-    <result xml:space="preserve">(with the blue light sabre)
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;In a dark place we find ourselves, and a little more knowledge lights our way.&quot;
-
-Your experience points increases by 4.  
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="369">YES</temporary>
-  </item>
-  <item nodeId="node-0x13aaa1f0">
-    <command xml:space="preserve">test all</command>
-    <result xml:space="preserve">(Testing.)
-
-&gt;[1] test table
-(Testing.)
-
-&gt;[2] open left drawer
-You open the left drawer, revealing a light sabre.
-
-&gt;[3] open right drawer
-You open the right drawer, revealing a battery.
-
-&gt;[4] get battery
-(a battery)
-Taken.
-
-&gt;[5] get sabre
-Taken.
-
-&gt;[6] put battery in sabre
-(a battery in the light sabre)
-(first opening the light sabre)
-(then closing the light sabre&apos;s battery compartment)
-
-&gt;[7] press button
-The light sabre&apos;s blade now glows blue.
-
-
-&gt;[8] test spar
-(Testing.)
-
-&gt;[9] spar with yoda with sabre
-Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;Blind we are, if creation of this clone army we could not see.&quot;
-
-Your experience points increases by 8.  
-
-&gt;[10] again
-Yoda easilly evades your reach.
-Yoda says &quot;Death is a natural part of life. Rejoice for those around you who transform into the Force. Mourn them do not. Miss them do not. Attachment leads to jealously. The shadow of greed, that is.&quot;
-
-Your experience points increases by 9.  
-
-&gt;[11] again
-Yoda performs an elegant backflip to avoid your well aimed stroke.
-Yoda says &quot;Blind we are, if creation of this clone army we could not see.&quot;
-
-Your experience points increases by 2.  
-
-&gt;[12] again
-Yoda easilly evades your reach.
-Yoda says &quot;A Jedi&apos;s strength flows from the Force.&quot;
-
-Your experience points increases by 5.  
-&quot;hrrrm&quot;
-&gt;[13] again
-Yoda performs an elegant backflip to avoid your well aimed stroke.
-Yoda says &quot;A Jedi must have the deepest commitment, the most serious mind. This one a long time have I watched. All his life has he looked away... to the future, to the horizon. Never his mind on where he was. Hmm? What he was doing. Hmph. Adventure. Heh. Excitement. Heh. A Jedi craves not these things.&quot;
-
-Your experience points increases by 6.  
-&quot;pop&quot;
-&gt;[14] again
-Yoda easilly evades your reach.
-Yoda says &quot;Death is a natural part of life. Rejoice for those around you who transform into the Force. Mourn them do not. Miss them do not. Attachment leads to jealously. The shadow of greed, that is.&quot;
-
-Your experience points increases by 7.  
-&quot;crackle&quot;
-&gt;[15] again
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;Always pass on what you have learned.&quot;
-
-Your experience points increases by 1.  
-&quot;snap&quot;
-&gt;[16] again
-Yoda performs an elegant backflip to avoid your well aimed stroke.
-Yoda says &quot;Death is a natural part of life. Rejoice for those around you who transform into the Force. Mourn them do not. Miss them do not. Attachment leads to jealously. The shadow of greed, that is.&quot;
-
-Your experience points increases by 5.  Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
-
-&gt;[17] again
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;Named must your fear be before banish it you can.&quot;
-
-
-&gt;[18] again
-Yoda easilly evades your reach.
-Yoda says &quot;A Jedi must have the deepest commitment, the most serious mind. &quot;
-
-
-&gt;[19] again
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;Death is a natural part of life. Rejoice for those around you who transform into the Force. Mourn them do not. Miss them do not. Attachment leads to jealously. The shadow of greed, that is.&quot;
-
-&quot;vrrrm&quot;
-&gt;[20] again
-Yoda performs an elegant backflip to avoid your well aimed stroke.
-Yoda says &quot;A Jedi must have the deepest commitment, the most serious mind. This one a long time have I watched. All his life has he looked away... to the future, to the horizon. Never his mind on where he was. Hmm? What he was doing. Hmph. Adventure. Heh. Excitement. Heh. A Jedi craves not these things.&quot;
-
-
-&gt;[21] test beyoda
-(Testing.)
-
-&gt;[22] yoda, follow me
-&quot;Yes, master jedi.&quot;
-Yoda says &quot;Ok, I will follow you.&quot;
-
-
-&gt;[23] become yoda
-I feel quite Yoda-ish now.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="330">YES</temporary>
-    <children>
-      <child nodeId="node-0xcaf23a0" />
-    </children>
-  </item>
-  <item nodeId="node-0xcaf23a0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Darkness
-It is pitch dark, and you can&apos;t see a thing.
-
-The clone warrior turns to face you, wielding a laser rifle and a clone blaster.
-The bounty hunter fixes on you, menacing a shock rifle and a bounty blaster.
-
-Arena
-Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
-
-Keav is here.
-
-A clone of the Empire is here.
-
-One of Jabba&apos;s bounty hunters is here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="330">YES</temporary>
-    <children>
-      <child nodeId="node-0x13a0cf90" />
-    </children>
-  </item>
-  <item nodeId="node-0x13a0cf90">
-    <command xml:space="preserve">clone, kill bounty hunter with sabre</command>
-    <result xml:space="preserve">There is no reply.
-
-Keav attacks the bounty hunter with the light sabre, causing 2 points of damage!
-
-The clone warrior attacks Keav with the clone blaster, causing 5 points of damage!
-
-The bounty hunter attacks Keav with the shock rifle, causing 3 points of damage!
-
-Drong arrives from the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="330">YES</temporary>
-    <children>
-      <child nodeId="node-0xca19c60" />
-    </children>
-  </item>
-  <item nodeId="node-0xca19c60">
-    <command xml:space="preserve">clone, kill bounty hunter with laser rifle</command>
-    <result xml:space="preserve">mutters &quot;I need to … attacking it with .. the bounty hunter&quot;
-the clone warrior says &quot;The bounty hunter is a friend. I would sooner fight you!&quot;
-
-The clone warrior is unable to do that.
-
-Drong attacks the bounty hunter with the light sabre, causing 0 points of damage!
-
-Keav attacks the clone warrior with the light sabre, causing 2 points of damage!
-
-The clone warrior attacks Keav with the clone blaster, causing 2 points of damage!
-
-The bounty hunter attacks you with the bounty blaster, causing 0 points of damage!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="330">YES</temporary>
-    <children>
-      <child nodeId="node-0x13d10d80" />
-    </children>
-  </item>
-  <item nodeId="node-0x13d10d80">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-The groom, Maud is here.
-
-Keav arrives from the south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="330">YES</temporary>
-    <children>
-      <child nodeId="node-0x13d78c10" />
-    </children>
-  </item>
-  <item nodeId="node-0x13d78c10">
-    <command xml:space="preserve">maud, go s</command>
-    <result xml:space="preserve">murmours &quot;I feel compelled to … going .. the south&quot;
-Maud goes south.
-
-Drong arrives from the south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="329">YES</temporary>
-  </item>
-  <item nodeId="node-0x7b64c40">
-    <command xml:space="preserve">test tbale</command>
+  <item nodeId="node-0xcda8020">
+    <command xml:space="preserve">test spq</command>
     <result xml:space="preserve">&gt;--&gt; The following tests are available:
 &apos;test table&apos;
 &apos;test me&apos;
@@ -653,66 +319,188 @@ Drong arrives from the south.
 &apos;test second&apos;
 &apos;test sabre&apos;
 &apos;test spar&apos;
+&apos;test beyoda&apos;
 &apos;test all&apos;
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="473">YES</temporary>
+    <temporary score="689">YES</temporary>
     <children>
-      <child nodeId="node-0x7b64cb0" />
+      <child nodeId="node-0x98aa660" />
     </children>
   </item>
-  <item nodeId="node-0x7b64cb0">
-    <command xml:space="preserve">test table</command>
+  <item nodeId="node-0x98aa660">
+    <command xml:space="preserve">test spa</command>
+    <result xml:space="preserve">&gt;--&gt; The following tests are available:
+&apos;test table&apos;
+&apos;test me&apos;
+&apos;test first&apos;
+&apos;test second&apos;
+&apos;test sabre&apos;
+&apos;test spar&apos;
+&apos;test beyoda&apos;
+&apos;test all&apos;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="689">YES</temporary>
+    <children>
+      <child nodeId="node-0x11cb35c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11cb35c0">
+    <command xml:space="preserve">test spa</command>
+    <result xml:space="preserve">&gt;--&gt; The following tests are available:
+&apos;test table&apos;
+&apos;test me&apos;
+&apos;test first&apos;
+&apos;test second&apos;
+&apos;test sabre&apos;
+&apos;test spar&apos;
+&apos;test beyoda&apos;
+&apos;test all&apos;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="689">YES</temporary>
+    <children>
+      <child nodeId="node-0x13d84c80" />
+    </children>
+  </item>
+  <item nodeId="node-0x13d84c80">
+    <command xml:space="preserve">test spar</command>
     <result xml:space="preserve">(Testing.)
 
-&gt;[1] open left drawer
-You open the left drawer, revealing a light sabre.
+&gt;[1] spar with yoda with sabre
+Yoda performs an elegant backflip to avoid your well aimed stroke.
+Yoda says &quot;In a dark place we find ourselves, and a little more knowledge lights our way.&quot;
 
-&gt;[2] open right drawer
-You open the right drawer, revealing a battery.
+Your experience points increases by 1.  
 
-&gt;[3] get battery
-(a battery)
-Taken.
+&gt;[2] again
+Yoda easilly evades your reach.
+Yoda says &quot;Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.&quot;
 
-&gt;[4] get sabre
-Taken.
+Your experience points increases by 7.  
 
-&gt;[5] put battery in sabre
-(a battery in the light sabre)
-(first opening the light sabre)
-(then closing the light sabre&apos;s battery compartment)
+&gt;[3] again
+Yoda performs an elegant backflip to avoid your well aimed stroke.
+Yoda says &quot;A Jedi must have the deepest commitment, the most serious mind. &quot;
 
-&gt;[6] press button
-The light sabre&apos;s blade now glows blue.
+Your experience points increases by 4.  
+&quot;crackle&quot;
+&gt;[4] again
+Yoda side steps your clumsy maneuver.
+Yoda says &quot;You will know ...the good from the bad… when you are calm, at peace. Passive. A Jedi uses the Force for knowledge and defense, never for attack.&quot;
+
+Your experience points increases by 6.  
+&quot;vrrrm&quot;
+&gt;[5] again
+Yoda strikes like a viper while seeming to hover outside your range.
+Yoda says &quot;Always in motion is the future.&quot;
+
+Your experience points increases by 5.  
+
+&gt;[6] again
+Yoda side steps your clumsy maneuver.
+Yoda says &quot;And well you should not. For my ally in the Force. And a powerful ally it is. Life creates it, makes it grow. It&apos;s energy surrounds us and binds us. Luminous beings are we...(Yoda pinches Luke&apos;s shoulder)...not this crude matter. (a sweeping gesture) You must feel the Force around you. (gesturing) Here, between you...me...the tree...the rock...everywhere! Yes, even between this land and that ship!&quot;
+
+Your experience points increases by 2.  
+&quot;snap&quot;
+&gt;[7] again
+Yoda easilly evades your reach.
+Yoda says &quot;When you look at the dark side, careful you must be. For the dark side looks back.&quot;
+
+Your experience points increases by 1.  
+
+&gt;[8] again
+Yoda side steps your clumsy maneuver.
+Yoda says &quot;Through the Force, things you will see. Other places. The future...the past. Old friends long gone. &quot;
+
+Your experience points increases by 1.  
+
+&gt;[9] again
+Yoda easilly evades your reach.
+Yoda says &quot;A Jedi must have the deepest commitment, the most serious mind. &quot;
+
+Your experience points increases by 0.  
+
+&gt;[10] again
+Yoda strikes like a viper while seeming to hover outside your range.
+Yoda says &quot;Already know you that which you need.&quot;
+
+Your experience points increases by 3.  Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
+&quot;pop&quot;
+&gt;[11] again
+Yoda easilly evades your reach.
+Yoda says &quot;In a dark place we find ourselves, and a little more knowledge lights our way.&quot;
+
+
+&gt;[12] again
+Yoda performs an elegant backflip to avoid your well aimed stroke.
+Yoda says &quot;Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.&quot;
 
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="473">YES</temporary>
+    <temporary score="689">YES</temporary>
     <children>
-      <child nodeId="node-0x7b64d20" />
+      <child nodeId="node-0x7e35340" />
     </children>
   </item>
-  <item nodeId="node-0x7b64d20">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Arena
-Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+  <item nodeId="node-0x7e35340">
+    <command xml:space="preserve">spar with yoda</command>
+    <result xml:space="preserve">(with the blue light sabre)
+Yoda easilly evades your reach.
+Yoda says &quot;Train yourself to let go of everything you fear to lose.&quot;
 
-A clone of the Empire is here.
-
-One of Jabba&apos;s bounty hunters is here.
-
-OFFGUARD
-OFFGUARD
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="472">YES</temporary>
+    <temporary score="689">YES</temporary>
+    <children>
+      <child nodeId="node-0x13d98920" />
+    </children>
+  </item>
+  <item nodeId="node-0x13d98920">
+    <command xml:space="preserve">yoda, follow me</command>
+    <result xml:space="preserve">Yoda says &quot;Yes, master jedi.&quot;
+Yoda says &quot;Ok, I will follow you.&quot;
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="689">YES</temporary>
+    <children>
+      <child nodeId="node-0x977bd80" />
+    </children>
+  </item>
+  <item nodeId="node-0x977bd80">
+    <command xml:space="preserve">become yoda</command>
+    <result xml:space="preserve">I feel quite Yoda-ish now.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="689">YES</temporary>
+    <children>
+      <child nodeId="node-0x13d0a7e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13d0a7e0">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:
+  a green light sabre (providing light)
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="688">YES</temporary>
   </item>
   <item nodeId="node-0x7b63b90">
     <command xml:space="preserve">Yoda, follow me</command>
@@ -948,278 +736,14 @@ The bounty hunter attacks Drong with the bounty blaster, causing 0 points of dam
     <changed>YES</changed>
     <temporary score="1840">YES</temporary>
   </item>
-  <item nodeId="node-0x13da0610">
-    <command xml:space="preserve">maud, go n</command>
-    <result xml:space="preserve">murmours &quot;I feel compelled to … going .. the north&quot;
-Maud goes north.
+  <item nodeId="node-0x9765600">
+    <command xml:space="preserve">drong, go s</command>
+    <result xml:space="preserve">&quot;I do not come and go at your bidding!&quot;
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="341">YES</temporary>
-    <children>
-      <child nodeId="node-0x13d39160" />
-    </children>
-  </item>
-  <item nodeId="node-0x13d39160">
-    <command xml:space="preserve">test all</command>
-    <result xml:space="preserve">(Testing.)
-
-&gt;[1] test table
-(Testing.)
-
-&gt;[2] open left drawer
-You open the left drawer, revealing a light sabre.
-
-&gt;[3] open right drawer
-You open the right drawer, revealing a battery.
-
-&gt;[4] get battery
-(a battery)
-Taken.
-
-&gt;[5] get sabre
-Taken.
-
-&gt;[6] put battery in sabre
-(a battery in the light sabre)
-(first opening the light sabre)
-(then closing the light sabre&apos;s battery compartment)
-
-&gt;[7] press button
-The light sabre&apos;s blade now glows blue.
-
-&quot;snap&quot;
-&gt;[8] test spar
-(Testing.)
-
-&gt;[9] spar with yoda with sabre
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;I cannot teach him. The boy has no patience.&quot;
-
-Your experience points increases by 4.  
-
-&gt;[10] again
-Yoda easilly evades your reach.
-Yoda says &quot;Blind we are, if creation of this clone army we could not see.&quot;
-
-Your experience points increases by 1.  
-&quot;vrrrm&quot;
-&gt;[11] again
-Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;Size matters not. Look at me. Judge me by my size, do you?  Hmm?  Hmm.  And well you should not.  For my ally is the Force, and a powerful ally it is. Life creates it, makes it grow. Its energy surrounds us and binds us. Luminous beings are we, not this crude matter. You must feel the Force around you; here, between you, me, the tree, the rock, everywhere, yes. Even between the land and the ship.&quot;
-
-Your experience points increases by 4.  
-
-&gt;[12] again
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;A Jedi must have the deepest commitment, the most serious mind. This one a long time have I watched. All his life has he looked away... to the future, to the horizon. Never his mind on where he was. Hmm? What he was doing. Hmph. Adventure. Heh. Excitement. Heh. A Jedi craves not these things.&quot;
-
-Your experience points increases by 6.  
-&quot;snap&quot;
-&gt;[13] again
-Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;Yes, a Jedi&apos;s strength flows from the Force. But beware of the dark side. Anger, fear, aggression; the dark side of the Force are they. Easily they flow, quick to join you in a fight. If once you start down the dark path, forever will it dominate your destiny, consume you it will, as it did Obi-Wan&apos;s apprentice.&quot;
-
-Your experience points increases by 3.  
-&quot;hrrrm&quot;
-&gt;[14] again
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;A Jedi must have the deepest commitment, the most serious mind. &quot;
-
-Your experience points increases by 7.  
-&quot;snap&quot;
-&gt;[15] again
-Yoda performs an elegant backflip to avoid your well aimed stroke.
-Yoda says &quot;And well you should not. For my ally in the Force. And a powerful ally it is. Life creates it, makes it grow. It&apos;s energy surrounds us and binds us. Luminous beings are we...(Yoda pinches Luke&apos;s shoulder)...not this crude matter. (a sweeping gesture) You must feel the Force around you. (gesturing) Here, between you...me...the tree...the rock...everywhere! Yes, even between this land and that ship!&quot;
-
-Your experience points increases by 0.  
-&quot;crackle&quot;
-&gt;[16] again
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;Blind we are, if creation of this clone army we could not see.&quot;
-
-Your experience points increases by 7.  
-
-&gt;[17] again
-Yoda easilly evades your reach.
-Yoda says &quot;A Jedi&apos;s strength flows from the Force.&quot;
-
-Your experience points increases by 2.  
-
-&gt;[18] again
-Yoda side steps your clumsy maneuver.
-Yoda says &quot;Ready are you? What know you of ready? For eight hundred years have I trained Jedi. My own counsel will I keep on who is to be trained. A Jedi must have the deepest commitment, the most serious mind. This one a long time have I watched. All his life has he looked away... to the future, to the horizon. Never his mind on where he was. Hmm? What he was doing. Hmph. Adventure. Heh. Excitement. Heh. A Jedi craves not these things. You are reckless.&quot;
-
-Your experience points increases by 6.  Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
-
-&gt;[19] again
-Yoda strikes like a viper while seeming to hover outside your range.
-Yoda says &quot;And well you should not. For my ally in the Force. And a powerful ally it is. Life creates it, makes it grow. It&apos;s energy surrounds us and binds us. Luminous beings are we...(Yoda pinches Luke&apos;s shoulder)...not this crude matter. (a sweeping gesture) You must feel the Force around you. (gesturing) Here, between you...me...the tree...the rock...everywhere! Yes, even between this land and that ship!&quot;
-
-
-&gt;[20] again
-Yoda easilly evades your reach.
-Yoda says &quot;Ohhh. Great warrior. Wars not make one great.&quot;
-
-&quot;wrrym&quot;
-&gt;[21] test beyoda
-(Testing.)
-
-&gt;[22] yoda, follow me
-&quot;Yes, master jedi.&quot;
-Yoda says &quot;Ok, I will follow you.&quot;
-
-
-&gt;[23] become yoda
-I feel quite Yoda-ish now.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="341">YES</temporary>
-    <children>
-      <child nodeId="node-0x13d8c560" />
-    </children>
-  </item>
-  <item nodeId="node-0x13d8c560">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Darkness
-It is pitch dark, and you can&apos;t see a thing.
-
-The clone warrior fixes on you, menacing a laser rifle and a clone blaster.
-The bounty hunter turns to face you, wielding a shock rifle and a bounty blaster.
-
-Arena
-Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
-
-Keav is here.
-
-A clone of the Empire is here.
-
-One of Jabba&apos;s bounty hunters is here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="341">YES</temporary>
-    <children>
-      <child nodeId="node-0x7e73ca0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7e73ca0">
-    <command xml:space="preserve">clone, kill hunter with laser rifle</command>
-    <result xml:space="preserve">mutters &quot;I need to … attacking it with .. the bounty hunter&quot;
-the clone warrior says &quot;The bounty hunter is a friend. I would sooner fight you!&quot;
-
-The clone warrior is unable to do that.
-
-Keav attacks the clone warrior with the light sabre, causing 4 points of damage!
-
-The clone warrior attacks Keav with the clone blaster, causing 4 points of damage!
-
-The bounty hunter attacks you with the shock rifle, causing 4 points of damage!
-
-Drong arrives from the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="341">YES</temporary>
-    <children>
-      <child nodeId="node-0x7e69880" />
-    </children>
-  </item>
-  <item nodeId="node-0x7e69880">
-    <command xml:space="preserve">clone, follow me</command>
-    <result xml:space="preserve">mutters &quot;I need to … following .. yourself&quot;
-The clone warrior says &quot;Ok, I will follow you.&quot;
-
-Drong attacks the bounty hunter with the light sabre, causing 0 points of damage!
-
-Keav attacks the bounty hunter with the light sabre, causing 10 points of damage!
-
-The clone warrior attacks Keav with the laser rifle, causing 3 points of damage!
-
-The bounty hunter attacks Drong with the bounty blaster, causing 5 points of damage!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="341">YES</temporary>
-    <children>
-      <child nodeId="node-0x13dc1400" />
-    </children>
-  </item>
-  <item nodeId="node-0x13dc1400">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-Keav arrives from the south.
-
-The clone warrior arrives from the south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="341">YES</temporary>
-    <children>
-      <child nodeId="node-0xca158b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xca158b0">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Training Room
-A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
-
-A clone of the Empire is here.
-
-Keav is here.
-
-The clone warrior attacks you with the clone blaster, causing 2 points of damage!
-
-Keav attacks the clone warrior with the light sabre, causing 2 points of damage!
-
-Drong arrives from the south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="341">YES</temporary>
-    <children>
-      <child nodeId="node-0x13d11b60" />
-    </children>
-  </item>
-  <item nodeId="node-0x13d11b60">
-    <command xml:space="preserve">become clonw</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="341">YES</temporary>
-    <children>
-      <child nodeId="node-0x13d49890" />
-    </children>
-  </item>
-  <item nodeId="node-0x13d49890">
-    <command xml:space="preserve">become clone</command>
-    <result xml:space="preserve">(the clone warrior)
-You can only &quot;become&quot; an ally, and the clone warrior is NOT an ally of yours.
-
-Drong attacks the clone warrior with the light sabre, causing 0 points of damage!
-
-The clone warrior attacks you with the clone blaster, causing 2 points of damage!
-
-Keav attacks the clone warrior with the light sabre, causing 9 points of damage!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="340">YES</temporary>
+    <temporary score="673">YES</temporary>
   </item>
   <item nodeId="node-0x7b64230">
     <command xml:space="preserve">drong, spar with yoda</command>
@@ -1408,6 +932,138 @@ Drong spars with Yoda with the blue light sabre
     <changed>YES</changed>
     <temporary score="1776">YES</temporary>
   </item>
+  <item nodeId="node-0xcaef1e0">
+    <command xml:space="preserve">drong, go n</command>
+    <result xml:space="preserve">Drong says &quot;I do not come and go at your bidding!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="676">YES</temporary>
+    <children>
+      <child nodeId="node-0x13dc90f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13dc90f0">
+    <command xml:space="preserve">test all</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] test table
+(Testing.)
+
+&gt;[2] open left drawer
+You open the left drawer, revealing a light sabre.
+
+&gt;[3] open right drawer
+You open the right drawer, revealing a battery.
+
+&gt;[4] get battery
+(a battery)
+Taken.
+
+&gt;[5] get sabre
+Taken.
+
+&gt;[6] put battery in sabre
+(a battery in the light sabre)
+(first opening the light sabre)
+(then closing the light sabre&apos;s battery compartment)
+
+&gt;[7] press button
+The blue light sabre&apos;s blade now glows blue.
+
+
+&gt;[8] test spar
+(Testing.)
+
+&gt;[9] spar with yoda with sabre
+Yoda switches the green light sabre on.
+
+Yoda strikes like a viper while seeming to hover outside your range.
+Yoda says &quot;I cannot teach him. The boy has no patience.&quot;
+
+Your experience points increases by 3.  
+
+&gt;[10] again
+Yoda side steps your clumsy maneuver.
+Yoda says &quot;A Jedi must have the deepest commitment, the most serious mind. This one a long time have I watched. All his life has he looked away... to the future, to the horizon. Never his mind on where he was. Hmm? What he was doing. Hmph. Adventure. Heh. Excitement. Heh. A Jedi craves not these things.&quot;
+
+Your experience points increases by 8.  
+
+&gt;[11] again
+Yoda strikes like a viper while seeming to hover outside your range.
+Yoda says &quot;Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.&quot;
+
+Your experience points increases by 2.  
+
+&gt;[12] again
+Yoda performs an elegant backflip to avoid your well aimed stroke.
+Yoda says &quot;Ohhh. Great warrior. Wars not make one great.&quot;
+
+Your experience points increases by 6.  
+&quot;hrrrm&quot;
+&gt;[13] again
+Yoda side steps your clumsy maneuver.
+Yoda says &quot;Once you start down the dark path, forever will it dominate your destiny, consume you it will.&quot;
+
+Your experience points increases by 8.  
+
+&gt;[14] again
+Yoda strikes like a viper while seeming to hover outside your range.
+Yoda says &quot;I cannot teach him. The boy has no patience.&quot;
+
+Your experience points increases by 6.  
+
+&gt;[15] again
+Yoda easilly evades your reach.
+Yoda says &quot;Already know you that which you need.&quot;
+
+Your experience points increases by 2.  
+
+&gt;[16] again
+Yoda side steps your clumsy maneuver.
+Yoda says &quot;Truly how wonderful the mind of a child is.&quot;
+
+Your experience points increases by 2.  
+
+&gt;[17] again
+Yoda strikes like a viper while seeming to hover outside your range.
+Yoda says &quot;Train yourself to let go of everything you fear to lose.&quot;
+
+Your experience points increases by 5.  Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
+&quot;snap&quot;
+&gt;[18] again
+Yoda side steps your clumsy maneuver.
+Yoda says &quot;Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.&quot;
+
+
+&gt;[19] again
+Yoda performs an elegant backflip to avoid your well aimed stroke.
+Yoda says &quot;Ready are you? What know you of ready? For eight hundred years have I trained Jedi. My own counsel will I keep on who is to be trained. A Jedi must have the deepest commitment, the most serious mind. This one a long time have I watched. All his life has he looked away... to the future, to the horizon. Never his mind on where he was. Hmm? What he was doing. Hmph. Adventure. Heh. Excitement. Heh. A Jedi craves not these things. You are reckless.&quot;
+
+&quot;vrrrm&quot;
+&gt;[20] again
+Yoda side steps your clumsy maneuver.
+Yoda says &quot;You must unlearn what you have learned.&quot;
+
+&quot;crackle&quot;
+&gt;[21] test beyoda
+(Testing.)
+
+&gt;[22] yoda, follow me
+&quot;Yes, master jedi.&quot;
+Yoda says &quot;Ok, I will follow you.&quot;
+
+
+&gt;[23] become yoda
+I feel quite Yoda-ish now.
+
+&quot;wrrym&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="675">YES</temporary>
+  </item>
   <item nodeId="node-0x7b63ff0">
     <command xml:space="preserve">yoda, track me</command>
     <result xml:space="preserve">Yoda tracks yourself
@@ -1449,239 +1105,944 @@ Yoda arrives from the north.
     <changed>YES</changed>
     <temporary score="1822">YES</temporary>
   </item>
-  <item nodeId="node-0xcd769e0">
-    <command xml:space="preserve">maude, go s</command>
-    <result xml:space="preserve">You seem to want to talk to someone, but I can&apos;t see whom.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="332">YES</temporary>
-    <children>
-      <child nodeId="node-0x9818a80" />
-    </children>
-  </item>
-  <item nodeId="node-0x9818a80">
-    <command xml:space="preserve">maud, go s</command>
-    <result xml:space="preserve">
-*** Run-time problem P10: Since the south is not allowed the property &quot;suggestion&quot;, it is against the rules to try to use it.
-
-murmours &quot;I feel compelled to … going .. the south&quot;
-Maud goes south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="331">YES</temporary>
-  </item>
-  <item nodeId="node-0x1914c90">
-    <command xml:space="preserve">yoda, fight yoda</command>
-    <result xml:space="preserve">(with the green light sabre)
-Yoda  says &quot;Don&apos;t be absurd.&quot;
-
-Yoda is unable to do that.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1713">YES</temporary>
-  </item>
-  <item nodeId="node-0x19145a0">
-    <command xml:space="preserve">yoda, fight me</command>
-    <result xml:space="preserve">(with the green light sabre)
-Yoda  says &quot;I will not fight you, my friend.
-
-Yoda is unable to do that.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1724">YES</temporary>
-    <children>
-      <child nodeId="node-0x19145f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x19145f0">
-    <command xml:space="preserve">test table</command>
+  <item nodeId="node-0x9803fb0">
+    <command xml:space="preserve">test all</command>
     <result xml:space="preserve">(Testing.)
 
-&gt;[1] open left drawer
+&gt;[1] test table
+(Testing.)
+
+&gt;[2] open left drawer
 You open the left drawer, revealing a light sabre.
 
-&gt;[2] open right drawer
-You open the right drawer, revealing a D battery.
+&gt;[3] open right drawer
+You open the right drawer, revealing a battery.
 
-&gt;[3] get d battery
+&gt;[4] get battery
+(a battery)
 Taken.
 
-&gt;[4] get sabre
+&gt;[5] get sabre
 Taken.
 
-&gt;[5] put battery in sabre
-(the D battery in the light sabre)
+&gt;[6] put battery in sabre
+(a battery in the light sabre)
 (first opening the light sabre)
 (then closing the light sabre&apos;s battery compartment)
 
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1724">YES</temporary>
-    <children>
-      <child nodeId="node-0x19148f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x19148f0">
-    <command xml:space="preserve">press button</command>
-    <result xml:space="preserve">It is now on.
+&gt;[7] press button
+The blue light sabre&apos;s blade now glows blue.
 
 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1724">YES</temporary>
-    <children>
-      <child nodeId="node-0x1914960" />
-    </children>
-  </item>
-  <item nodeId="node-0x1914960">
-    <command xml:space="preserve">yoda, fight me</command>
-    <result xml:space="preserve">(with the green light sabre)
-Yoda  says &quot;I will not fight you, my friend.
+&gt;[8] test spar
+(Testing.)
 
-Yoda is unable to do that.
+&gt;[9] spar with yoda with sabre
+Yoda switches the green light sabre on.
+
+Yoda easilly evades your reach.
+Yoda says &quot;You think Yoda stops teaching, just because his student does not want to hear? A teacher Yoda is. Yoda teaches like drunkards drink, like killers kill.&quot;
+
+Your experience points increases by 3.  
+
+&gt;[10] again
+Yoda performs an elegant backflip to avoid your well aimed stroke.
+Yoda says &quot;To answer power with power, the Jedi way this is not. In this war, a danger there is, of losing who we are.&quot;
+
+Your experience points increases by 7.  
+&quot;vrrrm&quot;
+&gt;[11] again
+Yoda strikes like a viper while seeming to hover outside your range.
+Yoda says &quot;Train yourself to let go of everything you fear to lose.&quot;
+
+Your experience points increases by 8.  
+&quot;crackle&quot;
+&gt;[12] again
+Yoda performs an elegant backflip to avoid your well aimed stroke.
+Yoda says &quot;Truly how wonderful the mind of a child is.&quot;
+
+Your experience points increases by 8.  
+
+&gt;[13] again
+Yoda strikes like a viper while seeming to hover outside your range.
+Yoda says &quot;Yes, a Jedi&apos;s strength flows from the Force. But beware of the dark side. Anger, fear, aggression; the dark side of the Force are they. Easily they flow, quick to join you in a fight. If once you start down the dark path, forever will it dominate your destiny, consume you it will, as it did Obi-Wan&apos;s apprentice.&quot;
+
+Your experience points increases by 0.  
+&quot;pop&quot;
+&gt;[14] again
+Yoda performs an elegant backflip to avoid your well aimed stroke.
+Yoda says &quot;Once you start down the dark path, forever will it dominate your destiny, consume you it will.&quot;
+
+Your experience points increases by 4.  
+
+&gt;[15] again
+Yoda easilly evades your reach.
+Yoda says &quot;Always pass on what you have learned.&quot;
+
+Your experience points increases by 6.  
+
+&gt;[16] again
+Yoda strikes like a viper while seeming to hover outside your range.
+Yoda says &quot;Through the Force, things you will see. Other places. The future...the past. Old friends long gone. &quot;
+
+Your experience points increases by 1.  
+&quot;vrrrm&quot;
+&gt;[17] again
+Yoda easilly evades your reach.
+Yoda says &quot;A Jedi must have the deepest commitment, the most serious mind. &quot;
+
+Your experience points increases by 4.  Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
+
+&gt;[18] again
+Yoda strikes like a viper while seeming to hover outside your range.
+Yoda says &quot;The dark side clouds everything. Impossible to see the light, the future is.&quot;
 
 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1724">YES</temporary>
-    <children>
-      <child nodeId="node-0x19149d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x19149d0">
-    <command xml:space="preserve">fight yoda</command>
-    <result xml:space="preserve">(with the light sabre)
-Ooh I think this is a mistake.
-You attack Yoda with the light sabre, causing 2 points of damage!
+&gt;[19] again
+Yoda easilly evades your reach.
+Yoda says &quot;Always in motion is the future.&quot;
+
+&quot;snap&quot;
+&gt;[20] again
+Yoda side steps your clumsy maneuver.
+Yoda says &quot;Train yourself to let go of everything you fear to lose.&quot;
 
 &quot;crackle&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1724">YES</temporary>
-    <children>
-      <child nodeId="node-0x7b63390" />
-    </children>
-  </item>
-  <item nodeId="node-0x7b63390">
-    <command xml:space="preserve">yoda, fight me</command>
-    <result xml:space="preserve">(with the green light sabre)
-Yoda attacks you with the green light sabre, causing 5 points of damage!
+&gt;[21] test beyoda
+(Testing.)
+
+&gt;[22] yoda, follow me
+&quot;Yes, master jedi.&quot;
+Yoda says &quot;Ok, I will follow you.&quot;
 
 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1724">YES</temporary>
-    <children>
-      <child nodeId="node-0x7b633e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7b633e0">
-    <command xml:space="preserve">yoda, fight me</command>
-    <result xml:space="preserve">(with the green light sabre)
-Yoda attacks you with the green light sabre, causing 7 points of damage!
-
-&quot;pop&quot;
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1724">YES</temporary>
-    <children>
-      <child nodeId="node-0x7b63430" />
-    </children>
-  </item>
-  <item nodeId="node-0x7b63430">
-    <command xml:space="preserve">fight yoda</command>
-    <result xml:space="preserve">(with the light sabre)
-If you are very lucky you&apos;ll live long enough to regret this.
-You attack Yoda with the light sabre, causing 2 points of damage!
-
-Yoda attacks you with the green light sabre, causing 8 points of damage!
-
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1724">YES</temporary>
-    <children>
-      <child nodeId="node-0x7b63480" />
-    </children>
-  </item>
-  <item nodeId="node-0x7b63480">
-    <command xml:space="preserve">spar with yoda</command>
-    <result xml:space="preserve">(with the light sabre)
-Yoda is going to play for keeps.
-
-Yoda attacks you with the green light sabre, causing 4 points of damage!
+&gt;[23] become yoda
+I feel quite Yoda-ish now.
 
 &quot;wrrym&quot;
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1724">YES</temporary>
+    <temporary score="673">YES</temporary>
     <children>
-      <child nodeId="node-0x7b634f0" />
+      <child nodeId="node-0x13c94980" />
+      <child nodeId="node-0x199ad10" />
+      <child nodeId="node-0x9788410" />
+      <child nodeId="node-0x13df9810" />
+      <child nodeId="node-0x9700400" />
+      <child nodeId="node-0x7b32340" />
     </children>
   </item>
-  <item nodeId="node-0x7b634f0">
-    <command xml:space="preserve">yoda, spar with me</command>
-    <result xml:space="preserve">(with the green light sabre)
-Yoda says &quot;How about you spar with me!&quot;
+  <item nodeId="node-0x7b32340">
+    <command xml:space="preserve">spar with yoda</command>
+    <result xml:space="preserve">(with the blue light sabre)
+Yoda performs an elegant backflip to avoid your well aimed stroke.
+Yoda says &quot;The dark side clouds everything. Impossible to see the light, the future is.&quot;
 
-yourself is going to play for keeps.
+Your experience points increases by 5.  Yoda says &quot;You&apos;re training is now complete!&quot;.  The force feels stronger in you now.  Drong will be you new padawan, Master Keav
 
-Yoda is unable to do that.
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="666">YES</temporary>
+    <children>
+      <child nodeId="node-0x9794cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9794cb0">
+    <command xml:space="preserve">yodaa, follow me</command>
+    <result xml:space="preserve">You seem to want to talk to someone, but I can&apos;t see whom.
 
-Yoda attacks you with the green light sabre, causing 5 points of damage!
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="666">YES</temporary>
+    <children>
+      <child nodeId="node-0x13ded0f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13ded0f0">
+    <command xml:space="preserve">yoda, follow me</command>
+    <result xml:space="preserve">&quot;Yes, master jedi.&quot;
+Yoda says &quot;Ok, I will follow you.&quot;
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="666">YES</temporary>
+    <children>
+      <child nodeId="node-0xccd6430" />
+    </children>
+  </item>
+  <item nodeId="node-0xccd6430">
+    <command xml:space="preserve">yoda, go n</command>
+    <result xml:space="preserve">I will leave you, master jedi.&quot;
+
+[** Programming error:  (object number 38)  has no property p69_follower to read **]
+
+[** Programming error:  (object number 38)  has no property p69_follower to read **]
+
+[** Programming error:  (object number 38)  has no property p69_follower to read **]
+
+[** Programming error:  (object number 38)  has no property p69_follower to read **]
+
+[** Programming error:  (object number 38)  has no property p69_follower to read **]
+Yoda goes north.
+
+Yoda arrives from the north.
+
+&quot;snap&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="665">YES</temporary>
+  </item>
+  <item nodeId="node-0x9700400">
+    <command xml:space="preserve">keave, stop following me</command>
+    <result xml:space="preserve">You seem to want to talk to someone, but I can&apos;t see whom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="642">YES</temporary>
+    <children>
+      <child nodeId="node-0x13ac8950" />
+    </children>
+  </item>
+  <item nodeId="node-0x13ac8950">
+    <command xml:space="preserve">keav, stop following me</command>
+    <result xml:space="preserve">&quot;Yes, master jedi.&quot;
+Keav says &quot;Ok, I will stop following you.&quot;
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="642">YES</temporary>
+    <children>
+      <child nodeId="node-0xccf52c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xccf52c0">
+    <command xml:space="preserve">relations</command>
+    <result xml:space="preserve">Follower relates various persons to one person:
+  Drong  &gt;=&gt;  Keav
+Ally relates people to each other:
+  You  &lt;=&gt;  Drong
+  Keav  &lt;=&gt;  Drong
+  Keav  &lt;=&gt;  yourself
+  Keav  &lt;=&gt;  Keav
+  The bounty hunter  &lt;=&gt;  the clone warrior
+Enemy relates people to each other:
+  The clone warrior  &lt;=&gt;  Drong
+  The clone warrior  &lt;=&gt;  yourself
+  The clone warrior  &lt;=&gt;  Keav
+  The bounty hunter  &lt;=&gt;  Drong
+  The bounty hunter  &lt;=&gt;  yourself
+  The bounty hunter  &lt;=&gt;  Keav
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="642">YES</temporary>
+    <children>
+      <child nodeId="node-0x13acd4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13acd4c0">
+    <command xml:space="preserve">keav, follow drong</command>
+    <result xml:space="preserve">&quot;I will not take instructions from one such as you!&quot;
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="642">YES</temporary>
+    <children>
+      <child nodeId="node-0xcdb0670" />
+    </children>
+  </item>
+  <item nodeId="node-0xcdb0670">
+    <command xml:space="preserve">keav, become drong</command>
+    <result xml:space="preserve">That is just too existentially confusing.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="642">YES</temporary>
+    <children>
+      <child nodeId="node-0x977c0e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x977c0e0">
+    <command xml:space="preserve">keav, attack drong</command>
+    <result xml:space="preserve">(with the blue light sabre)
+&quot;I will not take instructions from one such as you!&quot;
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="642">YES</temporary>
+    <children>
+      <child nodeId="node-0xccf9e50" />
+    </children>
+  </item>
+  <item nodeId="node-0xccf9e50">
+    <command xml:space="preserve">diagnose me</command>
+    <result xml:space="preserve">You have 95 out of a possible 100 hit points remaining.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="641">YES</temporary>
+  </item>
+  <item nodeId="node-0x13df9810">
+    <command xml:space="preserve">x sabre</command>
+    <result xml:space="preserve">The green light sabre has a button at the hilt, and concealed compartment.
+
+The green light sabre is currently switched on.
+
+&quot;wrrym&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="656">YES</temporary>
+    <children>
+      <child nodeId="node-0x13d83560" />
+    </children>
+  </item>
+  <item nodeId="node-0x13d83560">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:
+  a green light sabre
+
+&quot;hrrrm&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="656">YES</temporary>
+    <children>
+      <child nodeId="node-0xcc88330" />
+    </children>
+  </item>
+  <item nodeId="node-0xcc88330">
+    <command xml:space="preserve">drong, follow me</command>
+    <result xml:space="preserve">&quot;Yes, master jedi.&quot;
+Drong says &quot;Ok, I will follow you.&quot;
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="656">YES</temporary>
+    <children>
+      <child nodeId="node-0x11c65820" />
+    </children>
+  </item>
+  <item nodeId="node-0x11c65820">
+    <command xml:space="preserve">drong, go n</command>
+    <result xml:space="preserve">&quot;Yes, master jedi.&quot;
+Drong goes north.
+
+Drong arrives from the north.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="656">YES</temporary>
+    <children>
+      <child nodeId="node-0x13a71bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13a71bf0">
+    <command xml:space="preserve">drong, stop following me</command>
+    <result xml:space="preserve">&quot;Yes, master jedi.&quot;
+Drong says &quot;Ok, I will stop following you.&quot;
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="656">YES</temporary>
+    <children>
+      <child nodeId="node-0x975dce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x975dce0">
+    <command xml:space="preserve">drong, go n</command>
+    <result xml:space="preserve">&quot;Yes, master jedi.&quot;
+Drong goes north.
+
+&quot;wrrym&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="656">YES</temporary>
+    <children>
+      <child nodeId="node-0x977eb10" />
+    </children>
+  </item>
+  <item nodeId="node-0x977eb10">
+    <command xml:space="preserve">yoda, follow drong</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="656">YES</temporary>
+    <children>
+      <child nodeId="node-0x13a25bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13a25bf0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&quot;pop&quot;
+closet
+This is a dead end. You&apos;ll have to go back the way you came.
+
+Keav is here.
+
+Drong is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="656">YES</temporary>
+    <children>
+      <child nodeId="node-0xccf5340" />
+    </children>
+  </item>
+  <item nodeId="node-0xccf5340">
+    <command xml:space="preserve">keav, follow drong</command>
+    <result xml:space="preserve">&quot;Yes, master jedi.&quot;
+Keav says &quot;Ok, I will follow Drong.&quot;
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="656">YES</temporary>
+    <children>
+      <child nodeId="node-0x13d79e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x13d79e00">
+    <command xml:space="preserve">become drong</command>
+    <result xml:space="preserve">You can only &quot;become&quot; a follower, and Drong is NOT following you.
+
+&quot;pop&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="656">YES</temporary>
+    <children>
+      <child nodeId="node-0x975a720" />
+    </children>
+  </item>
+  <item nodeId="node-0x975a720">
+    <command xml:space="preserve">drong, follow me</command>
+    <result xml:space="preserve">&quot;Yes, master jedi.&quot;
+Drong says &quot;Ok, I will follow you.&quot;
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="656">YES</temporary>
+    <children>
+      <child nodeId="node-0x98b6200" />
+    </children>
+  </item>
+  <item nodeId="node-0x98b6200">
+    <command xml:space="preserve">become drong</command>
+    <result xml:space="preserve">I feel quite Drong-ish now.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="656">YES</temporary>
+    <children>
+      <child nodeId="node-0xcccca80" />
+    </children>
+  </item>
+  <item nodeId="node-0xcccca80">
+    <command xml:space="preserve">keav, go s</command>
+    <result xml:space="preserve">&quot;As you wish.&quot;
+Keav goes south.
+
+Keav arrives from the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="655">YES</temporary>
+  </item>
+  <item nodeId="node-0x9788410">
+    <command xml:space="preserve">keav, go n</command>
+    <result xml:space="preserve">&quot;I will leave you, master jedi.&quot;
+Keav goes north.
+
+Drong goes north.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="672">YES</temporary>
+    <children>
+      <child nodeId="node-0xcc94880" />
+    </children>
+  </item>
+  <item nodeId="node-0xcc94880">
+    <command xml:space="preserve">relations</command>
+    <result xml:space="preserve">Follower relates various persons to one person:
+  Drong  &gt;=&gt;  Keav
+  Keav  &gt;=&gt;  yourself
+Ally relates people to each other:
+  You  &lt;=&gt;  Drong
+  Keav  &lt;=&gt;  Drong
+  Keav  &lt;=&gt;  yourself
+  Keav  &lt;=&gt;  Keav
+  The bounty hunter  &lt;=&gt;  the clone warrior
+Enemy relates people to each other:
+  The clone warrior  &lt;=&gt;  Drong
+  The clone warrior  &lt;=&gt;  yourself
+  The clone warrior  &lt;=&gt;  Keav
+  The bounty hunter  &lt;=&gt;  Drong
+  The bounty hunter  &lt;=&gt;  yourself
+  The bounty hunter  &lt;=&gt;  Keav
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="668">YES</temporary>
+  </item>
+  <item nodeId="node-0x199ad10">
+    <command xml:space="preserve">keav, stop following me</command>
+    <result xml:space="preserve">&quot;Yes, master jedi.&quot;
+Keav says &quot;Ok, I will stop following you.&quot;
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0xcd257e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcd257e0">
+    <command xml:space="preserve">keav, follow drong</command>
+    <result xml:space="preserve">&quot;I will not take instructions from one such as you!&quot;
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0xcc921e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcc921e0">
+    <command xml:space="preserve">keav, follow me</command>
+    <result xml:space="preserve">&quot;Yes, master jedi.&quot;
+Keav says &quot;Ok, I will follow you.&quot;
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x7e59570" />
+    </children>
+  </item>
+  <item nodeId="node-0x7e59570">
+    <command xml:space="preserve">keav, follow drong</command>
+    <result xml:space="preserve">&quot;As you wish.&quot;
+Keav says &quot;Ok, I will follow Drong.&quot;
+
+&quot;wrrym&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x7ed74b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7ed74b0">
+    <command xml:space="preserve">keav, follow me</command>
+    <result xml:space="preserve">&quot;Yes, master jedi.&quot;
+Keav says &quot;Ok, I will follow you.&quot;
 
 &quot;crackle&quot;
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1724">YES</temporary>
+    <temporary score="634">YES</temporary>
     <children>
-      <child nodeId="node-0x7b63620" />
+      <child nodeId="node-0x7eab910" />
     </children>
   </item>
-  <item nodeId="node-0x7b63620">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Arena
-Sand, blood, iron. These festivals are normally held on hot days, but the sun has gone behind a cloud and fat drops of rain now and then spatter the arena floor.
+  <item nodeId="node-0x7eab910">
+    <command xml:space="preserve">keav, follow drong</command>
+    <result xml:space="preserve">&quot;As you wish.&quot;
+Keav says &quot;Ok, I will follow Drong.&quot;
 
-A clone warrior faces you, wielding a laser rifle and a clone blaster.
-
-A bounty hunter circles you, pointing a shock rifle and a bounty blaster.
-
-The clone warrior attacks you with the clone blaster, causing 0 points of damage!
-
-The bounty hunter attacks you with the shock rifle, finishing you off!
-
-
-
-    *** The End ***
-
-
-In that game you scored 0 out of a possible 0, in 15 turns.
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
+&quot;hrrrm&quot;
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1723">YES</temporary>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x13c4c500" />
+    </children>
+  </item>
+  <item nodeId="node-0x13c4c500">
+    <command xml:space="preserve">keav, go n</command>
+    <result xml:space="preserve">&quot;I will not take instructions from one such as you!&quot;
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x98d1530" />
+    </children>
+  </item>
+  <item nodeId="node-0x98d1530">
+    <command xml:space="preserve">keav, follow me</command>
+    <result xml:space="preserve">&quot;Yes, master jedi.&quot;
+Keav says &quot;Ok, I will follow you.&quot;
+
+&quot;snap&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x7eb3f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x7eb3f20">
+    <command xml:space="preserve">keav, go n</command>
+    <result xml:space="preserve">&quot;As you wish.&quot;
+Keav goes north.
+
+Drong goes north.
+
+Keav arrives from the north.
+
+&quot;vrrrm&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x977ade0" />
+    </children>
+  </item>
+  <item nodeId="node-0x977ade0">
+    <command xml:space="preserve">keav, go n then stop following me</command>
+    <result xml:space="preserve">&quot;As you wish.&quot;
+Keav goes north.
+
+Keav arrives from the north.
+
+&quot;hrrrm&quot;
+&quot;Yes, master jedi.&quot;
+Keav says &quot;Ok, I will stop following you.&quot;
+
+Drong arrives from the north.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0xcc9e9b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcc9e9b0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Training Room
+A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
+
+Drong is here.
+
+Keav is here.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0xcccf740" />
+    </children>
+  </item>
+  <item nodeId="node-0xcccf740">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&quot;hrrrm&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x13ddb5f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13ddb5f0">
+    <command xml:space="preserve">x sabre</command>
+    <result xml:space="preserve">It is pitch dark, and you can&apos;t see a thing.
+
+&quot;pop&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x97f77a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x97f77a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Training Room
+A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall.
+
+Drong is here.
+
+Keav is here.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x13dc44e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13dc44e0">
+    <command xml:space="preserve">x sabre</command>
+    <result xml:space="preserve">The green light sabre has a button at the hilt, and concealed compartment.
+
+The green light sabre is currently switched on.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x13af3fe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13af3fe0">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:
+  a green light sabre
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x13dae290" />
+    </children>
+  </item>
+  <item nodeId="node-0x13dae290">
+    <command xml:space="preserve">press buton</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x7eb7440" />
+    </children>
+  </item>
+  <item nodeId="node-0x7eb7440">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">The green light sabre&apos;s green blade is extinguished.
+
+The blue light sabre is obviously going to go out quite soon.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x13da0240" />
+    </children>
+  </item>
+  <item nodeId="node-0x13da0240">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">The green light sabre&apos;s blade now glows green.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x7e27310" />
+    </children>
+  </item>
+  <item nodeId="node-0x7e27310">
+    <command xml:space="preserve">x sabre</command>
+    <result xml:space="preserve">The green light sabre has a button at the hilt, and concealed compartment.
+
+The green light sabre is currently switched on.
+
+The blue light sabre loses power and switches off!
+
+The blue light sabre&apos;s blue blade is extinguished.
+
+The green light sabre is obviously going to go out quite soon.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x13d53c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x13d53c50">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:
+  a green light sabre (providing light)
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x13ad20f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13ad20f0">
+    <command xml:space="preserve">take battery from green sabre</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x13d4a9c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13d4a9c0">
+    <command xml:space="preserve">take battery from green sabre&apos;s battery compartment</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x13d70f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x13d70f70">
+    <command xml:space="preserve">take battery from green light sabre&apos;s battery compartment</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0xcc91cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcc91cb0">
+    <command xml:space="preserve">take battery from green light sabre&apos;s battery compartment</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0xcceb4f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcceb4f0">
+    <command xml:space="preserve">open green light sabre</command>
+    <result xml:space="preserve">You open the green light sabre&apos;s battery compartment, revealing a battery.
+
+The green light sabre loses power and switches off!
+
+The green light sabre&apos;s green blade is extinguished.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+    <children>
+      <child nodeId="node-0x13d940e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13d940e0">
+    <command xml:space="preserve">take battery from green light sabre&apos;s battery compartment</command>
+    <result xml:space="preserve">Which do you mean, the light sabre&apos;s battery compartment or a dead battery?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="634">YES</temporary>
+  </item>
+  <item nodeId="node-0x13c94980">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="661">YES</temporary>
+    <children>
+      <child nodeId="node-0x13d66f30" />
+    </children>
+  </item>
+  <item nodeId="node-0x13d66f30">
+    <command xml:space="preserve">keav, go n</command>
+    <result xml:space="preserve">I will leave you, master jedi.&quot;
+Keav goes north.
+
+Drong goes north.
+
+Keav arrives from the north.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="660">YES</temporary>
   </item>
   <item nodeId="node-0x7b64d90">
     <command xml:space="preserve">yoda track me</command>
