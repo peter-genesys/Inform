@@ -1,4 +1,4 @@
-"StarWords" by Campbell Burgess
+"StarWords" by Peter Burgess
 
 
 Part 1 - The setup
@@ -354,22 +354,23 @@ Report waiting (this is the standard report waiting there rule):
 	Now the player follows the player;
 	say "Ok, i am waiting there.";]
 	
-[Section - Command Ignore 
+Section - Command Ignore 
 
 Understand the command "ignore" as something new.
 
 Ignoring is an action applying to one visible thing. Understand "ignore [someone]" as ignoring.
 
-Report someone ignoring (this is the standard report someone ignoring rule): 
+[Report someone ignoring (this is the standard report someone ignoring rule): 
 	now the actor follows the actor;
 	say "[The actor] says 'Ok, I will stop following you.'[line break]";]
  
 
 Section - Command Stop Following 
 
-Understand the command "stop following" as something new.
+[Understand the command "stop following" as something new.]
+Understand "stop following [someone]" as ignoring. 
 
-Ignoring is an action applying to one visible thing. Understand "stop following [someone]" as ignoring.
+[Ignoring is an action applying to one visible thing. Understand "stop following [someone]" as ignoring.]
 
 Report someone ignoring (this is the standard report someone ignoring rule): 
 	now the actor follows nothing;
@@ -378,9 +379,10 @@ Report someone ignoring (this is the standard report someone ignoring rule):
  
 Section - Command Spar with
 
-Understand the commands "spar with" and "train with" as something new.
+[Understand the commands "spar with" and "train with" as something new.]
 
-Sparring is an action applying to one visible thing and one carried thing. Understand "spar with [someone] with [something preferably held]" as sparring.
+Sparring is an action applying to one visible thing and one carried thing. 
+Understand "spar with [someone] with [something preferably held]" as sparring.
 
 [Instead of actor sparring with player, try player sparring with actor.]
 
@@ -498,7 +500,7 @@ Part 2 - Training
 
 The Training Room is a room. "A place to practice jedi skills.  There is a door to the north and an exit to the south. There is a bench by the wall."
 
-A dead end is a kind of room with a description "This is a dead end. You'll have to go back the way you came." A dead end is usually dark.
+A dead end is a kind of room. "This is a dead end. You'll have to go back the way you came." A dead end is usually dark.
  
 The closet is a dead end.  The closet is north of the training room. 
 
@@ -591,10 +593,12 @@ Carry out diagnosing:
 Section 3 - Weapons
 
 A weapon is a kind of thing. A weapon has a number called the maximum damage. The maximum damage of a weapon is usually 4.
-The clone warrior carries a weapon called a laser rifle. The maximum damage of the laser rifle is 7. The clone warrior carries a weapon called a clone blaster. The maximum damage of the clone blaster is 5.
 
+The clone warrior carries a weapon called a laser rifle. The maximum damage of the laser rifle is 7. 
+The clone warrior carries a weapon called a clone blaster. The maximum damage of the clone blaster is 5.
 
-The bounty hunter carries a weapon called a shock rifle. The maximum damage of the shock rifle is 7. The bounty hunter carries a weapon called a bounty blaster. The maximum damage of the bounty blaster is 5.
+The bounty hunter carries a weapon called a shock rifle. The maximum damage of the shock rifle is 7. 
+The bounty hunter carries a weapon called a bounty blaster. The maximum damage of the bounty blaster is 5.
 
 
 
@@ -663,7 +667,8 @@ Carry out an actor attacking something with something (this is the standard atta
 [Report attacking a friendly person: 
 	say "You feint with [the second noun], surpising [the noun]!" instead.]
 Report attacking a dead person with something (this is the death-report priority rule): 
-	if the dead person carries something, now everything carried by the dead person is in the location; 
+	[if the dead person carries something, now everything carried by the dead person is in the location; ]
+	[if the dead person carries something, move [a list of things carried by the dead person] to the location;  ]
 	say "You attack with [the second noun], killing [the noun]!" instead.
 Report attacking someone with something (this is the normal attacking report rule): 
 	if the noun does not help the player and the noun does not hinder the player:
@@ -701,7 +706,7 @@ Report someone attacking something with something (this is the standard report a
 
 
 Report someone attacking a dead person with something (this is the friendly-kill-report priority rule): 
-	if the dead person carries something, now everything carried by the dead person is in the location; 
+	[if the dead person carries something, move inventory to the location; ]
 	say "[The actor] attacked [the noun] with [the second noun], killing [the noun]!" instead.
 
  
@@ -913,6 +918,8 @@ After switching on a light-sabre (called the sabre):
 	
 After switching off a light-sabre (called the sabre):
 	Now the maximum damage of the sabre is 0.
+	
+The maximum damage of the green light sabre is 5.
 
 
 [The description of the Light Sabre is "[if switched on]It's blade is glowing [one of]green[or]blue[or]purple[at random].[otherwise]The light sabre has a button at the hilt, and concealed compartment.[end if]"]

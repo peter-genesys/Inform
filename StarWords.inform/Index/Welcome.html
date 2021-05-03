@@ -501,12 +501,6 @@
     #minibox8_1 {
      background: #111111;
      }
-    #box9_1 {
-     background: #cf0a38;
-     }
-    #minibox9_1 {
-     background: #cf0a38;
-     }
 
     ul.leaders {
         padding: 0;
@@ -613,11 +607,11 @@
         document.getElementById(id).style.display = 'none';
     }
     function light_up(id) {
-        var ic = 'box9_1';
-        document.getElementById(ic).style.background = '#cf0a38';
+        var ic = 'box8_1';
+        document.getElementById(ic).style.background = '#111111';
     }
     function light_down(id) {
-        var ic = 'box9_1';
+        var ic = 'box8_1';
         document.getElementById(ic).style.background = '#cccccc';
     }
     </script>
@@ -625,109 +619,169 @@
 <body>
     <font size=2>
     <!--CONTENT BEGINS-->
-    <table cellspacing="3" border="0" style="background:#eeeeee;"><tr>
-    <td valign="top" align="left">
-    <div id="minibox9_1" class="smallbox">
-    <a class="symbol" title="Details" href="../Actions.html">^</a>
+    <div id="periodictable">
+    <table cellspacing="3" border="0" width="100%">
+    <tr id="surround0"><td></td><td colspan="2"><img src='inform:/doc_images/index@2x.png' border=1 width=115 height=115></td><td colspan="4" style="width:100%;">
+    <div class="headingboxhigh">
+    	<div class="headingtext">Welcome to the Index</div>
+    	<div class="headingrubric">A guide which grows with your project</div>
+    </div></td>
+    </tr><tr><td onclick="window.location='Contents.html'; return false;"><div class="sidebar"></div></td><td onclick="window.location='Contents.html?segment1'; return false;"><div id="box1_1" class="box">
+    <a class="symbol" title="Contents" href="#">C</a>
     <div class="indexno">1</div>
+    <div class="rubric">Contents</div>
     </div>
-    </td>
-    <td style="width:100%;" align="left" valign="top">
-    <p style="margin-top:0px;padding-top:0px;margin-bottom:0px;padding-bottom:0px;line-height:150%;"><b>Details</b> &mdash; 
-    A single action in detail.<br><i>About the action rulebooks&nbsp;&nbsp;<a href=inform:/doc178.html><img border=0 src=inform:/doc_images/help.png></a></i></p>
-    </td>
-    </tr></table>
-    <hr><b>Standard actions which always do nothing unless rules intervene</b><br>Saying yes&nbsp;<a href=42_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Saying no&nbsp;<a href=43_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Burning&nbsp;<a href=44_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Waking up&nbsp;<a href=45_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Thinking&nbsp;<a href=46_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Smelling&nbsp;<a href=47_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Listening to&nbsp;<a href=48_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Tasting&nbsp;<a href=49_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Cutting&nbsp;<a href=50_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Jumping&nbsp;<a href=51_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Tying it to&nbsp;<a href=52_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Drinking&nbsp;<a href=53_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Saying sorry&nbsp;<a href=54_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Swinging&nbsp;<a href=55_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, <b>Rubbing</b>&nbsp;<a href=56_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Setting it to&nbsp;<a href=57_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Waving hands&nbsp;<a href=58_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Buying&nbsp;<a href=59_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Climbing&nbsp;<a href=60_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, Sleeping&nbsp;<a href=61_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><p><hr><p><b>Rubbing <font color="#000080">something</font> </b><a name=Rub></a> (<i>past tense</i> rubbed)<br>
-    <p>The Standard Rules define this action in only a minimal way, simply reporting
-    that it has happened.<p><hr><p><b>Typed commands leading to this action</b><p>
-    <p class="hangingin2">&quot;rub/shine/polish/sweep/clean/dust/wipe/scrub [something]&quot;</p><p><b>Rules controlling this action</b></p><p>
-    <p class="hangingin2">persuasion&nbsp;&nbsp;&nbsp;&nbsp;<i>asking a person who is not friendly to try doing something</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line123"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
-    <p class="hangingin2">persuasion&nbsp;&nbsp;&nbsp;&nbsp;<i>asking a person who is friendly to try doing something</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line89"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
-    <br><p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor rubbing</i>&nbsp;&nbsp;<font color="#800000">can't rub another person rule</font>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2908(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t rub another person rule');
-    }
-    </script>
-    <a href="javascript:pasteCode2908()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-    function pasteCode2909(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('The can[=0x0027=]t rub another person rule is not listed in the check rubbing rulebook.[=0x000A=]');
-    }
-    </script>
-    <a href="javascript:pasteCode2909()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000268', 'plus1000268'); return false;"><img border=0 id="plus1000268" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
-    <div id="extra1000268" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[The noun] [might not like] that."</span>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2910(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t rub another person rule response (A)');
-    }
-    </script>
-    <a href="javascript:pasteCode2910()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-    function pasteCode2911(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t rub another person rule response (A) is [=0x0022=]New text.[=0x0022=].');
-    }
-    </script>
-    <a href="javascript:pasteCode2911()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
-    <br><p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor rubbing</i>&nbsp;&nbsp;<font color="#800000">report rubbing rule</font>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2912(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('report rubbing rule');
-    }
-    </script>
-    <a href="javascript:pasteCode2912()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-    function pasteCode2913(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('The report rubbing rule is not listed in the report rubbing rulebook.[=0x000A=]');
-    }
-    </script>
-    <a href="javascript:pasteCode2913()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000269', 'plus1000269'); return false;"><img border=0 id="plus1000269" src=inform:/doc_images/responses.png></a>&nbsp;2</p>
-    <div id="extra1000269" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[We] [rub] [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2914(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('report rubbing rule response (A)');
-    }
-    </script>
-    <a href="javascript:pasteCode2914()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-    function pasteCode2915(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('report rubbing rule response (A) is [=0x0022=]New text.[=0x0022=].');
-    }
-    </script>
-    <a href="javascript:pasteCode2915()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;B&nbsp;&nbsp;</span> <span style="color: #000066;">"[The actor] [rub] [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2916(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('report rubbing rule response (B)');
-    }
-    </script>
-    <a href="javascript:pasteCode2916()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-    function pasteCode2917(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('report rubbing rule response (B) is [=0x0022=]New text.[=0x0022=].');
-    }
-    </script>
-    <a href="javascript:pasteCode2917()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
-    <br>Click on the speech-bubble icons to see the responses, or here to see all of them:&nbsp;<a href="#" onclick="showAllResp(); return false;"><img border=0 src=inform:/doc_images/responses.png></a>&nbsp;3</p>
+    </td><td onclick="window.location='Contents.html?segment2'; return false;"><div id="box1_2" class="box">
+    <a class="symbol" title="Card" href="#">Cd</a>
+    <div class="indexno">2</div>
+    <div class="rubric">Card</div>
+    </div>
+    </td><td onclick="window.location='Contents.html?segment3'; return false;"><div id="box1_3" class="box">
+    <a class="symbol" title="Tables" href="#">Tb</a>
+    <div class="indexno">3</div>
+    <div class="rubric">Tables</div>
+    </div>
+    </td><td onclick="window.location='Contents.html?segment4'; return false;"><div id="box1_4" class="box">
+    <a class="symbol" title="Figures" href="#">Fi</a>
+    <div class="indexno">4</div>
+    <div class="rubric">Figures</div>
+    </div>
+    </td><td onclick="window.location='Contents.html?segment5'; return false;"><div id="box1_5" class="box">
+    <a class="symbol" title="Innards" href="#">In</a>
+    <div class="indexno">5</div>
+    <div class="rubric">Innards</div>
+    </div>
+    </td><td onclick="window.location='Contents.html'; return false;" style="width:100%">
+    <div class="headingbox">
+    	<div class="headingtext">Contents Index</div>
+    	<div class="headingrubric">Like the preliminary pages of a book</div>
+    </div></td>
+    </tr><tr><td onclick="window.location='Actions.html'; return false;"><div class="sidebar"></div></td><td onclick="window.location='Actions.html?segment1'; return false;"><div id="box2_1" class="box">
+    <a class="symbol" title="Grouped" href="#">A1</a>
+    <div class="indexno">1</div>
+    <div class="rubric">Grouped</div>
+    </div>
+    </td><td onclick="window.location='Actions.html?segment2'; return false;"><div id="box2_2" class="box">
+    <a class="symbol" title="Alphabetic" href="#">A2</a>
+    <div class="indexno">2</div>
+    <div class="rubric">Alphabetic</div>
+    </div>
+    </td><td onclick="window.location='Actions.html?segment3'; return false;"><div id="box2_3" class="box">
+    <a class="symbol" title="Behaviour" href="#">Bh</a>
+    <div class="indexno">3</div>
+    <div class="rubric">Behaviour</div>
+    </div>
+    </td><td onclick="window.location='Actions.html?segment4'; return false;"><div id="box2_4" class="box">
+    <a class="symbol" title="Commands" href="#">Cm</a>
+    <div class="indexno">4</div>
+    <div class="rubric">Commands</div>
+    </div>
+    </td><td onclick="window.location='Actions.html?segment5'; return false;"><div id="box2_5" class="box">
+    <a class="symbol" title="Tokens" href="#">To</a>
+    <div class="indexno">5</div>
+    <div class="rubric">Tokens</div>
+    </div>
+    </td><td onclick="window.location='Actions.html'; return false;" style="width:100%">
+    <div class="headingbox">
+    	<div class="headingtext">Actions Index</div>
+    	<div class="headingrubric">Things that people can try to do</div>
+    </div></td>
+    </tr><tr><td onclick="window.location='Kinds.html'; return false;"><div class="sidebar"></div></td><td onclick="window.location='Kinds.html?segment1'; return false;"><div id="box3_1" class="box">
+    <a class="symbol" title="Chart" href="#">Ch</a>
+    <div class="indexno">1</div>
+    <div class="rubric">Chart</div>
+    </div>
+    </td><td onclick="window.location='Kinds.html?segment2'; return false;"><div id="box3_2" class="box">
+    <a class="symbol" title="Arithmetic" href="#">Ar</a>
+    <div class="indexno">2</div>
+    <div class="rubric">Arithmetic</div>
+    </div>
+    </td><td onclick="window.location='Kinds.html?segment3'; return false;"><div id="box3_3" class="box">
+    <a class="symbol" title="Values" href="#">Vl</a>
+    <div class="indexno">3</div>
+    <div class="rubric">Values</div>
+    </div>
+    </td><td onclick="window.location='Kinds.html'; return false;" colspan="3" style="width:100%">
+    <div class="headingbox">
+    	<div class="headingtext">Kinds Index</div>
+    	<div class="headingrubric">All the different sorts of value</div>
+    </div></td>
+    </tr><tr><td onclick="window.location='Phrasebook.html'; return false;"><div class="sidebar"></div></td><td onclick="window.location='Phrasebook.html?segment1'; return false;"><div id="box4_1" class="box">
+    <a class="symbol" title="Phrases" href="#">Ph</a>
+    <div class="indexno">1</div>
+    <div class="rubric">Phrases</div>
+    </div>
+    </td><td onclick="window.location='Phrasebook.html?segment2'; return false;"><div id="box4_2" class="box">
+    <a class="symbol" title="Lexicon" href="#">Lx</a>
+    <div class="indexno">2</div>
+    <div class="rubric">Lexicon</div>
+    </div>
+    </td><td onclick="window.location='Phrasebook.html?segment3'; return false;"><div id="box4_3" class="box">
+    <a class="symbol" title="Relations" href="#">Rl</a>
+    <div class="indexno">3</div>
+    <div class="rubric">Relations</div>
+    </div>
+    </td><td onclick="window.location='Phrasebook.html?segment4'; return false;"><div id="box4_4" class="box">
+    <a class="symbol" title="Verbs" href="#">Vb</a>
+    <div class="indexno">4</div>
+    <div class="rubric">Verbs</div>
+    </div>
+    </td><td onclick="window.location='Phrasebook.html'; return false;" colspan="2" style="width:100%">
+    <div class="headingbox">
+    	<div class="headingtext">Phrasebook Index</div>
+    	<div class="headingrubric">A short dictionary</div>
+    </div></td>
+    </tr><tr><td onclick="window.location='Rules.html'; return false;"><div class="sidebar"></div></td><td onclick="window.location='Rules.html?segment1'; return false;"><div id="box5_1" class="box">
+    <a class="symbol" title="Standards" href="#">St</a>
+    <div class="indexno">1</div>
+    <div class="rubric">Standards</div>
+    </div>
+    </td><td onclick="window.location='Rules.html?segment2'; return false;"><div id="box5_2" class="box">
+    <a class="symbol" title="Extras" href="#">Xt</a>
+    <div class="indexno">2</div>
+    <div class="rubric">Extras</div>
+    </div>
+    </td><td onclick="window.location='Rules.html'; return false;" colspan="4" style="width:100%">
+    <div class="headingbox">
+    	<div class="headingtext">Rules Index</div>
+    	<div class="headingrubric">Inform's general workings</div>
+    </div></td>
+    </tr><tr><td onclick="window.location='Scenes.html'; return false;"><div class="sidebar"></div></td><td onclick="window.location='Scenes.html?segment1'; return false;"><div id="box6_1" class="box">
+    <a class="symbol" title="Plot" href="#">Pl</a>
+    <div class="indexno">1</div>
+    <div class="rubric">Plot</div>
+    </div>
+    </td><td onclick="window.location='Scenes.html?segment2'; return false;"><div id="box6_2" class="box">
+    <a class="symbol" title="Events" href="#">Ev</a>
+    <div class="indexno">2</div>
+    <div class="rubric">Events</div>
+    </div>
+    </td><td onclick="window.location='Scenes.html?segment3'; return false;"><div id="box6_3" class="box">
+    <a class="symbol" title="Rules" href="#">RS</a>
+    <div class="indexno">3</div>
+    <div class="rubric">Rules</div>
+    </div>
+    </td><td onclick="window.location='Scenes.html'; return false;" colspan="3" style="width:100%">
+    <div class="headingbox">
+    	<div class="headingtext">Scenes Index</div>
+    	<div class="headingrubric">Like scenes in a movie</div>
+    </div></td>
+    </tr><tr><td onclick="window.location='World.html'; return false;"><div class="sidebar"></div></td><td onclick="window.location='World.html?segment1'; return false;"><div id="box7_1" class="box">
+    <a class="symbol" title="Map" href="#">Mp</a>
+    <div class="indexno">1</div>
+    <div class="rubric">Map</div>
+    </div>
+    </td><td onclick="window.location='World.html?segment2'; return false;"><div id="box7_2" class="box">
+    <a class="symbol" title="Gazetteer" href="#">Gz</a>
+    <div class="indexno">2</div>
+    <div class="rubric">Gazetteer</div>
+    </div>
+    </td><td onclick="window.location='World.html'; return false;" colspan="4" style="width:100%">
+    <div class="headingbox">
+    	<div class="headingtext">World Index</div>
+    	<div class="headingrubric">Like locations, props and actors in a movie</div>
+    </div></td>
+    </tr></table></div>
     <!--CONTENT ENDS-->
     </font>
 </body>
